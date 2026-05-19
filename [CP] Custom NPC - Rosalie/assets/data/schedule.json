@@ -71,7 +71,10 @@
             "{{ModId}}_RosaliexShane.RosalieBFF": "615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1450 Forest 93 23 1/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "{{ModId}}_RosaliexShane.RosalieJas": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 16 91 0/1750 AnimalShop 3 6 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
 
-            "Sun": "{{ModId}}_RosaliexShane.RosalieBFF"
+               "spring_Sun": "{{ModId}}_RosaliexShane.RosalieBFF",
+                  "summer_Sun": "{{ModId}}_RosaliexShane.RosalieBFF",
+                     "fall_Sun": "{{ModId}}_RosaliexShane.RosalieBFF",
+            "winter_Sun": "{{ModId}}_RosaliexShane.RosalieBFF"
 
 
          

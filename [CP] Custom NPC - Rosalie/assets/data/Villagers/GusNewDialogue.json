@@ -43,9 +43,9 @@
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Gus.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3, 4}} }}",
 "{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Gus.ShaneRosalieLowDayCT}}",
 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
-"{{ModId}}_ShaneSleepOverCT": "{{i18n:Gus.ShaneSleepOverCT{{Random: 1, 2 }} }}", 
+"{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Gus.RosalieShaneSleepOverCT{{Random: 1, 2 }} }}", 
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Gus.SandCastlesWithJasCT}}",
-"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT}}"
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT}}"
 
 
 

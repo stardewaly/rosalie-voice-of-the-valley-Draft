@@ -18,8 +18,12 @@
 			},
 			"When": 
 			{
+        
+        "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent", //works for next day
 				"Relationship:Shane |contains= dating, married": false,
 				"DayEvent |contains= flower dance": false
+
+
         //Add when Rosalie is in town eventually so people have the option still and can remove this. when they get together woop woop
 			}
 
@@ -131,18 +135,20 @@
       "LogName": "Rosalie's Room Saloon",
       "Action": "EditMap",
       "Target": "Maps/Saloon",
-      "FromFile": "assets/maps/Saloon with Rosalie Room.tmx"
-    },
+      "FromFile": "assets/maps/Saloon with Rosalie Room.tmx",
+            "When": {
+               "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent", //Not Tested , added May 18
 
-    
+    }
+
+  },
         {
       "LogName": "Rosalie's Clean Room",
       "Action": "EditMap",
       "Target": "Maps/Saloon",
       "FromFile": "assets/Maps/Saloon with Rosalie Room-Radio.tmx",
-      "UpdateRate": "OnLocationChange",
             "When": {
-              "HasSeenEvent": "{{ModId}}_Rosalie4HeartEvent"//Works, but for the next day
+              "HasSeenEvent:AnyPlayer": "{{ModId}}_Rosalie4HeartEvent"//Works, but for the next day
       }
     },
 
@@ -163,9 +169,8 @@
       "Action": "EditMap",
       "Target": "Maps/Town",
       "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
-      "UpdateRate": "OnLocationChange",
       "When": {
-        "Hearts: Gus": "1" //TEMPORARY, SAME THING TO HAVE THE RAMP EVENT HAPPEN
+              "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent" //works but the next day
       }
     },
 
@@ -196,6 +201,13 @@
       "LogName": "Rosalie Mail",
       "Action": "Include",
       "FromFile": "assets/data/rosaliemail.json"
+    },
+
+
+        {
+      "LogName": "Shane x Rosalie Mail",
+      "Action": "Include",
+      "FromFile": "assets/data/Events/Shane x Rosalie Mail.json"
     },
 
   /* 9. EVENTS */

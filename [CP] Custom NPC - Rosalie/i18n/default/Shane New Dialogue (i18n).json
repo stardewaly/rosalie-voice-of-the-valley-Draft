@@ -74,9 +74,9 @@ Rosalie Arrived In Town
 
 //SLEEP OVER CT//
 
-"Shane.ShaneSleepoverCT1": "Thanks for not telling anyone about me sleeping over. #$b# I trust you with my life, @. #$b# But the last thing Rosa needs is for people to gossip about her. #$e# I could care less about what people say about me, but Rosa doesn't deserve that.$2",
-"Shane.ShaneSleepoverCT2": "Rosa deserves a chance at happiness. #$b# I don't want to screw that up for her. #$e# Her ex husband was her best friend in high school, and he treated her like garbage. #$b# I don't want to be that guy.$3 #$e# I just... want to be someone she can rely on.$2",
-"Shane.ShaneSleepoverCT3": "For the record, I slept *over* the blankets.$3 #$b# She may have put another on top of me in the night or something, I don't know.$3 #$e# That's all you're getting out of me. Now drop it.$5",
+"Shane.RosalieShaneSleepoverCT1": "Thanks for not telling anyone about me sleeping over. #$b# I trust you with my life, @. #$b# But the last thing Rosa needs is for people to gossip about her. #$e# I could care less about what people say about me, but Rosa doesn't deserve that.$2",
+"Shane.RosalieShaneSleepoverCT2": "Rosa deserves a chance at happiness. #$b# I don't want to screw that up for her. #$e# Her ex husband was her best friend in high school, and he treated her like garbage. #$b# I don't want to be that guy.$3 #$e# I just... want to be someone she can rely on.$2",
+"Shane.RosalieShaneSleepoverCT3": "For the record, I slept *over* the blankets.$3 #$b# She may have put another on top of me in the night or something, I don't know.$3 #$e# That's all you're getting out of me. Now drop it.$5",
 
 //Sand Castles With Jas CT//
   "Shane.SandCastlesWithJasCT1": "I don't know if Rosa is a witch, or Jas is plotting something, but I swear, Jas is always on her best behaviour when Rosa is around.$1",
@@ -201,7 +201,7 @@ Rosalie Arrived In Town
 
 
 //SLEEP OVER CT//
-    "Marnie.SleepoverCT1": "I thought I heard Shane came home really early this morning...$2 #$b# He didn't say much other than to not say anything, and went right back to sleep...$2 #$e# I hope he didn't do anything he'll regret...$3",
+    "Marnie.RosalieShaneSleepoverCT": "I thought I heard Shane came home really early this morning...$2 #$b# He didn't say much other than to not say anything, and went right back to sleep...$2 #$e# I hope he didn't do anything he'll regret...$3",
 
 //SANDCASTLES WITH JAS CT//
     "Marnie.SandCastlesWithJasCT1": "Jas refused to eat her broccoli the other night, but when Rosa came over for dinner, Jas made a big show of eating it all!$1 #$e# If Jas continues to behave when Rosa's around, I may need to consider asking her to move in!",

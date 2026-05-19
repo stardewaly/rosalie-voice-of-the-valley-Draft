@@ -29,13 +29,13 @@ Rosalie Arrived In Town
 "{{ModId}}_RosaliesRibbonCT2": "{{i18n:Shane.RosaliesRibbonCT2}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Shane.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2}} }}",
 "{{ModId}}_ShaneRosalieLowDayCT":"{{i18n:Shane.ShaneRosalieLowDayCT{{Random: 1, 2, 3, 4}} }}",
-"{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Shane.RosalieDreamsAndDisastersCT{{Random: 1, 2, 3}} }}",
-"{{ModId}}_ShaneSleepoverCT": "{{i18n:Shane.ShaneSleepoverCT{{Random: 1, 2, 3}} }}",
+"{{ModId}}_RosalieShaneDreamsAndDisastersCT":"{{i18n:Shane.RosalieDreamsAndDisastersCT{{Random: 1, 2, 3}} }}",
+"{{ModId}}_RosalieShaneSleepoverCT": "{{i18n:Shane.RosalieShaneSleepoverCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Shane.SandCastlesWithJasCT{{Random: 1, 2, 3, 4}} }}",
-"{{ModId}}_RosalieKitchenLoveCT": "{{i18n:Shane.RosalieKitchenLoveCT{{Random: 1, 2 }} }}",
-"{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Shane.RosaliexShaneSecondFirstKissCT}}",
+"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Shane.RosalieKitchenLoveCT{{Random: 1, 2 }} }}",
+"{{ModId}}_RosalieShaneSecondFirstKissCT":"{{i18n:Shane.RosaliexShaneSecondFirstKissCT}}",
 
-//Location based (this is a vanilla token do not change it unless you're changing locations)
+//Location based (this is a vanilla token do not change the name unless you're changing locations)
 "Saloon_7_18": "{{i18n:ShanexRosalieBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
 
 

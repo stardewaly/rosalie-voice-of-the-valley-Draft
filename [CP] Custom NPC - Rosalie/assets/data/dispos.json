@@ -4,6 +4,7 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
+        
         "{{ModId}}_Rosalie": {
           "DisplayName": "Rosalie",
           "Gender": "Female",
@@ -20,6 +21,12 @@
           "IntroductionsQuest": true,
           "ItemDeliveryQuests": true,
           "WinterStarParticipant": true,
+         "WinterStarGifts": [
+           {
+           "Id": "Tea Set",
+           "ItemId": "(O)341" //Temporary, copied from SDV Wiki Example
+           }
+          ],
           "Home": [
             {
               "Id": "Default",

@@ -6,5 +6,12 @@
     "WelcomeRosalieMail": "Hello @, ^ I just wanted to let you know that a (somewhat) new resident has moved to Pelican Town! ^ Rosalie is Gus' niece. She used to live in Pelican Town but she and her family moved away from Stardew Valley when she was young. Maybe she met your grandfather? ^ Rosalie has now returned to town to live with her Uncle Gus at the Saloon. ^ If you see her, please give her a warm welcome to town!      ^ I mean it.    ^ Mayor Lewis",
 
     
-    "VoiceOfTheValleyLive.Invite": "You're invited! ^ TONIGHT! ^ The Stardrop Saloon will be hosting the first ever radio event LIVE with your host, Rosalie, aka, The Voice of The Valley! ^ Rosalie will be recording Live OnAir, and will be interviewing a very special guest! ^ Please come to the Stardrop Saloon sometime between 5-10pm today, and witness Stardew Valley history in the making!"
+    "VoiceOfTheValleyLive.Invite": "You're invited! ^ TONIGHT! ^ The Stardrop Saloon will be hosting the first ever radio event LIVE with your host, Rosalie, aka, The Voice of The Valley! ^ Rosalie will be recording Live OnAir, and will be interviewing a very special guest! ^ Please come to the Stardrop Saloon sometime between 5-10pm today, and witness Stardew Valley history in the making!",
+
+
+
+    //Mail for Shane x Rosalie
+
+    "ShaneRosalieMarnieDinnerInvite": "Hello @, ^ After everything you've done for my family, I believe I owe you a proper thank you. ^ I'm sure it's been a while since you’ve had someone cook for you. I would love it if you could join us tonight for a nice family dinner with Jas, Shane, and myself. I'm closing the shop early at 3 to prepare, but of course, you can still purchase something from me afterward if you'd like, (as long as it's before 5 as transactions stop working at that time). ^ No need to bring anything, just yourself and an empty stomach. ^See you tonight at 4pm!^ Your friend, Marnie"
+
 }

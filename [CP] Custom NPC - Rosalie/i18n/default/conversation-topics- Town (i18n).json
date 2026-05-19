@@ -126,6 +126,10 @@ Emily
 "Emily.RosalieGeorgeWCCT": "Rosie's been low since what happened with George.$u #$b# I hope it doesn't discourage her from going out...$s",
 
 
+"Emily.RosaliesRibbonCT": "I had no idea that Shane and Rosie were childhood friends! It's such a small world! #$e# Though I do wonder why they didn't speak until now though...$2",
+"Emily.RosalieSneezeEventCT": "I've seen Rosie's sneezes cause a flare before, but never so bad that she collapsed.$2 #$b# I hope she's doing better now...$2",
+"Emily.ShaneRosalieLowDayCT": "Rosie was so worried about Shane. I don't blame her given what he almost did before you stepped in.$2",
+
 "Emily.RosalieDreamsAndDisastersCT1": "Shane is always looking at Rosalie to make sure she's doing okay when he's here at the saloon. #$b# It's really sweet how much he cares about his friend. #$e# I like to think that Rosie would tell me if she liked Shane in that way. Or Shane would if he did.$3",
 "Emily.RosalieDreamsAndDisastersCT2": "Don't bring up Shane and Rosalie to my sister... She's not... acting like herself.$2 #$e# Why? No reason.",
 
@@ -204,6 +208,7 @@ Leah
 "Leah.RosalieDreamsAndDisastersCT1":"I honestly don't think I've ever heard Shane laugh before, and now it's all I've been hearing when Rosalie's around. #$b# It's nice, but a bit distracting when I'm working on my sculptures...$s",
 "Leah.RosalieDreamsAndDisastersCT2": "If Rosalie and Shane are just friends, I say we believe them. #$b# Men and women can absolitely be friends and have it stay platonic!$h #$b# And if it's not, it's none of our business, right?",
 
+
 /*
 Lewis
 */
@@ -249,6 +254,8 @@ Pam
 
 "Pam.RosaliesFlareUpEventCT": "Rosalie is getting a divorce, huh? #$b# Good for her! Marriage isn't for everyone, and it's better she's out now while she's young!$h #$e# She's lucky she doesn't have kids though. That always makes it tough...$s",
 
+"Pam.RosalieShaneSleepOverCT": "I could have sworn the other night that I saw Shane take Rosalie to the back... I don't remember him coming back out.$s #$b# If I didn't know he was sober, I would have thought they were up to something else. #$e# I know they're friends, but you can't be friends with the opposite sex without someone getting the wrong idea!$1",
+
 /*
 Penny*/
 "PennyRosalieArrivalCT": "Jas has been a bit upset lately... I hope things are okay at home.$s",
@@ -257,6 +264,8 @@ Penny*/
 "Penny.RosaliesFlareUpEventCT": "I'm sure Rosalie had a good reason not to stay married. Life's too short to be with someone who makes you unhappy. #$e# I do miss my dad sometimes, but my parents were miserable together...$s",
 
 "Penny.RosalieDreamsAndDisastersCT": "Jas has been so happy since Rosalie and Shane have been spending time together.",
+
+"Penny.RosalieShaneSleepOverCT": "$query PLAYER_GENDER Current Female #My mother has a strange belief that you can't be friends with the opposite sex. #$b# I'm sure Rosalie and Shane are just friends, and if they want to be more, it's not for us to say!$1|My mother has a strange belief that you can't be friends with the opposite sex. But you and I are just fine, right? #$b# I'm sure Rosalie and Shane are just friends, and if they want to be more, it's not for us to say!$1",
 
 /*
 Pierre
@@ -275,9 +284,12 @@ Robin
 
 "Robin.RosalieGeorgeWCCT": "Is she disabled enough to use a wheelchair or able bodied enough to walk?$3 #$b#People should mind their own business and not assume the worst.$3",
 
-"Robin.RosaliesFlareUpEventCT": "I told Gus for years that Rosalie's husband was a boy. She needs a man to care for her.$3 #$e# Sebastian's dad and I weren't happy. I didn't realize how lucky I was that he was understanding of that throughout the whole process.$2 #$e# I wish Rosalie's ex was honest about his feelings for her. Maybe she'd be hurting less if he had...$2",
+"Robin.RosaliesFlareUpEventCT": "I told Gus for years that Rosalie's husband was a boy. She needs a man to care for her.$3 #$e# Sebastian's dad and I weren't happy. I didn't realize how lucky I was that he was understanding of that throughout the whole process.$2 #$e# I wish Rosie's ex was honest about his feelings for her. Maybe she'd be hurting less if he had...$2",
 
-"Robin.RosalieDreamsAndDisasters": "Rosalie and Shane have always been close. Like brother and sister. #$b# But as they got older, they had a spark of something more between them.$1 #$e# All I'll say is Shane would be crazy not to be interested in Rosalie. I mean, she's gorgous!$1",
+
+"Robin.RosalieDreamsAndDisastersCT": "Rosalie and Shane have always been close. Like brother and sister. #$b# But as they got older, they had a spark of something more between them.$1 #$e# All I'll say is Shane would be crazy not to be interested in Rosalie. I mean, she's gorgeous!$1 #$e# I did wonder what would have happened if Rosie and Shane had gone to the same high school though...$2",
+
+"Robin.RosalieShaneSleepOverCT": "Demetrius noticed something was off with Rosie when we were at the saloon last...$2 #$b# I thought he was just imagining it, but Rosie seemed to be in tears when Shane took her into the back...$2 #$b# I'm glad Rosie has her best friend back. Looks like nothing's changed!$1 #$e# I wish Demetrius was as in tune with my emotions as he was with her's...$3",
 
 /*
 Sam
@@ -304,7 +316,7 @@ Sebastian
 "SebastianRosalieArrivalCT": "There's someone new in town? I haven't noticed.",
 "Sebastian.RosalieGeorgeWCCT": "My mom's been ranting about the thing with George. #$b# She keeps talking about what *she* would have done, but honestly, I would have ran too... #$b# Or, wheeled away.$h,",
 
-"Sebastian.RosaliesFlareUpEventCT": "Huh. That sucks. #$e# People can be genuine, but not honest. #$e# And yet, people ask why I prefer to stay away from people.$s",
+"Sebastian.RosaliesFlareUpEventCT": "$query PLAYER_NPC_RELATIONSHIP Dating Engaged Married#Huh. That sucks for the new girl. #$e# People can be genuine, but not honest. #$e# And yet, people ask why I prefer to be alone.$s|Huh. That sucks for the new girl. #$e# People can be genuine, but not honest. #$e# And yet, people ask why I prefer to be alone.$s #$b# Except you, of course.$1",
 
 
 /*Vincent
@@ -320,13 +332,13 @@ Willy*/
 
 "WizardOnWC": "I saw the girl unable to walk today... #$b# Coincidence? Nothing is coincidence.", //first time Rosalie seen in a WC//
 
-"WizardOnRosalie1": "She appears younger than she is... It can't be just good genetics...",
+"WizardOnRosalie1": "She appears younger than she is... It can't just be good genetics...",
 "WizardOnRosalie2": "I have my suspicions... but I'll need more time to observe the girl.",
 "WizardOnRosalie3": "She doesn't appear to be evil, though her voice appears to attract many. She was right to keep silent as a child.",
-"WizardOnRosalie4": "They say she lived near the ocean... #$b# I cannot rule out that the girl doesn't have some magical properties to her. #$b# If she stays, I will continue my research.",
+"WizardOnRosalie4": "They say she lived near the ocean... 'Somewhere across the sea'... #$b# I cannot rule out that the girl doesn't have some magical properties to her. #$b# If she stays, I will continue my research.",
 "WizardOnRosalie5": "She's good with animals? That's hardly news.",
 
-"Wizard.RosaliesFlareUpEventCT": "So, she's going through a divorce... does she know a good lawyer? #$b# I'm asking for a friend.",
+"Wizard.RosaliesFlareUpEventCT": "So, she's going through a divorce... does she know a good lawyer? #$b# I'm uh asking for a friend.",
 
 "WizardOnRosalieRadio1": "A child has been spreading rumours about the Rose girl. #$b# I'm unsure to put an end to her fantasies, or to consider them.",
 "WizardOnRosalieRadio2": "There is always some truth in every story we hear. #$b# Even those of fiction. #$b# I don't think the child, or any of us have any reason to fear her.",

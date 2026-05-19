@@ -196,7 +196,7 @@
                 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Rosalie.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2}} }}",
                 "{{ModId}}_RosalieShanesLowDayCT":"{{i18n:Rosalie.RosalieShanesLowDayCT{{Random: 1, 2 }} }}",
                 "{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Rosalie.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
-                "{{ModId}}_ShaneSleepoverCT": "{{i18n:Rosalie.ShaneSleepoverCT}}",
+                "{{ModId}}_RosalieShaneSleepoverCT": "{{i18n:Rosalie.RosalieShaneSleepoverCT}}",
                 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Rosalie.SandCastlesWithJasCT{{Random: 1, 2, 3}} }}",
                 "{{ModId}}_RosalieKitchenLoveCT": "{{i18n:Rosalie.RosalieKitchenLoveCT{{Random: 1, 2, 3 }} }}",
                 "{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Rosalie.RosaliexShaneSecondFirstKissCT}}",

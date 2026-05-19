@@ -1,0 +1,199 @@
+{
+
+    "Changes": [
+
+
+          //**Actual Mail**//
+
+    {
+      "LogName": "Rosalie x Shane Actual Mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        //Shane x Rosalie Actual Mail
+        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}-%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
+        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}} %%[#]Dinner At The Ranch"
+      }
+    },
+
+            //MAIL TRIGGERS 
+      {
+		"LogName": "Rosalie x Shane Actual Mail Trigger Actions",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+
+        "{{ModId}}_Jas.RosaliesRibbon.QuestTrigger": {
+          "Id": "{{ModId}}_RosaliesRibbonQuestTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current Jas 5, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneTherapyChange",//change this after, this is so it triggers at the same time as the Ramp Event, and only if ramp event has been seen so it doesn't trigger multiple times if player keeps getting hearts with Gus before ramp event
+          "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbon.Quest now"
+        },
+
+        
+        "{{ModId}})_MarnieLetterForDinnerTrigger": {
+          "Id": "{{ModId}}_DinnerAtMarniesTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current Marnie 6, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC {{ModId}}_RosaliesRibbonCT",
+          "Action": "AddMail Current stardewaly.rosalie_MarnieLetterForDinner now"
+        }
+
+    }
+
+},
+
+
+    //**Trigger Actions**//
+
+    {
+		"LogName": "Rosalie x Shane Trigger Actions",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+    
+        "{{ModId}}_Shane6BeforeRosalieFlagTrigger": //If Shane has gotten sober BEFORE Rosalie Arrives
+        {
+          "Id": "Shane x Rosalie - Shane 6 H Before Rosalie Flag",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, !PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received",
+          "Action": "AddMail Current {{ModId}}_ShaneBeforeRosalieFlag Recieved"
+        },
+
+        "{{ModId}}_Shane6AfterRosalieFlagTrigger"://If Shane has gotten sober AFTER Rosalie Arrives
+        {
+          "Id": "Shane x Rosalie - Shane 6 H After Rosalie Flag",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received, !PLAYER_HAS_MAIL {{ModId}}_ShaneBeforeRosalieFlag",
+          "Action": "AddMail Current {{ModId}}_ShaneAfterRosalieFlag Recieved"
+        },
+
+
+
+            //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event //
+		"{{ModId}}_ShanexRosalieBFFFlagTrigger": {
+			"Id": "Shane x Rosalie BFF Flag Trigger for 6 Heart Event",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent, !PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie6HeartEvent, PLAYER_HEARTS Current {{ModId}}_Rosalie 6",                
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag received"
+		},
+
+    
+
+    //Triggers for Shane x Rosalie Bus Event 1 //
+		"{{ModId}}_ShanexRosalieTherapy1EventTrigger": {
+			"Id": "Shane x Rosalie Bus 1 Therapy Event Trigger",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, DAY_OF_WEEK Monday",                
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy1Flag received"
+    },
+
+          //Trigger Therapy Change Event //
+		"{{ModId}}_ShanexRosalieTherapyChangeEventTrigger": {
+			"Id": "Shane x Rosalie Therapy Change Event Trigger",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieBus1, !DAY_OF_WEEK Monday",                
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapyChangeEventFlag received"
+		},
+
+
+
+    //Triggers for Shane x Rosalie Bus Event 2 //
+		"{{ModId}}_ShanexRosalieTherapy2Trigger": {
+			"Id": "Shane x Rosalie BFF Flag Trigger",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneTherapyChange, DAY_OF_WEEK Monday",                
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy2Flag received"
+		},
+
+    
+
+
+//Rosalies Ribbon Quest Dialogue Trigger
+		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
+			"Id": "Jas Quest Dialogue",
+			"Trigger": "Spiderbuttons.BETAS_MailReceived",
+			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest",
+			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		},
+    //Safety fro RR Quest
+		"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
+			"Id": "Jas Quest Dialogue Safety Net",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION {{ModId}}_JasQuestforRosaliesRibbonDialogue false", //let's see if this works
+			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		},
+
+
+        //Childhood Event Trigger//
+    		"{{ModId}}_ShanexRosalieJasChildhoodEventTrigger": {
+			"Id": "Shane x Rosalie Jas Childhood Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_RosaliesSneezeEventCT",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieJasChildhoodEventFlag received"
+		},
+
+        //Trigger for Shane x Rosalie Low Day Event, triggered if player has seen the Childhood Talk event but the CT is not active anymore, and it's a Monday (so it hopefully triggers)
+    		"{{ModId}}_ShanexRosalieLowDayEventTrigger": {
+			"Id": "Shane x Rosalie Low Event Day Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieChildhoodTalkJasEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieChildhoodTalkJasCT, DAY_OF_WEEK Monday",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieLowEventDayFlag received"
+		},
+//Dremas And Disasters
+    		"{{ModId}}_ShanexRosalieDreamsAndDisastersEventTrigger": {
+			"Id": "Shane x Rosalie Dreams and Disasters Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieLowDayEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieLowDayCT",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieDreamsAndDisastersEventFlag received"
+		},
+
+
+//Sleep Over
+    		"{{ModId}}_ShanexRosalieSleepOverEventTrigger": {
+			"Id": "Shane x Rosalie Sleep Over Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieDreamsAndDisastersEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieDreamsAndDisastersCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, DAY_OF_WEEK Saturday",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieSleepOverEventFlag received"
+		},
+
+//Kitchen Love
+    		"{{ModId}}_ShanexRosalieKitchenLoveEventTrigger": {
+			"Id": "Shane x Rosalie Kitchen Love Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSleepOverEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_RosalieShaneSleepOverCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieKitchenLoveEventFlag received"
+		},
+
+//Second First Kiss (HAVENT MADE YET)
+    		"{{ModId}}_ShanexRosalieSecondFirstKissEventTrigger": {
+			"Id": "Shane x Rosalie Second First Kiss Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneKitchenLoveEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieKitchenLoveCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag received"
+		},
+
+// Shane Bouquet (HAVENT MADE YET)
+
+    		"{{ModId}}_ShanexRosalieBouquetEventTrigger": {
+			"Id": "Shane x Rosalie Bouquet Event Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneSecondFirstKissEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieSecondFirstKissCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBouquetEventFlag received"
+		}
+
+  
+
+
+
+
+          
+
+      }
+    } 	
+    
+]
+}
+
+	
+	
+	
