@@ -7,9 +7,9 @@ Start with a NEW save so that way as we update it you don't get attached as thin
 - Rosalie's storyline is complete. However, she is missing some assets like in her 8 heart event.
 - I believe I fixed her 8 heart event so you should be able to go through it no problem. 
 - Rosalie and Shane's story is incomplete. I have two more events to put together, but I need to make assets for them. I want to see if the basics are done first!
-- Rosalie should appear immediately in the game. I want to make her unlockable but I haven't had any success with it tech wise.
+- Rosalie should appear immediately in the game. I want to make her unlockable but I haven't had any success with it tech wise yet.
 - To get the ramp and begin Rosalie's journey, you will need to get 1 Heart with Gus, this will eventually change but it's the easiest one I could do for now.
-- I know that Rosalie's 8 Heart Event stops working, and the map is missing some assets. I wasn't happy with the assets I made so I will have to figure something else out in the meantime. I'll likely fix the 8 heart event sometime tomorrow as I wanted to get something out ASAP since I feel yall have been waiting long enough 🙂
+
 
 
 Please take down anything at all! I have a format you can use on the Pinned comment! 
@@ -32,6 +32,7 @@ If you have more information than the person gave, please react 💯 and I will 
 
 Please send as much info as possible. Screenshots/photos/video are great along with your SMAPI log!
 
+# Other Notes
 I am in Canada so, we do not spell words like "colour" the American way "color" or "favour" instead of "favor".
 This is not a typo. But if  it's distacting, please let me know in the ⁠playtesting-rosalie-general-chat . 
 If enough people complain, I may change everyone else's dialogue to the American way and keep Rosalie's as is (since she is an immigrant).
@@ -43,12 +44,13 @@ If you see 👍 that means it's been resolved in the next patch I send! YOU DO N
 If you have any other comments, questions, or concerns (including storyline and pacing), you can put them into the ⁠playtesting-rosalie-general-chat and tag me @Stardew Aly or DM me directly! ❤️ :015xft7imlm81:
 
 # FORMAT TO USE WHEN REPORTING A GLITCH/TYPO: 
+
 ## On DISCORD please message me the following through the #playtesting-glitches-and-typos chat!
-* WHAT GLITCH/TYPO: (e.g. Shane stepped too far to right and walked into a plant/Translation key was not found for Gus for i18n:RosalieShaneSneezeEvent)
-* WHEN:  (e.g. Shane cut scene with Harvey at the clinic)
-* SMAPI LOG: (you can follow the instructions here https://smapi.io/log/)
-* ANY OTHER INFORMATION YOU THINK IS HELPFUL: (e.g. This glitch was not in the last patch)
-* PLEASE INCLUDE ANY PHOTOS OR IMAGES
+- WHAT GLITCH/TYPO: (e.g. Shane stepped too far to right and walked into a plant/Translation key was not found for Gus for i18n:RosalieShaneSneezeEvent)
+- WHEN:  (e.g. Shane cut scene with Harvey at the clinic)
+- SMAPI LOG: (you can follow the instructions here https://smapi.io/log/)
+- ANY OTHER INFORMATION YOU THINK IS HELPFUL: (e.g. This glitch was not in the last patch)
+- PLEASE INCLUDE ANY PHOTOS OR IMAGES
 
 
 
