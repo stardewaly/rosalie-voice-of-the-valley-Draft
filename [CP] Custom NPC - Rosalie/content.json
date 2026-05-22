@@ -333,7 +333,17 @@
                 "Weight": 1
             }
         }
-    }
+    },
+
+    //SHANE'S "ACTUALLY SAD SHANE" PORTRAIT REPLACEMENTS
+
+    	{
+      "LogName": "Actually Sad Shane Portrait Change - Not The Mod",
+	   "Action": "EditImage",
+	   "Target": "Portraits/Shane,Portraits/Shane_Winter",
+	   "FromFile": "assets/images/Shane/{{TargetWithoutPath}}.png"
+	}
+
 
 ]
 }

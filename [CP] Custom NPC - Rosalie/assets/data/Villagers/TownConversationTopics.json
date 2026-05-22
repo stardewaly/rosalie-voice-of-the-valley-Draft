@@ -93,7 +93,7 @@
 			"Entries": {
 				"{{ModId}}_RosalieRamp": "{{i18n:EmilyRampEventCT}}",
 				
-                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EmilyRosalieArrivalCT {{Random: 1, 2}} }}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EmilyRosalieArrivalCT{{Random: 1, 2}} }}",
 
 				"{{ModId}}_NPCRosalieWalkCT": "{{i18n:EmilyOnRosalieWalkCT}}",
 
@@ -168,7 +168,7 @@
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
 
-"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:JasRosalieArrivalCT1}}",
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:JasRosalieArrivalCT}}",
 
 
 
@@ -315,7 +315,7 @@
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
 				
-                "stardewaly.rosalie_NPCRosalieArrivalCT": "$query PLAYER_HAS_SEEN_EVENT 3910975#{{i18n:PennyRosalieArrivalCTShaneSober}}|{{i18n:PennyRosalieArrivalCT}}",//Unsure if this will work but this is if the player has seen Shane's 6 heart event and is now sober or not,	
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "$query PLAYER_HAS_SEEN_EVENT Current 3910975#{{i18n:PennyRosalieArrivalCTShaneSober}}|{{i18n:PennyRosalieArrivalCT}}",//Unsure if this will work but this is if the player has seen Shane's 6 heart event and is now sober or not,	
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Penny.RosaliesDreamsAndDisastersCT}}",
 				"{{ModId}}_RosalieShaneSleepOverCT":"{{i18n:Penny.RosaliesShaneSleepOverCT}}"
 			

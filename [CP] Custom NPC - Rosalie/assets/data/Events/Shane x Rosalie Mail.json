@@ -26,7 +26,7 @@
         "{{ModId}}_Jas.RosaliesRibbon.QuestTrigger": {
           "Id": "{{ModId}}_RosaliesRibbonQuestTrigger",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Jas 5, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneTherapyChange",//change this after, this is so it triggers at the same time as the Ramp Event, and only if ramp event has been seen so it doesn't trigger multiple times if player keeps getting hearts with Gus before ramp event
+          "Condition": "PLAYER_HEARTS Current Jas 5, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",//change this after, this is so it triggers at the same time as the Ramp Event, and only if ramp event has been seen so it doesn't trigger multiple times if player keeps getting hearts with Gus before ramp event
           "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbon.Quest now"
         },
 
@@ -55,16 +55,16 @@
         {
           "Id": "Shane x Rosalie - Shane 6 H Before Rosalie Flag",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, !PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received",
-          "Action": "AddMail Current {{ModId}}_ShaneBeforeRosalieFlag Recieved"
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, !PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail received",
+          "Action": "AddMail Current {{ModId}}_ShaneBeforeRosalieFlag received"
         },
 
         "{{ModId}}_Shane6AfterRosalieFlagTrigger"://If Shane has gotten sober AFTER Rosalie Arrives
         {
           "Id": "Shane x Rosalie - Shane 6 H After Rosalie Flag",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received, !PLAYER_HAS_MAIL {{ModId}}_ShaneBeforeRosalieFlag",
-          "Action": "AddMail Current {{ModId}}_ShaneAfterRosalieFlag Recieved"
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail received, !PLAYER_HAS_MAIL Current {{ModId}}_ShaneBeforeRosalieFlag received",
+          "Action": "AddMail Current {{ModId}}_ShaneAfterRosalieFlag received"
         },
 
 
@@ -137,7 +137,7 @@
 			"Id": "Shane x Rosalie Low Event Day Trigger",
 			"Trigger": "DayStarted",
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieChildhoodTalkJasEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieChildhoodTalkJasCT, DAY_OF_WEEK Monday",
-			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieLowEventDayFlag received"
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieLowDayEventFlag received"
 		},
 //Dremas And Disasters
     		"{{ModId}}_ShanexRosalieDreamsAndDisastersEventTrigger": {

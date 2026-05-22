@@ -9,25 +9,25 @@
            "spring": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 50 69 2/1800 Saloon 10 18 2/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
          
        
-         "spring_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "spring_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          
          "spring_Tue": "800 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
         "spring_Thu": "800 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
 
          
          "summer": "{{Random: spring, stardewaly.rosalie_flareup}}",
-         "summer_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "summer_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "summer_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
         
         
         
         "fall": "{{Random: spring, stardewaly.rosalie_flareup}}",
-         "fall_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "fall_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "fall_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
 
 
         "winter":"{{Random: spring, stardewaly.rosalie_flareup}}",
-         "winter_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "winter_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "winter_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
         "winter_Thu": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
 

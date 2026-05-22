@@ -33,14 +33,12 @@
 
       },
 
+           //MAIL TRIGGERS
       {"LogName": "Rosalie Actual Mail Flag Trigger Actions",
       "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-      
-
-        //MAIL TRIGGERS
-
+  
         "{{ModId}}_RosalieIsComing.SaloonDelayMail": {
           "Id": "{{ModId}}_RosalieIsComing.SaloonDelayMail",
           "Trigger": "DayEnding",
