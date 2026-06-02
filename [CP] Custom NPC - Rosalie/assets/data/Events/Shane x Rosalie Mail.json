@@ -164,11 +164,11 @@
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieKitchenLoveEventFlag received"
 		},
 
-//Second First Kiss (HAVENT MADE YET)
+//Second First Kiss
     		"{{ModId}}_ShanexRosalieSecondFirstKissEventTrigger": {
 			"Id": "Shane x Rosalie Second First Kiss Event Trigger",
 			"Trigger": "DayStarted",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneKitchenLoveEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieKitchenLoveCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneKitchenLoveEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieKitchenLoveCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, WEATHER Here Rain GreenRain Storm2",
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag received"
 		},
 

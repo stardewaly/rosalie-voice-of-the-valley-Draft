@@ -1,0 +1,42 @@
+{
+  "Changes": [      
+    {
+         "Action": "EditData",
+         "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+         "Entries": {
+            "{{ModId}}_HarveyRosalieAppt": {
+               "Id": "Harvey Rosalie Appointment Schedule Key",
+               "ScheduleKey": "stardewaly.rosalie_HarveyRosalieAppt",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_MAIL Any stardewaly.rosalie_WelcomeRosalieMail Any"
+            },
+
+            "{{ModId}}_HarveyRosalieApptMarriedPlayer": {
+               "Id": "Harvey Rosalie Appointment Married To Player Schedule Key",
+               "ScheduleKey": "stardewaly.rosalie_HarveyRosalieApptMarriedPlayer",
+               "Priority": "Early",
+               "Condition": "PLAYER_NPC_RELATIONSHIP Any Harvey Married"
+            }
+         }
+      },
+
+      //Schedules do not work because of the format apparently??
+      {
+         "Action": "EditData",
+         "Target": "Characters/schedules/Harvey",
+         "Entries": {
+            "stardewaly.rosalie_HarveyRosalieAppt": "730 Hospital 5 15 2/800 Hospital 5 6 1 harvey_examine_left/1000 Hospital 9 18 1/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1 harvey_sleep",
+            "stardewaly.rosalie_HarveyRosalieApptMarriedPlayer": "630 Hospital 1 5 0 \"Strings\\schedules\\Harvey:marriageJob.000\"/730 Hospital 5 15 2/800 Hospital 5 6 1 harvey_examine_left/1000 Hospital 9 18 1/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1800 bed",
+
+        "marriageJob": "{{ModId}}_HarveyRosalieApptMarriedPlayer", 
+            "spring_Tue": "{{ModId}}_HarveyRosalieAppt",
+             "spring_Thu": "GOTO spring_Tue",
+             "summer_Tue": "GOTO spring_Tue",
+             "fall_Tue": "GOTO spring_Tue",
+             "winter_Tue": "GOTO spring_Tue"
+
+         
+         }
+      }
+   ]
+    }

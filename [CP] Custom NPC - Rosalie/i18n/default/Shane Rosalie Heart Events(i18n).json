@@ -63,9 +63,9 @@
     "ShaneRosalieJasRibbonEvent.4": "Wow, Jas! That's real pretty!$1",
     "ShaneRosalieJasRibbonEvent.5": "Uh huh!$1 #$b# Farmer @ told the pretty new girl that I liked her ribbon, and she gave it to me!$1",
     "ShaneRosalieJasRibbonEvent.6": "...$10 #$b#...$3 #$b# What uh... what new girl?$3",
-    "ShaneRosalieJasRibbonEvent.7": "I think her name was...$3 #$b# ... Rose... Rosa...$3...!$1 #$b# Rosa! I'm sure of it!$4",
+    "ShaneRosalieJasRibbonEvent.7": "I think her name was...$3 #$b# ... Rose... Rosa...!$3 #$b# Rosa! I'm sure of it!$4",
     "ShaneRosalieJasRibbonEvent.8": "I see...$2",
-    "ShaneRosalieJasRibbonEvent.Q": "@, are you sure... she said Jas could keep it?",
+    "ShaneRosalieJasRibbonEvent.Q": "Are you sure she said Jas could keep it?",
     "ShaneRosalieJasRibbonEvent.A1": "Are you calling me a liar?",
     "ShaneRosalieJasRibbonEvent.A2": "Yes! Isn't that nice?",
     "ShaneRosalieJasRibbonEvent.A3": "No, I stole it off of Rosalie's head and came straight here to frame Jas. Police are on their way.",
@@ -151,7 +151,7 @@
 "ShaneRosalieSneezeEvent.21": "Rosa!$10",
 "ShaneRosalieSneezeEvent.22": "Ow...$6 #$b# Sorry... that was embarrassing...$1 #$b#...$2",
 "ShaneRosalieSneezeEvent.23": "Are you okay, Miss Rosa?$2",
-"ShaneRosalieSneezeEvent.24": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#Of course, Minnie! I'm fi--$1|Of course, Jas! I'm fi--$1",
+"ShaneRosalieSneezeEvent.24": "Of course, Minnie! I'm fi--$1",
 "ShaneRosalieSneezeEvent.25": "Rosa. Don't say you're fine. You're not fine.$5",
 "ShaneRosalieSneezeEvent.Q2": "Rosalie looks like she's on the verge of tears. From embarassment, or pain, or both.",
 "ShaneRosalieSneezeEvent.A3": "Suggest Rosalie lays down.",
@@ -165,7 +165,7 @@
 "ShaneRosalieSneezeEvent.R3.6": "But I--$2",
 "ShaneRosalieSneezeEvent.R3.7": "No, Marnie's right... It's the same room as when we were kids...$2#$b# Do you need me to carry you or...?$3",
 "ShaneRosalieSneezeEvent.R3.8": "I'd like to see you try, but I can walk... I think...$1",
-"ShaneRosalieSneezeEvent.R3.9": "$p {{i18n:ShaneRosalieSneezeEvent.A1})#There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1|There we go...$1 #$b# Sorry about dinner Jas. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
+"ShaneRosalieSneezeEvent.R3.9": "$There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
 "ShaneRosalieSneezeEvent.R3.10": "Okay. Get well soon, Miss Rosa!",
 "ShaneRosalieSneezeEvent.R4.1": "@ is right. You guys go ahead and eat dinner, I'll catch up.$3 #$b# I'm walking you home, Rosa.",
 "ShaneRosalieSneezeEvent.R4.2": "But I--$2",
@@ -188,7 +188,7 @@
 "ShaneRosalieSneezeEvent.R5.9": "Oh, I couldn't--$2",
 "ShaneRosalieSneezeEvent.R5.10": "Rosa, don't make me carry you.$11",
 "ShaneRosalieSneezeEvent.R5.11": "I'd like to see you try, but I can walk...",
-"ShaneRosalieSneezeEvent.R5.12": "$p {{i18n:ShaneRosalieSneezeEvent.A1})#There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1|There we go...$1 #$b# Sorry about dinner Jas. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
+"ShaneRosalieSneezeEvent.R5.12": "There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
 "ShaneRosalieSneezeEvent.R5.13": "Get well soon, Miss Rosa!",
 "ShaneRosalieSneezeEvent.26": "Oh dear... I hope the poor thing will be alright...$2",
 "ShaneRosalieSneezeEvent.27": "Well, no sense in us letting dinner go to waste. We should get eating before it gets cold.",
@@ -304,7 +304,7 @@
 "ShaneRosalieDreamsAndDisasters.16": "Shane gently takes Rosalie's hand.",
 "ShaneRosalieDreamsAndDisasters.17": "I know...$2 #$b# You don't need to explain, Rosa. He's gone. You suffered enough. You don't need I told you sos. #$b# I know you hear that voice inside you telling you the same thing.$2",
 "ShaneRosalieDreamsAndDisasters.18": "I'm here for you, Rosa. I'm here in Stardew Valley to stay.$6 #$b# Not just for the summers anymore, I'm not going anywhere...$6 #$b# And Marnie is here for you too, as always.$6 #$b# You also have Jas as a new best friend, so you're stuck with her as long as you're living here.$1",
-"ShaneRosalieDreamsAndDisasters.19": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#That's not a bad thing, I love Minnie!$1|That's not a bad thing, I love Jas!$1",
+"ShaneRosalieDreamsAndDisasters.19": "That's not a bad thing, I love Minnie!$1",
 "ShaneRosalieDreamsAndDisasters.20": "I missed this... Sitting in silence and it not feeling awkward...$6 #$b# I'm glad that hasn't changed.$1",
 "ShaneRosalieDreamsAndDisasters.21": "Me too, Farm Boy...#$b# ...and thanks for taking me outside. Having a wheelchair sucks a little less with you being understanding.$7 #$b# And not feeling like a burden...$2",
 "ShaneRosalieDreamsAndDisasters.22": "I'm glad I could help, Rosa.$6 #$b# We said we'd always be there for each other. We just had a bit of a break.$1",
@@ -404,7 +404,7 @@
 
 
 //Kitchen Love//
-"ShaneRosalieKitchen.1": "Rosa, do you mind telling me why Jas likes you so much?$1",
+"ShaneRosalieKitchen.1": "Rosa, you need to tell me what your secret is!$1 #$b# Why on earth does Jas likes you so much?$1",
 "ShaneRosalieKitchen.2": "What's not to like? I'm adorable.$9",
 "ShaneRosalieKitchen.3": "You know you say you've changed but honestly, you haven't. Not really.$6",
 "ShaneRosalieKitchen.4": "You too. You're the same, but different.",
@@ -440,7 +440,7 @@
 "ShaneRosalieKitchen.34": "You make time for me.$7",
 "ShaneRosalieKitchen.35": "Yeah, but you're different. I don't need to spend as much mental or physical energy with you.$1 #$b# We just, kinda, hang out. I like being around you.$6 #$b# You don't mind that I'm damaged...$6 #$b# It wouldn't be fair to put my baggage on some poor person who isn't my therapist.$3 #$b# Besides I'm not exactly a catch.$2",
 "ShaneRosalieKitchen.36": "Hey, you're not allowed to speak for us women... Or men if you're into them.$1 #$b# Maybe I can't speak for them either as I'm getting a divorce with my high school sweetheart.$1",
-"ShaneRosalieKitchen.37": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#But honestly, Farm Boy, the fact that you're working on yourself, and you took in Minnie and basically fathering her, #$b# Plus, not only you see the flaws within yourself but you're working to fix them... #$b# You have one of the biggest hearts I've ever known. And you're going to make someone very happy one day. I know it.$4|But honestly, Farm Boy, the fact that you're working on yourself, and you took in Jas and basically fathering her, #$b# Plus, not only you see the flaws within yourself but you're working to fix them... #$b# You have one of the biggest hearts I've ever known. And you're going to make someone very happy one day. I know it.$4", 
+"ShaneRosalieKitchen.37": "But honestly, Farm Boy, the fact that you're working on yourself, and you took in Minnie and basically fathering her, #$b# Plus, not only you see the flaws within yourself but you're working to fix them... #$b# You have one of the biggest hearts I've ever known. And you're going to make someone very happy one day... I know it.$4", 
 "ShaneRosalieKitchen.38": "Thanks, Rosa... I think you would too.$4",
 "ShaneRosalieKitchen.39": "I don't think so...$2 #$b# The idea of dating and falling in love again...$2 #$b# Being vulnerable and open, just to get manipulated and gas lit and forced to think of every moment and decision of my life to include someone else...$3 #$b# I get anxious thinking about it..." ,
 "ShaneRosalieKitchen.40": "You're never going to date again?$3 #$b# Rosa, I know you. You were planning your wedding when we were ten!$1",
@@ -458,13 +458,15 @@
 "ShaneRosalieKitchen.52": "You're... a little close...$2",
 "ShaneRosalieKitchen.53": "Sorry...",
 "ShaneRosalieKitchen.54": "No! It's fine!... We've um...$1 #$b# ...$2", 
-"ShaneRosalieKitchen.55": "Farm Boy...$2#$b# Ever since we started talking again...$2 #$b# I've... been meaning to... #$b# ...apologize for the last day we saw each other as kids.$2 #$b# I shouldn't have done that... I know we were young but, it doesn't excuse it, and I'm sorry.$2",
+"ShaneRosalieKitchen.55": "Farm Boy...$2#$b# Ever since we started talking again...$2 #$b# I've... been meaning to... #$b# I... want to apologize for the last day we saw each other as kids.$2 #$b# I shouldn't have done that... I know we were young but, it doesn't excuse it, and I'm sorry.$2",
 "ShaneRosalieKitchen.56": "Oh um...$3 #$b# I don't even remember what happened...$3",
 "ShaneRosalieKitchen.57": "You don't?$8",
 "ShaneRosalieKitchen.58": "Yeah, not everyone has a perfect memory like you, Rosa.$11 #$b# It was twenty years ago. I had other things on my mind besides you.$5",
 "ShaneRosalieKitchen.59": "Right...$6 #$b# Well, I'm sorry, all the same...$2",
 "ShaneRosalieKitchen.60": "I'm gonna go... I'm really tired...$2 #$b# Goodnight, Shane...$6",
 "ShaneRosalieKitchen.61": "Buh...$2"
+
+
 
 }
 

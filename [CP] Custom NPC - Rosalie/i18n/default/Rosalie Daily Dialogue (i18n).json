@@ -98,7 +98,7 @@
        //Day Before Ice Fishing Festival//
         "winter_7": "I had a nightmare once that I fell through the ice... You're braver than me, @.$2",
        //Day Before Feast of the Winter Star//
-        "winter_24": "The Feast of the Winter Star is the only time I try to put energy into baking every year! #$e# I used to do it all the time, people used to say I should open a bakery... #$b# until... you know...$2",
+        "winter_24": "The Feast of the Winter Star is the only time I try to put energy into baking every year! #$e# I used to do it all the time, people used to say I should open a bakery.$1",
 
 
 
@@ -181,7 +181,7 @@
 
         //Moonlight Jellies//
 
-        "RosalieJellies": "*sigh* This would be the perfect spot for a date...$4",
+        "RosalieJellies": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}_ShaneRosalieChildhoodFriendsJasEvent#I used to love the jellies as a kid. #$b# But when I met Shane, it meant we had to say goodbye... And I didn't know if he'd be coming back...$2 #$b# I'm really happy we don't need to worry about goodbyes anymore.$1|*sigh* I always thought this would be the perfect spot for a date...$4",
 
         //Stardew Valley Fair//
 
@@ -253,8 +253,13 @@
     "Rosalie.Flareup_9": "It's amazing how much being in pain every day can affect your tolerance every day.$3",
 
 
+//ROSALIE SINGING ANIMATION STRING
+"Rosalie_SingingDialogue": "%Whatever Rosalie is singing, it's a haunting melody...",
 
-
+"RosalieSaloonEntry1": "Uncle Gus! I'm home!",
+"RosalieSaloonEntry2": "Hey, Uncle Gus!",
+"RosalieSaloonEntry3": "*sigh*",
+"RosalieSaloonEntry4": "Hello, Uncle Gus Gus!",
 
 
 
@@ -326,7 +331,7 @@
 
 
 //Sand Castles With Jas CT//
-"Rosalie.SandCastlesWithJasCT": "I hope Jas doesn't like me just cause she thinks I'm a mermaid.$1 #$e# It's cute, but one day she'll grow out of it. #$e# I know Shane probably thinks it's better she knows the truth about the world, but you're only a carefree child once. #$b# The imagination is really a powerful thing. It's helped me a lot as a kid.$2",
+"Rosalie.SandCastlesWithJasCT": "I hope Minnie doesn't like me only because she thinks I'm a mermaid.$1 #$e# It's cute she thinks that, but one day she'll grow out of it. #$e# I know Shane probably thinks it's better she knows the truth about the world, but you're only a carefree child once. #$b# The imagination is really a powerful thing. It's helped me a lot as a kid.$2",
 "Rosalie.SandCastlesWithJasCT2": "I think it's better to keep Jas guessing than lie about if I'm a mermaid. #$e# Am I a mermaid? That would be silly, wouldn't it?$9",
 "Rosalie.SandCastlesWithJasCT3": "In all seriousness, I swore to myself I'd never get into another serious relationship. #$b# I think if Shane was interested in dating, he'd want someone who has less baggage. Especially with Jas in the picture.$2 #$b# I like my indepenence too much to be with anyone so seriously again. #$e# If the right person came along, I'd probably change my mind. #$b# Shane... I don't know... I don't want to ruin our friendship.$2 #$e#",
 
@@ -356,13 +361,11 @@
 
 //Rosalie X Harvey//
 
-      //HARVEY APPT VISIT TEXT OVER HEAD//
-
-     //****Before Rosalie's 6 Heart Event***//
-      "RosalieToHarvey_EarlyAppointmentGreeting": "Eeeyeh, what's up, doc?",
+      //HARVEY APPT EXAM//
+"RosaliexHarveyApptExam": "Are you sure you don't offer a punch card for every diagnosis I get, Dr H?$9",
 
   //****After Rosalie's 6 Heart Event***//
-      "RosalieToHarvey_AppointmentGreeting": "Hey, Dr H!",
+      "RosalieToHarvey_AppointmentGreeting": "$query PLAYER_HEARTS Current 6#Hey, Dr H!|Eeeyeh, what's up, doc?",
 
 
 //***AFTER HER 6 HEART EVENT****//

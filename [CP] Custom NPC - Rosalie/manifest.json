@@ -26,6 +26,10 @@
     {"UniqueID": "Spiderbuttons.CustomScheduleKeys",
       "IsRequired": true
   },
+  {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+  },
 {
   "UniqueID": "misscoriel.eventrepeater", //TEMPORARY
     "IsRequired": true
@@ -36,6 +40,7 @@
       "UniqueID": "stardewaly.ActuallySadShane",
       "IsRequired": false
     }
+
 
 
 

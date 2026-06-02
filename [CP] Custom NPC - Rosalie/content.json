@@ -19,7 +19,7 @@
 			"When": 
 			{
         
-        "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent", //works for next day
+        "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent", //works for next day which kinda works lore-wise unless soemone gifts him a bouquet the day of
 				"Relationship:Shane |contains= dating, married": false,
 				"DayEvent |contains= flower dance": false
 
@@ -113,7 +113,7 @@
     {
       "Id": "{{ModId}}_Rosalie_WC",
       "Portrait": "Portraits/{{ModId}}_Rosalie",
-      "Sprite": "Characters/{{ModId}}_Rosalie_WC",
+      "Sprite": "Characters/{{ModId}}_Rosalie", //havent tried yet
       "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag",
       "Precedence": -10
     }
@@ -122,20 +122,20 @@
 },
 
 {
-"LogName":"Rosalie Sneeze Event Sprites - Temp Actor",
-"Action":"Load",
+"LogName": "Rosalie Sneeze Event Sprites - Temp Actor",
+"Action": "Load",
 "Target": "Characters/Rosalie_SneezeEvent",
 "FromFile": "assets/images/Rosalie_SneezeEvent.png"
 },
 
-
+/*****MAPS*******/
 //Rosalie's Room Map// I tried "When" commands, didn't work with TMX (march 8)
 
      {
       "LogName": "Rosalie's Room Saloon",
       "Action": "EditMap",
       "Target": "Maps/Saloon",
-      "FromFile": "assets/maps/Saloon with Rosalie Room.tmx",
+      "FromFile": "assets/maps/Saloon_RosalieRoom.tmx",
             "When": {
                "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent", //Not Tested , added May 18
 
@@ -146,33 +146,33 @@
       "LogName": "Rosalie's Clean Room",
       "Action": "EditMap",
       "Target": "Maps/Saloon",
-      "FromFile": "assets/Maps/Saloon with Rosalie Room-Radio.tmx",
+      "FromFile": "assets/Maps/Saloon_RosalieRoom-Radio.tmx",
             "When": {
-              "HasSeenEvent:AnyPlayer": "{{ModId}}_Rosalie4HeartEvent"//Works, but for the next day
+              "Hearts:{{ModId}}_Rosalie": "4"//May 22 trying with hearts
       }
     },
 
 
     //Rosalie's Saloon Ramp// //NOT WORKING! Loads but ramp is not loaded until next day, if not possible, try having Robin measure and it's built tomorrow! or make it so the day before, when it's set, it'll go
 
-    /*
-     {
-      "LogName": "Rosalie's Saloon Ramp",
-      "Action": "EditMap",
-      "Target": "Maps/Town",
-      "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx"
-
-    },*/
-
             {
       "LogName": "Rosalie's Ramp",
       "Action": "EditMap",
       "Target": "Maps/Town",
-      "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
+      "FromFile": "assets/maps/Town_Ramp-Rosalie.tmx",
       "When": {
-              "HasSeenEvent:AnyPlayer": "stardewaly.rosalie_RampEvent" //works but the next day
+              "HasFlag:AnyPlayer": "{{ModId}}_RosalieOnHerWay" //May 22 trying with flag
       }
     },
+         
+    //NOT WORKING, 
+    /*{
+      "LogName": "Rosalie's Live Event - Saloon",
+      "Action": "Load",
+      "Target": "Data/Events/Saloon_RosalieLiveEvent",
+      "FromFile": "assets/maps/Saloon_RosalieLiveEvent.tmx"
+            },
+*/
 
 
     /* 5. Dialogue (Include must NOT have a Target)*/
@@ -241,8 +241,11 @@
             "Entries": {
                 "stardewaly.rosalie_Rosalie_sleeping": "39/39/39",
                 "stardewaly.rosalie_Rosalie_crying": "24/24/25/25",
-                "stardewaly.rosalie_Rosalie_singing": "22/23/18/19/20/21/22/23",
-                "stardewaly.rosalie_Rosalie_standup": "34/34/35/34/34/35"
+                "stardewaly.rosalie_Rosalie_standup": "34/34/35/34/34/35",
+
+                //Trying this for her schedule animation 
+                "stardewaly.rosalie_Rosalie_singing": "22/23/18/19/20/21/22/23 16 17 18/18 19 20 21 22 23/23 18 17 16/{{i18n:Rosalie_SingingDialogue}}//offset 1 1",
+  
             }
         },
 /*12. Quests*/
@@ -264,26 +267,37 @@
   {
       "LogName": "Gus Uncle New Dialogue",
       "Action": "Include",
-      "FromFile": "assets/data/Villagers/GusNewDialogue.json"
+      "FromFile": "assets/data/Villagers/Gus_Dialogue.json"
     },
 
 
 
-//*******HARVEY LINE CHANGES******//
+//*******HARVEY LINE/SCHEDULE CHANGES******//
    {
       "LogName": "Harvey Rosalie New Dialogue",
       "Action": "Include",
-      "FromFile": "assets/data/Villagers/HarveyNewDialogue.json"
+      "FromFile": "assets/data/Villagers/Harvey_Dialogue.json"
+    },
+    {
+      "LogName": "Harvey New Schedule",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/Harvey_Schedule.json"
     },
 
 
-//*******SHANE LINE CHANGES******//
+//*******SHANE LINE/SCHEDULE CHANGES******//
    
 
     {
       "LogName": "Shane Rosalie New Dialogue",
       "Action": "Include",
-      "FromFile": "assets/data/Villagers/ShaneNewDialogue.json"
+      "FromFile": "assets/data/Villagers/Shane_Dialogue.json"
+    },
+
+    {
+      "LogName": "Shane New Schedule",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/Shane_Schedule.json"
     },
 
     //ITEMS
@@ -297,22 +311,23 @@
         {
         "Action":"Load",
         "Target":"Characters/RosaliesRibbon_SmallActor",
-        "FromFile":"assets/images/Jas_RosaliesRibbon/RosaliesRibbon_SmallActor.png"
+        "FromFile":"assets/images/Jas/RosaliesRibbon_SmallActor.png"
     },
 
-      //NEW CODE AS OF 5'th APRIL (6'th Here, anyway) for Jas ribbon sprites
+    //May 22
+      //Works in the event, but not afterward for the condition.... haven't checked for tomorrow or when she leaves locations
 
     {
         "LogName": "Jas - Portraits - Load Custom",
         "Action": "Load",
-        "Target": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
-        "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png" 
+        "Target": "Portraits/Jas_RosaliesRibbon",
+        "FromFile": "assets/images/Jas/Jas_RosaliesRibbon.png" 
     },
     {
         "LogName": "Jas - Sprites - Load Custom",
         "Action": "Load",
-        "Target": "Characters/{{ModId}}_Jas_RosaliesRibbon",
-        "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png"
+        "Target": "Characters/Jas_RosaliesRibbon",
+        "FromFile": "assets/images/Jas/Jas_RosaliesRibbonS.png"
     },
 
     {
@@ -322,18 +337,44 @@
         "TargetField": ["Jas", "Appearance"],
         "Entries": {
             "{{ModId}}_Jas_RosaliesRibbon": {
-                "Id": "{{ModId}}_Jas_RosaliesRibbon",
-                "Portrait": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
-                "Sprite": "Characters/{{ModId}}_Jas_RosaliesRibbonS",
+                "Id": "RosaliesRibbon",
+                "Portrait": "Portraits/Jas_RosaliesRibbon",
+                "Sprite": "Characters/Jas_RosaliesRibbon",
                 "Indoors": true,
                 "Outdoors": true,
                 "IsIslandAttire": false,
-                "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEvent",
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEvent", 
                 "Precedence": -10, 
                 "Weight": 1
             }
         }
     },
+        { 
+        "LogName": "Shane - Preteen Portraits - Load Custom",
+        "Action": "Load",
+        "Target": "Portraits/Shane_Preteen",
+        "FromFile": "assets/images/Shane/Shane_Preteen-Portraits.png" 
+    },
+    {
+        "LogName": "Shane - Preteen Sprites - Load Custom",
+        "Action": "Load",
+        "Target": "Characters/Shane_Preteen",
+        "FromFile": "assets/images/Shane/Shane_PreteenS.png"
+    },
+    {
+        "LogName": "Rosalie Preteen - Sprites - Load Custom",
+        "Action": "Load",
+        "Target": "Characters/stardewaly.rosalie_Rosalie_Preteen",
+        "FromFile": "assets/images/Rosalie_PreteenS.png"
+    },
+
+            { 
+        "LogName": "Rosalie - Preteen Portraits - Load Custom",
+        "Action": "Load",
+        "Target": "Portraits/stardewaly.rosalie_Rosalie_Preteen",
+        "FromFile": "assets/images/Rosalie_Preteen-Portraits.png" 
+    },
+
 
     //SHANE'S "ACTUALLY SAD SHANE" PORTRAIT REPLACEMENTS
 
