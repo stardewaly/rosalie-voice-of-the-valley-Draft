@@ -3,10 +3,10 @@
 
 Start with a NEW save so that way as we update it you don't get attached as things will be changing 🙂
 
-## NOTES: (May 21/26)
-- Rosalie's storyline is complete. However, she is missing some assets like in her 8 heart event.
-- I believe I fixed her 8 heart event so you should be able to go through it no problem. 
-- Rosalie and Shane's story is incomplete. I have two more events to put together, but I need to make assets for them. I want to see if the basics are done first!
+## NOTES: (June 1/26)
+- Rosalie's storyline is complete. I may be removing her 5 heart event and replacing it
+- I have fixed Rosalie's 8 heart event, but the assets are still not there so she looks a little nutso talking to herself lol
+- Rosalie and Shane's story is incomplete. I have one more event to write for them and their last one has an error I cannot seem to fix and am experimenting to see what I can do
 - Rosalie should appear immediately in the game. I want to make her unlockable but I haven't had any success with it tech wise yet.
 - To get the ramp and begin Rosalie's journey, you will need to get 1 Heart with Gus, this will eventually change but it's the easiest one I could do for now.
 
