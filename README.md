@@ -1,14 +1,19 @@
-# PLAY TESTER BUILD (v 0.0.3)
+# PLAY TESTER BUILD (v 0.0.4)
 
 
 Start with a NEW save so that way as we update it you don't get attached as things will be changing 🙂
 
-## NOTES: (June 1/26)
-- Rosalie's storyline is complete. I may be removing her 5 heart event and replacing it
-- I have fixed Rosalie's 8 heart event, but the assets are still not there so she looks a little nutso talking to herself lol
-- Rosalie and Shane's story is incomplete. I have one more event to write for them and their last one has an error I cannot seem to fix and am experimenting to see what I can do
-- Rosalie should appear immediately in the game. I want to make her unlockable but I haven't had any success with it tech wise yet.
-- To get the ramp and begin Rosalie's journey, you will need to get 1 Heart with Gus, this will eventually change but it's the easiest one I could do for now.
+## NOTES: (June 16/26)
+- Rosalie's storyline is complete.
+- Rosalie's 8 Heart Event still needs to load in the map.
+- I managed to get Temp Maps to work! Please let me know if there are issues still!!
+- Rosalie and Shane's story is COMPLETE (Technically)! The final event I planned to be the same across all the bachelors and the player, but I figured out earlier than I thought on how to do what I wanted!
+- There will also be some issues that may come up in events, especially the Sneeze Event that I need to fix
+- YOU WILL NEED TO UNLOCK ROSALIE NOW! You can do this by getting 1 Heart with Gus.
+- ROSALIE HAS A NEW RIBBON IN HER PORTRAITS! Well, it's still the same one but it doesn't look as blocky as the old design and I'm so happy with how it looks now!
+- Jas' ribbon should also work so after you complete Rosalie's Ribbon Quest, Jas will change into her new ribbon as soon as she leaves whatever building she's in :) (I don't know how ot speed this up unfortinately i'm just glad it works at all!)
+
+###I PLAN TO RELEASE ROSALIE THIS MONTH! PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
 
 
 
