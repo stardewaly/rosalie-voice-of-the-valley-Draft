@@ -18,18 +18,21 @@
 
  "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Shane.RosaliesFlareUpEventCT}}",
 
+ "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Shane.RosalieRadioEventCT}}",
+
+
         //SHANE X ROSALIE ROUTE CTS///
 "{{ModId}}_ShaneRosalieTherapyCT ": "{{i18n:Shane.TherapyCT{{Random: 1, 2}} }}",
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Shane.RosalieSneezeEventCT{{Random: 1, 2 }} }}",
 "{{ModId}}_RosaliesRibbonCT": "{{i18n:Shane.RosaliesRibbonCT}}",
-"{{ModId}}_RosaliesRibbonCT2": "{{i18n:Shane.RosaliesRibbonCT2}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
+"{{ModId}}_RosaliesRibbonCT_memory_oneday": "{{i18n:Shane.RosaliesRibbonCT2}}", //shows up the next day
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Shane.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2}} }}",
 "{{ModId}}_ShaneRosalieLowDayCT":"{{i18n:Shane.ShaneRosalieLowDayCT{{Random: 1, 2, 3, 4}} }}",
 "{{ModId}}_RosalieShaneDreamsAndDisastersCT":"{{i18n:Shane.RosalieDreamsAndDisastersCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_RosalieShaneSleepoverCT": "{{i18n:Shane.RosalieShaneSleepoverCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Shane.SandCastlesWithJasCT{{Random: 1, 2, 3, 4}} }}",
 "{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Shane.RosalieKitchenLoveCT{{Random: 1, 2 }} }}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT":"{{i18n:Shane.RosaliexShaneSecondFirstKissCT}}",
+"{{ModId}}_RosalieShaneSecondFirstKissCT":"{{i18n:Shane.RosalieShaneSecondFirstKissCT}}",
 
 //Location based (this is a vanilla token do not change the name unless you're changing locations)
 "Saloon_7_18": "{{i18n:ShanexRosalieBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",

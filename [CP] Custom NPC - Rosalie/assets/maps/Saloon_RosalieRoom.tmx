@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="35">
+<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="35">
  <properties>
   <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
   <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825"/>
@@ -264,17 +264,17 @@
   </object>
   <object id="31" name="TileData" x="160" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue {{i18n:RosalieRoomGuitar}}"/>
+    <property name="Action" value="Message &quot;RosalieRoomGuitarText&quot;"/>
    </properties>
   </object>
   <object id="29" name="TileData" x="176" y="80" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;{{i18n:RosalieRoomBook}}&quot;"/>
+    <property name="Action" value="Message &quot;RosalieRoomBookText&quot;"/>
    </properties>
   </object>
   <object id="30" name="TileData" x="144" y="80" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue {{i18n:RosalieRoomPainList}}"/>
+    <property name="Action" value="Message &quot;RosalieRoomPainList&quot;"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="320" y="144" width="16" height="16">
@@ -344,17 +344,17 @@
   </object>
   <object id="32" name="TileData" x="97.2157" y="31.8317" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue {{i18n:RosalieRoom_IMissYouBabyBoy}}"/>
+    <property name="Action" value="Message &quot;RosalieRoom_IMissYouBabyBoyText&quot;"/>
    </properties>
   </object>
   <object id="33" name="TileData" x="112" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue {{i18n:RosalieRoomPiano}}"/>
+    <property name="Action" value="Message &quot;RosalieRoomPianoText&quot;"/>
    </properties>
   </object>
   <object id="34" name="TileData" x="96" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue {{i18n:RosalieRoomRadio}}"/>
+    <property name="Action" value="Message &quot;RosalieRoomRadioText&quot;"/>
    </properties>
   </object>
  </objectgroup>

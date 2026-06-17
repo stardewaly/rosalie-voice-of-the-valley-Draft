@@ -16,10 +16,21 @@
           "BirthDay": "19",
           "HomeRegion": "Town",
           "CanBeRomanced": false, //Until we can get the player stuff done, Flower Dance Does work when changed to true!//
+          "CanGreetNearbyCharacters": true,
           "CanVisitIsland": false,
+          "Calendar": "HiddenUntilMet",
           "SpouseAdopts": true,
-          "IntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "ItemDeliveryQuests": true,
+          "FriendsAndFamily": {
+            
+            "Gus": "{{i18n:GusRelationship}}",
+            "Robin": "{{i18n:FriendshipRelationship}}",
+            "Emily": "{{i18n:FriendshipRelationship}}",
+            "Harvey": "{{i18n:FriendshipRelationship}}",
+            "Shane": "{{i18n:FriendshipRelationship}}"
+           },
+           "FlowerDanceCanDance": null, //Temporary until romancable
           "WinterStarParticipant": true,
          "WinterStarGifts": [
            {
@@ -27,6 +38,8 @@
            "ItemId": "(O)341" //Temporary, copied from SDV Wiki Example
            }
           ],
+        /*  "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RampEvent", */ // ON HOLD UNTIL RELEASE!
+          "SpawnIfMissing": true,
           "Home": [
             {
               "Id": "Default",
@@ -37,8 +50,11 @@
               },
               "Direction": "Right"
             }
-          ]
+          ],
+           "KissSpriteIndex": "28", //whether this npc has a kissing or hugging sprite, reminder that characters/npc and portraits/npc starts at 0
+          "KissSpriteFacingRight": true
         }
+        
       }
     }
   ]

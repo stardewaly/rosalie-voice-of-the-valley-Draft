@@ -23,18 +23,18 @@
       "Target": "Data/TriggerActions",
       "Entries": {
 
-        "{{ModId}}_Jas.RosaliesRibbon.QuestTrigger": {
-          "Id": "{{ModId}}_RosaliesRibbonQuestTrigger",
+        "{{ModId}}_Jas.RosaliesRibbonPrologueTrigger": {
+          "Id": "{{ModId}}_Jas.RosaliesRibbonCutSceneTrigger",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Jas 5, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",//change this after, this is so it triggers at the same time as the Ramp Event, and only if ramp event has been seen so it doesn't trigger multiple times if player keeps getting hearts with Gus before ramp event
-          "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbon.Quest now"
+          "Condition": "PLAYER_HEARTS Current Jas 3, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",
+          "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbonPrologueFlag received"
         },
 
         
         "{{ModId}})_MarnieLetterForDinnerTrigger": {
           "Id": "{{ModId}}_DinnerAtMarniesTrigger",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Marnie 6, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC {{ModId}}_RosaliesRibbonCT",
+          "Condition": "PLAYER_HEARTS Current Marnie 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC {{ModId}}_RosaliesRibbonCT",
           "Action": "AddMail Current stardewaly.rosalie_MarnieLetterForDinner now"
         }
 
@@ -91,7 +91,7 @@
 		"{{ModId}}_ShanexRosalieTherapyChangeEventTrigger": {
 			"Id": "Shane x Rosalie Therapy Change Event Trigger",
 			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieBus1, !DAY_OF_WEEK Monday",                
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieBus1, !DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapyChangeEventFlag received"
 		},
 
@@ -104,9 +104,6 @@
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneTherapyChange, DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy2Flag received"
 		},
-
-    
-
 
 //Rosalies Ribbon Quest Dialogue Trigger
 		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
@@ -179,7 +176,15 @@
 			"Trigger": "DayStarted",
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneSecondFirstKissEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieSecondFirstKissCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBouquetEventFlag received"
-		}
+		},
+
+    		"{{ModId}}_ShanexRosalieTheMermaidEventTrigger": {
+			"Id": "Shane x Rosalie The Mermaid Event Trigger",
+			"Trigger": "DayEnded",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieCandleEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_NPC.RosaliexShane, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, !SEASON Winter",
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTheMermaidEventTrigger received"
+			}
+
 
   
 

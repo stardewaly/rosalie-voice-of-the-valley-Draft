@@ -8,18 +8,18 @@
            
       "Rosalie.Daily_1": "Can't wait to watch another rerun of the Mortimer Rat Show!$1",
       "Rosalie.Daily_2": "$query !DAY_OF_WEEK Monday#I feel like a cat poster saying they hate Mondays...$3|I feel like a cat poster saying they hate Mondays...$3 #$b# Wait, what do you mean it's not Monday?!$6",
-      "Rosalie.Daily_3": "I feel like I was supposed to do something important today...$2 #$b# I feel so dumb... $1",
+      "Rosalie.Daily_3": "I feel like I was supposed to do something important today...$2 #$b# I feel so dumb...$1",
       "Rosalie.Daily_4": "I feel like I should be in bed by now... #$b# Then I'll be up all night again!$1",
       "Rosalie.Daily_5": "Don't tell Uncle Gus, but my siblings always said I made the best pancakes...$1 #$e# The secret is to cook it in lots of butter... #$e# and chocolate chips, of course!$1 #$e# How much chocolate chips? You measure with your heart, duh!$1",
       "Rosalie.Daily_6": "%Rosalie is humming a catchy theme song from an old sitcom",
       "Rosalie.Daily_7": "%Rosalie seems to be very focused on something right now... It's probably best not to disturb her.",
       "Rosalie.Daily_8": "%Rosalie is staring off into space... Again...",
       "Rosalie.Daily_9": "I wonder what Uncle Gus is cooking up in the kitchen...$0 #$b# I hope it's something good!$1",
-      "Rosalie.Daily_10": "Did I forget to take my meds today?...$2 #$b# Ugh, I hate when that happens...$2",
+      "Rosalie.Daily_10": "Did I forget to take my meds today?...$2 #$b# Ugh, I hate when that happens...$2 #$e# You know, they say that my medication is addictive, but I always forget to take it!$1",
       "Rosalie.Daily_11": "It's days like this I miss the old War Plane Museum...$2 #$b# I wish I had someone to go with...",
       "Rosalie.Daily_12": "I wonder how my sister is doing...$2 #$e# I worry about her sometimes...$2",
       "Rosalie.Daily_13": "%Rosalie appears to be not herself... perhaps it's best to leave her alone",
-      "Rosalie.Daily_14": "Can't you see I'm busy?!$5 #$e# I'm sorry, @... I was just... focused on something and... never mind... I'm sorry...$2#$e#%Rosalie is too embarassed to look at you.",
+      "Rosalie.Daily_14": "URG! Great!$5 #$b# I'm sorry, @... I was just... focused on something and... never mind... I'm sorry...$2#$e#%Rosalie is too embarassed to look at you.",
       "Rosalie.Daily_15": "%Rosalie sneezed and now appears to be cradling her left arm. #$e# ...$2",
       "Rosalie.Daily_16": "mmm grilled sans cheese for dinner...$1",
       "Rosalie.Daily_17": "%Rosalie nods to let you know she hears you, but cannot speak back.",
@@ -136,7 +136,32 @@
      "RosalieHate": "Wow... #$b# Um...$2 #$b# I know they say it's the thought that counts...$2 #$b# Don't think of me next time you gift this to someone...$3",
 
 
+"Rosalie_BirthdayIceCream": "How did you know I wanted to gorge on ice cream for my birthday?$8 #$b# Thank you so much!$1",
+"Rosalie_BirthdayChocolateCake": "...!$10 #$b# No one's ever surprised me on my birthday with a cake before... Thank you so much!$12",
+"Rosalie_BirthdayRoses": "How predictable of me, Rosalie loves roses! Thank you so much for the birthday gift!$1",
+"Rosalie_BirthdayLikes": "I can't believe someone remembered my birthday! Thank you so much!$1",
+"Rosalie_BirthdayDislikes": "Oh...$2 #$b# Um... Thank you for this... gift! You clearly put thought into it$1",
+"Rosalie_BirthdayNeutral": "You remembered my birthday! Thank you so much!$1",
+"Rosalie_BirthdayHates": "Wow... I never recieved *cheese* for my birthday before...$3 #$b# I thought you knew me better than that, @...$3",
+
+
+"Rosalie_AcceptGiftFlowers": "Aww how sweet! Thank you so much!$1",
+"Rosalie_AcceptGiftFairyRose": "$query PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_Rosalie6HeartEvent#You'd think I'd be over getting roses for someone named 'Rosalie', but I still love them!$1|You'd think I'd be over getting roses for someone named 'Rosalie', but I still love them!$1 #$e# It's partly why I love when Harvey calls me 'Rose'...$4 #$e# That which we call a rose by any other name would smell as sweet...$4",
+
+"Rosalie_AcceptGiftHome1": "Wow! It's just like something I'd get from home! Thank you so much!$1",
+"Rosalie_AcceptGiftHome2": "@! How did you know I was homesick? Thank you!$1",
+"Rosalie_AcceptGiftHomeMM": "*sniff* It smells just like home... thank you...$7",
+"Rosalie_AcceptGiftHomeCooking": "Have you been talking to my family lately? I can't wait to cook with this!$1 #$b# Though I doubt it'll be better than my mom's.$2",
+"Rosalie_AcceptGiftPie": "Call me basic if you want, I love the fall and pumpkin pie$9 #$b# Maybe it's a theatre kid thing...$7",
+"Rosalie_AcceptGiftCorn": "Hmm... I may have to get some butter from your farm! Or maybe, some coconut milk to make some ginataang mais!$1",
+"Rosalie_AcceptGiftCoffee": "I'm so sorry, I can only have decaf coffee...$2 #$b# But I can give it to Harvey, I'm sure he'd love it!",
+"Rosalie_AcceptGiftPepperPoppers": "$query PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent#I know these are Shane's favourite thing... I just can't stand the cheese...$3 #$b# I guess I'll let him know you were thinking of him.$3|Cheesey bar food... thanks...$2 #$e# I know I like pizza and it has cheese on it, I don't get it either...$2",
+"Rosalie_RejectGiftSoda": "No thank you. I know everyone loves this stuff, but I don't...$3",
+"Rosalie_RejectGiftRosaliesRibbon": "$query PLAYER_HAS_MAIL Current stardewaly.rosalie_Jas.RosaliesRibbon.Quest#It's really okay! Like I said, I have plenty at home! I don't mind if that little girl takes one!$1|I don't need your stolen goods.$3",
+
+
          //Relationship Responses//
+         "Rosalie_RejectBouquet": "$query !PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieKitchenLove#Sorry. I'm not emotionally available right now to date...$2 #$b# I hope you understand...$1|Sorry, I'm... not... ready to date yet anyone yet... I hope we can stay friends.$2",
     "divorced": "Oh... Okay...$2",
         "secondchance_Girls": "I feel so stupid for believing you...$5 #$b# In second chances...$5",
         "dumped_Girls": "Oh... I see... Okay... *sniff*$2",
@@ -177,15 +202,15 @@
 
 
         //Luau//
-        "RosalieLuau": "Note To Self: Duloxetine and the sun do not mix.$3 | I know I said that I was gonna skip on the Luau,#$b# But Uncle Gus Gus bribed me with my favoutire safe foods. #$b# Uncle of The Year Award, am I right?!$1",
+        "RosalieLuau": "Note To Self: Duloxetine and the sun do not mix.$3 | I know I said that I was gonna skip on the Luau,#$b# But Uncle Gus Gus bribed me with my favourite safe foods. #$b# Uncle of The Year Award, am I right?!$1",
 
         //Moonlight Jellies//
 
-        "RosalieJellies": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}_ShaneRosalieChildhoodFriendsJasEvent#I used to love the jellies as a kid. #$b# But when I met Shane, it meant we had to say goodbye... And I didn't know if he'd be coming back...$2 #$b# I'm really happy we don't need to worry about goodbyes anymore.$1|*sigh* I always thought this would be the perfect spot for a date...$4",
+        "RosalieJellies": "$query PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieChildhoodFriendsJasEvent#I used to love the jellies as a kid. #$b# But when I met Shane, it meant we had to say goodbye... And I didn't know if he'd be coming back...$2 #$b# I'm really happy we don't need to worry about goodbyes anymore.$1|*sigh* I always thought this would be the perfect spot for a date...$4",
 
         //Stardew Valley Fair//
 
-        "RosalieFallFair": "Words cannot describe how much I love the fall... #$e#You know, I was married in the fall...$2 #$b#But I'd do it again.$9",
+        "RosalieFallFair": "$c 0.13#You know, I was married in the fall, once...$2 #$b#But I'd do it again if I met the right person.$9|Words cannot describe how much I love the fall...",
 
         //Spirit's Eve//
 
@@ -340,12 +365,12 @@
 
 "Rosalie.RosalieKitchenLoveCT1": "%Rosalie is deep in thought #$e# Hm? Oh... sorry, did you say something, @?$1 #$b# Sorry, I'm just... distracted...$2",
 "Rosalie.RosalieKitchenLoveCT2": "I am in so much trouble...$6 #$e# I don't know how to tell him that I don't... I mean I can't...$6 #$b# Sorry, @, I need to figure this out myself... I should see if my sister is free to talk...$2",
-"Rosalie.RosalieKitchenLoveCT3": "Do you ever feel like you rely on another person too much?$2 #$b# I've had a lot of friends leave me over the years...$2 #$b# People change. Opinions change... Right and wrong changes... #$b# I even had to break off lifelong friendships during my divorce.#$b# Nothing lasts forever... Why open up if they're going to leave?$2 #$b# Why make connections? Why fall in love?$11 #$b# Sorry, I'm being over dramatic again!$10 #$e# I'm okay, really! I just need to get back on stage sometime and use this!$12",
+"Rosalie.RosalieKitchenLoveCT3": "Do you ever feel like you rely on another person too much?$2 #$b# I've had a lot of friends leave me over the years...$2 #$b# People change. Opinions change... Right and wrong changes... #$b# I even had to break off lifelong friendships during my divorce.$2#$b# Nothing lasts forever... Why open up if they're going to leave?$2 #$b# Why make connections? Why fall in love?$11 #$b# Sorry, I'm being over dramatic again!$10 #$e# I'm okay, really! I just need to get back on stage sometime and use this!$12",
 
 
     //Second First Kiss CT
       "Rosalie.RosaliexShaneSecondFirstKissCT": "Hey, @... Sorry, I'm not in the mood to talk right now...$11 #$b# I'll... talk to you later. Sorry...$2.#$e# No, I don't want to see Shane right now... I just... need some time to process things...$11",
-
+      "Rosalie.RosaliexShaneSecondFirstKissCT2": "%Rosalie doesn't seem to be in the mood to talk right now.",
 
 
 

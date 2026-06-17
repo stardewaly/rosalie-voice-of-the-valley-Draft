@@ -4,10 +4,10 @@
   
   {"LogName": "RosaliexShane Bus 1 Event",//Perfect, in exception to old bus is still there and can't go further down on camera view., could change so the map is actially on the bus
   "Action": "EditData",
-  "Target": "Data/Events/BusStop", //Maybe add a flag so that it only happens when it's when she leaves like a monday on top of the event... ALSO CHANGE CONDITION FOR BUS 2
+  "Target": "Data/Events/BusStop",
   "Entries":{
-    "stardewaly.rosalie_RosalieBus1/LocalMail stardewaly.rosalie_ShanexRosalieTherapy1Flag/Time 630 1200": "spring_day_ambient/23 16/farmer -100 -100 0 {{ModId}}_Rosalie 20 12 0 Shane 22 17 0/skippable/pause 1000/move Shane 0 -2 0/pause 500/emote Shane 16/speed Shane 5/move Shane 0 2 2/faceDirection Shane 2/shake Shane 200/pause 2000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy1Before6}}\"/pause 3000/faceDirection Shane 0/pause 1000/move Shane 0 -5 0/faceDirection Shane 0/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 500/emote {{ModId}}_Rosalie 40/pause 300/faceDirection {{ModId}}_Rosalie 0/pause 1000/faceDirection Shane 3/pause 500/emote Shane 40/pause 300/faceDirection Shane 0/globalFade/viewport -1000 -1000/pause 1000/playSound busDoorOpen/pause 1000/playsound busDriveOff/pause 5000/end/%addConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5",
-    "stardewaly.rosalie_RosalieBus2/LocalMail stardewaly.rosalie_ShanexRosalieTherapy2Flag/Time 630 1200": "spring_day_ambient/23 16/farmer -100 -100 0 {{ModId}}_Rosalie 20 12 0 Shane 22 17 0/skippable/pause 1000/move Shane 0 -2 0/pause 500/emote Shane 60/pause 1000/faceDirection {{ModId}}_Rosalie 2/pause 1000/faceDirection {{ModId}}_Rosalie 0/emote {{ModId}}_Rosalie 40/pause 2000/move Shane 0 -3 0/faceDirection Shane 0/pause 2000/faceDirection Shane 3/pause 500/faceDirection Shane 0/pause 1000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy2.1}}\"/pause 2000/faceDirection {{ModId}}_Rosalie 1/pause 2000/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieBusTherapy2.2}}\"/pause 2000/faceDirection Shane 3/pause 2000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy2.3}}\"/pause 3000/faceDirection {{ModId}}_Rosalie 0/pause 1000/emote Shane 60/faceDirection Shane 0/globalFade/viewport -1000 -1000/pause 1000/playSound busDoorOpen/pause 1000/playsound busDriveOff/pause 5000/mail {{ModId}}_Jas.RosaliesRibbon.Quest/end"
+    "stardewaly.rosalie_ShanexRosalieBus1/LocalMail stardewaly.rosalie_ShanexRosalieTherapy1Flag/Time 630 1200": "spring_day_ambient/23 16/farmer -100 -100 0 {{ModId}}_Rosalie 20 12 0 Shane 22 17 0/skippable/pause 1000/move Shane 0 -2 0/pause 500/emote Shane 16/speed Shane 5/move Shane 0 2 2/faceDirection Shane 2/shake Shane 200/pause 2000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy1Before6}}\"/pause 3000/faceDirection Shane 0/pause 1000/move Shane 0 -5 0/faceDirection Shane 0/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 500/emote {{ModId}}_Rosalie 40/pause 300/faceDirection {{ModId}}_Rosalie 0/pause 1000/faceDirection Shane 3/pause 500/emote Shane 40/pause 300/faceDirection Shane 0/globalFade/viewport -1000 -1000/pause 1000/playSound busDoorOpen/pause 1000/playsound busDriveOff/pause 5000/end/%addConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5",
+    "stardewaly.rosalie_ShanexRosalieBus2/LocalMail stardewaly.rosalie_ShanexRosalieTherapy2Flag/Time 630 1200": "spring_day_ambient/23 16/farmer -100 -100 0 {{ModId}}_Rosalie 20 12 0 Shane 22 17 0/skippable/pause 1000/move Shane 0 -2 0/pause 500/emote Shane 60/pause 1000/faceDirection {{ModId}}_Rosalie 2/pause 1000/faceDirection {{ModId}}_Rosalie 0/emote {{ModId}}_Rosalie 40/pause 2000/move Shane 0 -3 0/faceDirection Shane 0/pause 2000/faceDirection Shane 3/pause 500/faceDirection Shane 0/pause 1000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy2.1}}\"/pause 2000/faceDirection {{ModId}}_Rosalie 1/pause 2000/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieBusTherapy2.2}}\"/pause 2000/faceDirection Shane 3/pause 2000/textAboveHead Shane \"{{i18n:ShaneRosalieBusTherapy2.3}}\"/pause 3000/faceDirection {{ModId}}_Rosalie 0/pause 1000/emote Shane 60/faceDirection Shane 0/globalFade/viewport -1000 -1000/pause 1000/playSound busDoorOpen/pause 1000/playsound busDriveOff/pause 5000/end"
 
   }
 
@@ -35,8 +35,6 @@
 
 
 
-//When Jas holds up the ribbon, clips through her head. (if can't do this don't worry about it and just have her see it and say thanks)
-// Remove ribbon from inventory. 
 // Put down ribbon? (has shadow)
 // Jas does change in the event now (YAY) but it's not perminent afterward...
 //ADD A CT Afterward!
@@ -55,7 +53,7 @@
 
 
     {
-    "LogName": "Rosalies Ribbon Event Pt 2",
+    "LogName": "Rosalies Ribbon Event Pt 2 and Prologue of Ribbon Event",
   "Action": "EditData",
   "Target": "Data/Events/Town",
   "Entries":{
@@ -63,8 +61,12 @@
     //Works perfectly, but Rosalie keeps getting too close to him when she does move. Position offset but may need to me moved after she comes down stairs so it's less noticable, it's needed so she is shorter than him go shane our short king
 		
     
-    // *(made this event here for a video unsure to use it in the mod)"stardewaly.rosalie_RosalieandJas/Friendship Jas 50/Time 900 2300": "sprint_day_ambient/41 57/farmer -1000 -1000 0 {{ModId}}_Rosalie 41 57 0 Jas 41 61 0/fade/skippable/pause 1000/move Jas 0 -2 0/emote {{ModID}}_Rosalie 40/pause 300/emote Jas 20/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 100/jump Jas 6/pause 200/speed Jas 6/move Jas 0 6 2/emote {{ModId}}_Rosalie 8/pause 1000/playMusic none/addConversationTopic {{ModId}}_RosaliesRibbonCT 5"
- //debug ebi stardewaly.rosalie_RosalieandJas
+    // *(made this event here for a video unsure to use it in the mod)
+    //fine i'm gonna add it in now
+    
+  //NOT SURE IF THE LETTER WILL WORK SINCE IT DOESN'T EXIST AND WE DON'T HAVE A TRIGGER ACTION OR LETTER FOR IT OTHER THAN WHEN BUS #2 IS DONE
+    "stardewaly.rosalie_RosaliesRibbonPrologue/LocalMail stardewaly.rosalie_Jas.RosaliesRibbonPrologueFlag/Time 900 1600": "spring_day_ambient/41 57/farmer -1000 -1000 0 {{ModId}}_Rosalie 41 57 0 Jas 41 61 0/fade/skippable/pause 1000/move Jas 0 -2 0/emote {{ModID}}_Rosalie 40/pause 300/emote Jas 20/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 100/jump Jas 6/pause 200/speed Jas 6/move Jas 0 6 2/emote {{ModId}}_Rosalie 8/pause 1000/playMusic none/mail {{ModId}}_Jas.RosaliesRibbon.Quest/end"
+ //debug ebi stardewaly.rosalie_RosaliesRibbonPrologue
 
 
     }
@@ -140,9 +142,10 @@
   "Target": "Data/Events/AnimalShop",
   "Entries":{
 
-//Some pacing issues but easily fixable
-//Add some dialogue for CT ShaneRosalieKitchenLoveCT (only SHANE has it right now)
-    "stardewaly.rosalie_RosalieShaneKitchenLoveEvent/LocalMail stardewaly.rosalie_ShanexRosalieKitchenLoveEventFlag received/Time 1700 2000": "tinymusicbox/24 16/farmer -100 -100 0 Shane 21 17 1 {{ModId}}_Rosalie 25 15 0/positionOffset {{ModId}}_Rosalie 5 -10/pause 1000/skippable/move Shane 0 -2 1 true/move Shane 1 0 1 true/speak Shane \"{{i18n:ShaneRosalieKitchen.1}}\"/pause 200/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.2}}\"/move {{ModId}}_Rosalie 1 0 0 true/speak Shane \"{{i18n:ShaneRosalieKitchen.3}}\"/move Shane 1 0 1/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.4}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.5}}\"/pause 200/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.6}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.7}}\"/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.8}}\"/pause 200/faceDirection {{ModId}}_Rosalie 0/emote Shane 8/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.9}}\"/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.10}}\"/move Shane 1 0 1/speak Shane \"{{i18n:ShaneRosalieKitchen.11}}\"/pause 500/move {{ModId}}_Rosalie 2 0 1/emote {{ModId}}_Rosalie 28/pause 500/emote Shane 8/speak Shane \"{{i18n:ShaneRosalieKitchen.12}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.13}}\"/pause 400/faceDirection {{ModId}}_Rosalie 3/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.14}}\"/move {{ModId}}_Rosalie -1 0 3 true/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.15}}\"/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.16}}\"/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.17}}\"/pause 300/showFrame {{ModId}}_Rosalie 31/pause 200/move Shane 1 0 1 false/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.18}}\"/emote {{ModId}}_Rosalie 12/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.19}}\"/pause 400/faceDirection Shane 2/pause 200/showFrame Shane 19/pause 1000/speak Shane \"{{i18n:ShaneRosalieKitchen.20}}\"/pause 300/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.21}}\"/pause 500/showFrame Shane 0/faceDirection Shane 1/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.22}}\"/pause 400/faceDirection {{ModId}}_Rosalie 1/emote {{ModId}}_Rosalie 28/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.23}}\"/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.24}}\"/pause 200/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.25}}\"/pause 800/speak Shane \"{{i18n:ShaneRosalieKitchen.26}}\"/faceDirection {{ModId}}_Rosalie 3/emote {{ModId}}_Rosalie 36/pause 400/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.27}}\"/pause 1000/faceDirection {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 31/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.28}}\"/pause 800/faceDirection Shane 2/showFrame Shane 19/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.29}}\"/pause 400/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.30}}\"/pause 300/showFrame Shane 0/speak Shane \"{{i18n:ShaneRosalieKitchen.31}}\"/faceDirection Shane 1/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.32}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.33}}\"/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.34}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.35}}\"/emote {{ModId}}_Rosalie 16/pause 400/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.36}}\"/move {{ModId}}_Rosalie -1 0 3/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.37}}\"/emote Shane 32/pause 400/speak Shane \"{{i18n:ShaneRosalieKitchen.38}}\"/emote {{ModId}}_Rosalie 36/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.39}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.40}}\"/pause 200/faceDirection {{ModId}}_Rosalie 1/move {{ModId}}_Rosalie 1 0 1 true/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.41}}\"/move Shane 2 0 1 true/speak Shane \"{{i18n:ShaneRosalieKitchen.42}}\"/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.43}}\"/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.44}}\"/pause 400/faceDirection {{ModId}}_Rosalie 3/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.45}}\"/pause 300/faceDirection Shane 3/speak Shane \"{{i18n:ShaneRosalieKitchen.46}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.47}}\"/faceDirection Shane 1/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.48}}\"/positionOffset Shane 5 0/pause 100/positionOffset Shane 5 0/pause 100/showFrame Shane 27/positionOffset Shane 5 0/pause 300/positionOffset Shane 5 0/pause 500/positionOffset Shane 5 0/pause 800/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.50}}\"/pause 2500/textAboveHead Shane \"{{i18n:ShaneRosalieKitchen.51}}\"/pause 2500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.52}}\"/stopMusic/pause 300/showFrame Shane 0/faceDirection Shane 3/move Shane -2 0 3/pause 500/textAboveHead Shane \"{{i18n:ShaneRosalieKitchen.53}}\"/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 900/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.54}}\"/pause 400/emote Shane 40 true/emote {{ModId}}_Rosalie 40/pause 1500/faceDirection {{ModId}}_Rosalie 3/pause 800/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.55}}\"/emote Shane 12/pause 400/faceDirection Shane 1/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.56}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.57}}\"/faceDirection Shane 3/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.58}}\"/pause 300/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.59}}\"/pause 1000/globalFade/viewport -1000 -1000/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.60}}\"/pause 800/playSound doorClose/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.61}}\"/pause 1000/addConversationTopic {{ModId}}_ShaneRosalieKitchenLoveCT 8/end"
+//Some pacing issues and dialogue changes to be made but easily fixable
+//Made Shane have his hand out to really show the audience what he's trying to do, but it kind of looks like he's grabbin her boob lol not sure to keep it or not
+
+    "stardewaly.rosalie_RosalieShaneKitchenLoveEvent/LocalMail stardewaly.rosalie_ShanexRosalieKitchenLoveEventFlag received/Time 1700 2000": "tinymusicbox/24 16/farmer -100 -100 0 Shane 21 17 1 {{ModId}}_Rosalie 25 15 0/positionOffset {{ModId}}_Rosalie 5 -10/pause 1000/skippable/move Shane 0 -2 1 true/move Shane 1 0 1 true/speak Shane \"{{i18n:ShaneRosalieKitchen.1}}\"/pause 200/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.2}}\"/move {{ModId}}_Rosalie 1 0 0 true/speak Shane \"{{i18n:ShaneRosalieKitchen.3}}\"/move Shane 1 0 1/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.4}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.5}}\"/pause 200/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.6}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.7}}\"/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.8}}\"/pause 200/faceDirection {{ModId}}_Rosalie 0/emote Shane 8/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.9}}\"/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.10}}\"/move Shane 1 0 1/speak Shane \"{{i18n:ShaneRosalieKitchen.11}}\"/pause 500/move {{ModId}}_Rosalie 2 0 1/emote {{ModId}}_Rosalie 28/pause 500/emote Shane 8/speak Shane \"{{i18n:ShaneRosalieKitchen.12}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.13}}\"/pause 400/faceDirection {{ModId}}_Rosalie 3/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.14}}\"/move {{ModId}}_Rosalie -1 0 3 true/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.15}}\"/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.16}}\"/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.17}}\"/pause 300/showFrame {{ModId}}_Rosalie 31/pause 200/move Shane 1 0 1 false/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.18}}\"/emote {{ModId}}_Rosalie 12/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.19}}\"/pause 400/faceDirection Shane 2/pause 200/showFrame Shane 19/pause 1000/speak Shane \"{{i18n:ShaneRosalieKitchen.20}}\"/pause 300/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.21}}\"/pause 500/showFrame Shane 0/faceDirection Shane 1/pause 200/speak Shane \"{{i18n:ShaneRosalieKitchen.22}}\"/pause 400/faceDirection {{ModId}}_Rosalie 1/emote {{ModId}}_Rosalie 28/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.23}}\"/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.24}}\"/pause 200/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.25}}\"/pause 800/speak Shane \"{{i18n:ShaneRosalieKitchen.26}}\"/faceDirection {{ModId}}_Rosalie 3/emote {{ModId}}_Rosalie 36/pause 400/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.27}}\"/pause 1000/faceDirection {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 31/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.28}}\"/pause 800/faceDirection Shane 2/showFrame Shane 19/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.29}}\"/pause 400/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 3/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.30}}\"/pause 300/showFrame Shane 0/speak Shane \"{{i18n:ShaneRosalieKitchen.31}}\"/faceDirection Shane 1/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.32}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.33}}\"/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.34}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.35}}\"/emote {{ModId}}_Rosalie 16/pause 400/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.36}}\"/move {{ModId}}_Rosalie -1 0 3/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.37}}\"/emote Shane 32/pause 400/speak Shane \"{{i18n:ShaneRosalieKitchen.38}}\"/emote {{ModId}}_Rosalie 36/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.39}}\"/speak Shane \"{{i18n:ShaneRosalieKitchen.40}}\"/pause 200/faceDirection {{ModId}}_Rosalie 1/move {{ModId}}_Rosalie 1 0 1 true/pause 200/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.41}}\"/move Shane 2 0 1 true/speak Shane \"{{i18n:ShaneRosalieKitchen.42}}\"/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.43}}\"/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.44}}\"/pause 400/faceDirection {{ModId}}_Rosalie 3/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.45}}\"/pause 300/faceDirection Shane 3/speak Shane \"{{i18n:ShaneRosalieKitchen.46}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.47}}\"/faceDirection Shane 1/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.48}}\"/positionOffset Shane 5 0 true/pause 100/positionOffset Shane 5 0 true/pause 100/showFrame Shane 26/positionOffset Shane 5 0 true/pause 300/positionOffset Shane 5 0/pause 500/positionOffset Shane 5 0/pause 800/textAboveHead {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.50}}\"/pause 2500/textAboveHead Shane \"{{i18n:ShaneRosalieKitchen.51}}\"/pause 2500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.52}}\"/stopMusic/pause 300/showFrame Shane 0/faceDirection Shane 3/move Shane -2 0 3/pause 500/textAboveHead Shane \"{{i18n:ShaneRosalieKitchen.53}}\"/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 900/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.54}}\"/pause 400/emote Shane 40 true/emote {{ModId}}_Rosalie 40/pause 1500/faceDirection {{ModId}}_Rosalie 3/pause 800/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.55}}\"/emote Shane 12/pause 400/faceDirection Shane 1/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.56}}\"/pause 500/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.57}}\"/faceDirection Shane 3/pause 300/speak Shane \"{{i18n:ShaneRosalieKitchen.58}}\"/pause 300/pause 300/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.59}}\"/pause 1000/globalFade/viewport -1000 -1000/speak {{ModId}}_Rosalie \"{{i18n:ShaneRosalieKitchen.60}}\"/pause 800/playSound doorClose/pause 500/speak Shane \"{{i18n:ShaneRosalieKitchen.61}}\"/pause 1000/addConversationTopic {{ModId}}_ShaneRosalieKitchenLoveCT 8/end"
   }
     },
 
@@ -154,34 +157,417 @@
   "Target": "Data/Events/Forest",
   "Entries":{
 
-    "stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent/LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"You can't avoid me forever, Shane!$3 #$b# We're not kids anymore, if I did something wrong you need to tell me!$5 #$b# You can't just act all broody and expect me to go away!$5\"/pause 500/emote Shane 40/speak {{ModId}}_Rosalie \"If you won't tell me what's wrong, then fine.$3 #$b# I'm mad at you anyway for lying to me.$5\"/jump Shane 5/pause 300/faceDirection Shane 3/pause 200/speak Shane \"What on earth did I do? Besides exist, I mean.$5\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 10/viewport 7 6/pause 100/advancedMove Shane false 0 -4 -2 0 3 100/warp {{ModId}}_Rosalie 3 8/advancedMove {{ModId}}_Rosalie false 0 -2 1 100/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/pause 4000/faceDirection Shane 1/emote Shane 40/pause 400/speak {{ModId}}_Rosalie \"Farm Boy, I need to talk to you... Why are you avoiding me?$2\"/pause 200/move chicken5 0 1 2 true/speak Shane \"I'm not. I just... have a lot on my mind...$3\"/pause 500/move chicken1 0 1 2 true/pause 1000/textAboveHead Shane \"I um...\"/pause 2000/faceDirection Shane 3/pause 500/speak Shane \"They really liked the video essay we made last year.$3 #$b# I finally got the scholarship...  I go to gridball camp tomorrow.$6\"/pause 300/jump {{ModId}}_Rosalie 5/emote {{ModId}}_Rosalie 16/advancedMove {{ModId}}_Rosalie false 2 0 1 100/speak {{ModId}}_Rosalie \"That's amazing! Congratulations! I'm really happy for you, Farm Boy!$1 #$b# Wait, why didn't you tell me sooner? Why have you avoided me with this news?$2\"/faceDirection Shane 1/pause 200/emote Shane 12/pause 200/move chicken3 0 1 2 true/speak {{ModId}}_Rosalie \"Who told you?$2 #$b# Was it my sister? My brother?$2 #$b# Summer just started, you knew you were only going to be at Marnie's for a week, and you've been avoiding me because of that?!$5\"/pause 200/faceDirection Shane 3/move chicken3 0 -1 0 true/pause 100/move chicken4 0 -1 0 true/pause 100/move chicken2 -1 0 2 true/move chicken3 0 1 2 true/move chicken4 -1 0 3 true/move chicken3 1 0 1 true/move chicken2 1 0 1 true/speak Shane \"What's the point? You're moving away.$3\"/stopAdvancedMoves/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changeSprite Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 92 22/warp {{ModId}}_Rosalie 88 22/viewport 92 23/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"You have been avoiding me for days. Acting like I don't exist.$2 #$b# I thought maybe you needed space, or you broke your sobriety and didn't want to tell me...$6 #$b# Then I run into Marnie, and I ask how you are,$2 #$b# And she mentions that you talked about the day I left when Jas got the ribbon from @.$3 #$b# Why did you pretend you didn't remember?$5\"/pause 200/speak Shane \"It wouldn't have mattered...$3 #$b# You said you regretted it. So, I might as well forget what happened.\"/jump {{ModId}}_Rosalie 5/textAboveHead {{ModId}}_Rosalie \"WHAT?!\"/pause 1200/speak {{ModId}}_Rosalie \"I never said I regretted it!$5\"/pause 200/advancedMove Shane false -1 0 3 100/pause 100/speak Shane \"Then why did you apologize? Why did you apologize for the last moment we had together?$5\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp {{ModId}}_Rosalie 5 6/warp Shane 8 6/faceDirection Shane 3/showFrame {{ModId}}_Rosalie 19/fade/viewport 7 6/pause 1000/jump Shane 4/speak Shane \"You're leaving right now?!$7\"/emote {{ModId}}_Rosalie 28/move chicken4 0 2 0 true/move chicken1 -1 0 3 true/pause 400/speak {{ModId}}_Rosalie \"Yeah... My parents just let me stop by to say goodbye...$2 #$b# My dad's getting anxious about the war. And my mom wants to help out, but in the meantime... We're not safe...$2 #$b# We need to go as soon as possible for me and my siblings to enroll in the fall...$2\"/pause 300/faceDirection Shane 2/showFrame Shane 19/move chicken4 1 0 0 true/emote Shane 28/move chicken2 1 0 0 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 200/move {{ModId}}_Rosalie 2 0 1 true/speak {{ModId}}_Rosalie \"It's okay, we planned for this anyway, right? #$b# You get into Gridball camp, and you don't have to be Marnie's farm boy anymore. #$b# That was the plan since we met, what we spent the last three summers doing. We got creative and you got the scholarship! #$b# This was what you wanted!$1\"/pause 200/showFrame Shane 0/faceDirection Shane 3/pause 200/speak Shane \"It wasn't supposed to be like this, Rosa...$2 #$b# Yeah, if I got in, I wouldn't see you but...$2 #$b# We at least had high school...$3 #$b# This is... forever...$2\"/pause 200/speak {{ModId}}_Rosalie \"No, no it's not!$1 #$b# Maybe I'll try to convince my parents to come back in the summer and we-$1\"/pause 200/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/textAboveHead Shane \"Rosa...\"/pause 1200/faceDirection Shane 3/pause 200/speak Shane \"Let's be real. The war won't be over by next summer... #$b# Even if it was, I won't be here...$2\"/faceDirection Shane 1/pause 500/speak Shane \"You're right... it'll be fine.$1 #$b# You're gonna move across the sea, make new friends. I'm going to camp. I'm gonna make new friends, too. #$b# Then...$3 #$b# Then we'll forget about each other...$2\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 91 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/faceDirection Shane 2/showFrame Shane 19/speak Shane \"Rosa...$2 #$b# I can't do this... We... can't be friends anymore...$2\"/emote {{ModId}}_Rosalie 8/pause 300/speak {{ModId}}_Rosalie \"I don't understand...$6 #$b# All I did was apologize about assaulting you.$6\"/speak Shane \"Well, it didn't feel like you assaulted me!$11\"/jump {{ModId}}_Rosalie 5/speak {{ModId}}_Rosalie \"But I did, Shane!$2 #$b# You didn't like me like that!$11\"/speed Shane 5/advancedMove Shane false -2 0 3 100/pause 200/speak Shane \"How do you know, Rosalie?$5 #$b# God, for someone so smart, you can be so dense!$5 #$b# Did you ever think that maybe I *did* like you like that?!$5 #$b# And maybe I just...$11 #$b#...couldn't tell you...$2\"/emote {{ModId}}_Rosalie 16/speak {{ModId}}_Rosalie \"You... you did?$10\"/pause 800/faceDirection Shane 1/textAboveHead Shane \"*sigh*\"/pause 1200/speak Shane \"Look, we were like, 12 when it happened. We're adults now.$3 #$b# And even if you stayed then. Even if we went to the same high school. #$b# Nothing would change. I would still be here. You'd still be here.$2 #$b# It doesn't matter. None of this matters.$11\"/speak {{ModId}}_Rosalie \"You're right, it doesn't matter... But only because we can't change what happened.$3 #$b# We can't control our destinies, Farm Boy. But we can control what we choose to do now.$3 #$b# And right now, you're choosing to lose me.$6\"/textAboveHead Shane \"*scoff*\"/pause 1200/speak Shane \"I'm not *choosing* to lose you, Rosa. I'm letting you go.\"/pause 300/faceDirection {{ModId}}_Rosalie 3/pause 500/shake {{ModId}}_Rosalie 1000/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 400/speed Shane 3/speak {{ModId}}_Rosalie \"Fine. I lost you once, Farm Boy...$3 #$b# I'll leave if that will make you happy. If that's what you want.$3\"/pause 200/faceDirection Shane 3/speak Shane \"What I *want*? It doesn't matter what I want!$5\"/faceDirection Shane 1/advancedMove Shane false 1 0 1 100/pause 200/speak Shane \"You know what I was trying to do in the kitchen the other night.$3 #$b# But I'm glad you pushed me away.$3 #$b# You're right to be scared... I'm a disaster, Rosa...$2 #$b# You can't deny that your ex and I have things in common...$2 #$b# Our anxiety, depression, our vices...$2 #$b# I know you said we're different, but I don't want to put anyone through that... Least of all, you...$11 #$b# I can't do this. Not when I know how this ends.\"/faceDirection {{ModId}}_Rosalie 1/pause 200/speak {{ModId}}_Rosalie \"How does this end, Shane? And don't get all self sacrificing on me.$3 #$b# You're not being noble by pushing me away. This only ends if you want it to.$3\"/pause 100/faceDirection Shane 3/pause 300/speak Shane \"No, it doesn't.$5 #$b# *You* chose to end things with your husband. You *wanted* things to end with you two! *He* wouldn't let you go!$5 #$b# So don't act like I'm the only one who has a choice!$5\"/speak {{ModId}}_Rosalie \"...$8\"/pause 500/faceDirection {{ModId}}_Rosalie 3/pause 300/shake {{ModId}}_Rosalie 2000/emote {{ModId}}_Rosalie 12/pause 400/emote Shane 28/speed Shane 2/advancedMove Shane false -1 0 3 100/speak Shane \"Rosa... I'm ... I'm so sorry... I didn't mean-$10\"/pause 1000/speak {{ModId}}_Rosalie \"I never would have let myself get close to you again if I thought you were *anything* like him, Farm Boy.$5 #$b# I wanted a friend. Someone I could talk to outside of my family and friends who knew him.$2 #$b# Someone who worked to better himself. Every day... with or without me.$3\"/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/advancedMove {{ModId}}_Rosalie false 1 0 1 100/speak {{ModId}}_Rosalie \"I would have loved Romeo for the rest of my life. I was ready to subject myself to a life of pain and misery.$3#$b# Just because I loved him that much.$6 #$b# But, Farm Boy, if all you're seeing is how things will fail, it *will* fail.$6 #$b# Trust me, I brace for impact every day.$11\"/speed Shane 3/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 6/faceDirection Shane 1/warp {{ModId}}_Rosalie 9 6/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I won't forget you Farm Boy. I can't. I won't.$3\"/faceDirection Shane 3/speak Shane \"What makes you so sure?$2 #$b# We both knew this was going to end. It always does.$3 #$b# The jellies return, and with luck... I won't be back.$2 #$b# And neither will you.$2\"/move chicken3 0 1 2 true/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changeSprite Shane/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 89 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 90 23/pause 1000/speak {{ModId}}_Rosalie \"Maybe you're right to forget about me...$2 #$b# Forget me, forget what happened when we were twelve, just forget all of it...$2\"/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 300/showFrame {{ModId}}_Rosalie 31/pause 1000/speak {{ModId}}_Rosalie \"I... I'm gonna leave...$11\"/speak Shane \"Are you leaving the ranch or leaving the valley?$3\"/pause 500/speed {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 0/pause 200/advancedMove {{ModId}}_Rosalie false 0 3 2 100/pause 500/textAboveHead Shane \"Wait!\"/pause 1000/speed Shane 5/advancedMove Shane false 0 3 3 100/faceDirection {{ModId}}_Rosalie 1/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/warp Shane 10 6/warp {{ModId}}_Rosalie 9 6/faceDirection {{ModId}}_Rosalie 1/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie 15 -5/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I have to go... My family is waiting for me...$2 #$b# I'm *never* going to forget you, Farm Boy...$2\"/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 300/emote {{ModId}}_Rosalie 40/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"And I... won't forget this...$4\"/emote Shane 8/speed {{ModId}}_Rosalie 4/advancedMove {{ModId}}_Rosalie false 1 0 1 100/pause 500/showFrame {{ModId}}_Rosalie 16/positionOffset Shane -20 0 true/showFrame Shane 18/pause 800/positionOffset Shane -5 0 true/showFrame Shane 16/pause 2000/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/positionOffset Shane 23 0 true/showFrame Shane 0/faceDirection Shane 3/pause 1000/faceDirection {{ModId}}_Rosalie 1/stopAdvancedMoves/speak Shane \"...$7\"/speed {{ModId}}_Rosalie 3/pause 1500/ignoreCollisions {{ModId}}_Rosalie/move {{ModId}}_Rosalie -6 0 3/advancedMove {{ModId}}_Rosalie false 0 2 2 1000/textAboveHead Shane \"Rosa! I...\"/speed {{ModId}}_Rosalie 4/advancedMove Shane false -2 0 3 100/pause 1000/warp {{ModId}}_Rosalie -100 -100/playSound doorClose/pause 2500/emote Shane 20/pause 1000/shake Shane 1500/fade/viewport -1000 -1000/warp Shane -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 90 25/warp {{ModId}}_Rosalie 89 25/faceDirection Shane 3/positionOffset Shane -8 0/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/speed Shane 4/positionOffset Shane -10 5 true/showFrame Shane 34/positionOffset {{ModId}}_Rosalie 10 -5 true/pause 500/showFrame {{ModId}}_Rosalie 27/pause 500/showFrame {{ModId}}_Rosalie 28/pause 2500/showFrame Shane 0/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie -10 5 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 500/speak {{ModId}}_Rosalie \"...$10\"/pause 1500/speed {{ModId}}_Rosalie 5/pause 200/advancedMove {{ModId}}_Rosalie false 20 0 1 100/faceDirection Shane 1/pause 1000/advancedMove Shane false 3 0 1 100/textAboveHead Shane \"Rosa! I-\"/pause 5000/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/fade/viewport -1000 -1000/pause 1000/speed {{ModId}}_Rosalie 3/speed Shane 3/end"
+//patch reload stardewaly.rosalie
+    //debug ebi stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent
+    
+"stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent/LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.0}}\"/pause 500/emote Shane 40/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.1}}\"/jump Shane 5/pause 300/faceDirection Shane 3/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.2}}\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 10/viewport 7 6/pause 100/advancedMove Shane false 0 -4 -2 0 3 100/warp {{ModId}}_Rosalie 3 8/advancedMove {{ModId}}_Rosalie false 0 -2 1 100/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/pause 4000/faceDirection Shane 1/emote Shane 40/pause 400/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.3}}\"/pause 200/move chicken5 0 1 2 true/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.4}}\"/pause 500/move chicken1 0 1 2 true/pause 1000/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.5}}\"/pause 2000/faceDirection Shane 3/pause 500/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.6}}\"/pause 300/jump {{ModId}}_Rosalie 5/emote {{ModId}}_Rosalie 16/advancedMove {{ModId}}_Rosalie false 2 0 1 100/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.7}}\"/faceDirection Shane 1/pause 200/emote Shane 12/pause 200/move chicken3 0 1 2 true/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.8}}\"/pause 200/faceDirection Shane 3/move chicken3 0 -1 0 true/pause 100/move chicken4 0 -1 0 true/pause 100/move chicken2 -1 0 2 true/move chicken3 0 1 2 true/move chicken4 -1 0 3 true/move chicken3 1 0 1 true/move chicken2 1 0 1 true/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.9}}\"/stopAdvancedMoves/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changeSprite Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 92 22/warp {{ModId}}_Rosalie 88 22/viewport 92 23/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.10}}\"/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.11}}\"/jump {{ModId}}_Rosalie 5/textAboveHead {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.12}}\"/pause 1200/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.13}}\"/pause 200/advancedMove Shane false -1 0 3 100/pause 100/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.14}}\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp {{ModId}}_Rosalie 5 6/warp Shane 8 6/faceDirection Shane 3/showFrame {{ModId}}_Rosalie 19/fade/viewport 7 6/pause 1000/jump Shane 4/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.15}}\"/emote {{ModId}}_Rosalie 28/move chicken4 0 2 0 true/move chicken1 -1 0 3 true/pause 400/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.16}}\"/pause 300/faceDirection Shane 2/showFrame Shane 19/move chicken4 1 0 0 true/emote Shane 28/move chicken2 1 0 0 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 200/move {{ModId}}_Rosalie 2 0 1 true/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.17}}\"/pause 200/showFrame Shane 0/faceDirection Shane 3/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.18}}\"/pause 200/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.19}}\"/pause 200/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.20}}\"/pause 1200/faceDirection Shane 3/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.21}}\"/faceDirection Shane 1/pause 500/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.22}}\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 91 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/faceDirection Shane 2/showFrame Shane 19/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.23}}\"/emote {{ModId}}_Rosalie 8/pause 300/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.24}}\"/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.25}}\"/jump {{ModId}}_Rosalie 5/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.26}}\"/speed Shane 5/advancedMove Shane false -2 0 3 100/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.27}}\"/emote {{ModId}}_Rosalie 16/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.28}}\"/pause 800/faceDirection Shane 1/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.29}}\"/pause 1200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.30}}\"/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.31}}\"/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.32}}\"/pause 1200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.33}}\"/pause 300/faceDirection {{ModId}}_Rosalie 3/pause 500/shake {{ModId}}_Rosalie 1000/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 400/speed Shane 3/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.34}}\"/pause 200/faceDirection Shane 3/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.35}}\"/faceDirection Shane 1/advancedMove Shane false 1 0 1 100/pause 200/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.36}}\"/faceDirection {{ModId}}_Rosalie 1/pause 200/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.37}}\"/pause 100/faceDirection Shane 3/pause 300/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.38}}\"/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.39}}\"/pause 500/shake {{ModId}}_Rosalie 1000/faceDirection {{ModId}}_Rosalie 3/shake {{ModId}}_Rosalie 5000/emote {{ModId}}_Rosalie 12/pause 400/emote Shane 28/speed Shane 2/advancedMove Shane false -1 0 3 100/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.40}}\"/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.41}}\"/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/advancedMove {{ModId}}_Rosalie false 1 0 1 100/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.42}}\"/speed Shane 3/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 8 6/faceDirection Shane 1/warp {{ModId}}_Rosalie 7 6/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.43}}\"/faceDirection Shane 3/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.44}}\"/move chicken3 0 1 2 true/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changeSprite Shane/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 89 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 90 23/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.45}}\"/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 300/showFrame {{ModId}}_Rosalie 31/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.46}}\"/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.47}}\"/pause 500/speed {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 0/pause 200/advancedMove {{ModId}}_Rosalie false 0 3 2 100/pause 500/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.48}}\"/pause 1000/speed Shane 5/advancedMove Shane false 0 3 3 100/faceDirection {{ModId}}_Rosalie 1/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/warp Shane 8 6/warp {{ModId}}_Rosalie 7 6/faceDirection {{ModId}}_Rosalie 1/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie 15 -5/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.49}}\"/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 300/emote {{ModId}}_Rosalie 40/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.50}}\"/emote Shane 8/speed {{ModId}}_Rosalie 3/advancedMove {{ModId}}_Rosalie false 1 0 1 100/pause 500/showFrame {{ModId}}_Rosalie 16/positionOffset Shane -20 0 true/showFrame Shane 18/pause 800/positionOffset Shane -5 0 true/showFrame Shane 16/pause 2000/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/positionOffset Shane 23 0 true/showFrame Shane 0/faceDirection Shane 3/pause 1000/faceDirection {{ModId}}_Rosalie 1/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.51}}\"/pause 1500/pause 1000/fade/viewport -1000 -1000/warp {{ModId}}_Rosalie -100 -100/speak Shane \"{{i18n:RosalieShaneSecondFirstKiss.52}}\"/playSound doorClose/fade/viewport 7 6/pause 2500/emote Shane 20/pause 1000/shake Shane 1500/fade/viewport -1000 -1000/warp Shane -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 90 25/warp {{ModId}}_Rosalie 89 25/faceDirection Shane 3/positionOffset Shane -8 0/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/speed Shane 4/positionOffset Shane -10 5 true/showFrame Shane 34/positionOffset {{ModId}}_Rosalie 10 -5 true/pause 500/showFrame {{ModId}}_Rosalie 27/pause 500/showFrame {{ModId}}_Rosalie 28/pause 2500/showFrame Shane 0/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie -10 5 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 500/speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneSecondFirstKiss.53}}\"/pause 1500/speed {{ModId}}_Rosalie 5/pause 200/advancedMove {{ModId}}_Rosalie false 20 0 1 100/faceDirection Shane 1/pause 1000/advancedMove Shane false 3 0 1 100/textAboveHead Shane \"{{i18n:RosalieShaneSecondFirstKiss.54}}\"/pause 5000/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/globalFade/viewport -1000 -1000/pause 1000/speed {{ModId}}_Rosalie 3/speed Shane 3/AddConversationTopic {{ModId}}_RosalieShaneSecondFirstKissCT 3/end"
 
-//changed position of the chicken on 7 7 before its last warp just in case that is the one that is in the way
-//HAVEN'T TESTED May 31/26
+//*******(without i18n below)************//
+    
+    /*"stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent/LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"You can't avoid me forever, Shane!$3 #$b# We're not kids anymore, if I did something wrong you need to tell me!$5 #$b# You can't just act all broody and expect me to go away!$5\"/pause 500/emote Shane 40/speak {{ModId}}_Rosalie \"If you won't tell me what's wrong, then fine.$3 #$b# I'm mad at you anyway for lying to me.$5\"/jump Shane 5/pause 300/faceDirection Shane 3/pause 200/speak Shane \"What on earth did I do? Besides exist, I mean.$5\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 10/viewport 7 6/pause 100/advancedMove Shane false 0 -4 -2 0 3 100/warp {{ModId}}_Rosalie 3 8/advancedMove {{ModId}}_Rosalie false 0 -2 1 100/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/pause 4000/faceDirection Shane 1/emote Shane 40/pause 400/speak {{ModId}}_Rosalie \"Farm Boy, I need to talk to you... Why are you avoiding me?$2\"/pause 200/move chicken5 0 1 2 true/speak Shane \"I'm not. I just... have a lot on my mind...$3\"/pause 500/move chicken1 0 1 2 true/pause 1000/textAboveHead Shane \"I um...\"/pause 2000/faceDirection Shane 3/pause 500/speak Shane \"They really liked the video essay we made last year.$3 #$b# I finally got the scholarship...  I go to gridball camp tomorrow.$6\"/pause 300/jump {{ModId}}_Rosalie 5/emote {{ModId}}_Rosalie 16/advancedMove {{ModId}}_Rosalie false 2 0 1 100/speak {{ModId}}_Rosalie \"That's amazing! Congratulations! I'm really happy for you, Farm Boy!$1 #$b# Wait, why didn't you tell me sooner? Why have you avoided me with this news?$2\"/faceDirection Shane 1/pause 200/emote Shane 12/pause 200/move chicken3 0 1 2 true/speak {{ModId}}_Rosalie \"Who told you?$2 #$b# Was it my sister? My brother?$2 #$b# Summer just started, you knew you were only going to be at Marnie's for a week, and you've been avoiding me because of that?!$5\"/pause 200/faceDirection Shane 3/move chicken3 0 -1 0 true/pause 100/move chicken4 0 -1 0 true/pause 100/move chicken2 -1 0 2 true/move chicken3 0 1 2 true/move chicken4 -1 0 3 true/move chicken3 1 0 1 true/move chicken2 1 0 1 true/speak Shane \"What's the point? You're moving away.$3\"/stopAdvancedMoves/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changeSprite Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 92 22/warp {{ModId}}_Rosalie 88 22/viewport 92 23/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"You have been avoiding me for days. Acting like I don't exist.$2 #$b# I thought maybe you needed space, or you broke your sobriety and didn't want to tell me...$6 #$b# Then I run into Marnie, and I ask how you are,$2 #$b# And she mentions that you talked about the day I left when Jas got the ribbon from @.$3 #$b# Why did you pretend you didn't remember?$5\"/pause 200/speak Shane \"It wouldn't have mattered...$3 #$b# You said you regretted it. So, I might as well forget what happened.\"/jump {{ModId}}_Rosalie 5/textAboveHead {{ModId}}_Rosalie \"WHAT?!\"/pause 1200/speak {{ModId}}_Rosalie \"I never said I regretted it!$5\"/pause 200/advancedMove Shane false -1 0 3 100/pause 100/speak Shane \"Then why did you apologize? Why did you apologize for the last moment we had together?$5\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changeSprite Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp {{ModId}}_Rosalie 5 6/warp Shane 8 6/faceDirection Shane 3/showFrame {{ModId}}_Rosalie 19/fade/viewport 7 6/pause 1000/jump Shane 4/speak Shane \"You're leaving right now?!$7\"/emote {{ModId}}_Rosalie 28/move chicken4 0 2 0 true/move chicken1 -1 0 3 true/pause 400/speak {{ModId}}_Rosalie \"Yeah... My parents just let me stop by to say goodbye...$2 #$b# My dad's getting anxious about the war. And my mom wants to help out, but in the meantime... We're not safe...$2 #$b# We need to go as soon as possible for me and my siblings to enroll in the fall...$2\"/pause 300/faceDirection Shane 2/showFrame Shane 19/move chicken4 1 0 0 true/emote Shane 28/move chicken2 1 0 0 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 200/move {{ModId}}_Rosalie 2 0 1 true/speak {{ModId}}_Rosalie \"It's okay, we planned for this anyway, right? #$b# You get into Gridball camp, and you don't have to be Marnie's farm boy anymore. #$b# That was the plan since we met, what we spent the last three summers doing. We got creative and you got the scholarship! #$b# This was what you wanted!$1\"/pause 200/showFrame Shane 0/faceDirection Shane 3/pause 200/speak Shane \"It wasn't supposed to be like this, Rosa...$2 #$b# Yeah, if I got in, I wouldn't see you but...$2 #$b# We at least had high school...$3 #$b# This is... forever...$2\"/pause 200/speak {{ModId}}_Rosalie \"No, no it's not!$1 #$b# Maybe I'll try to convince my parents to come back in the summer and we-$1\"/pause 200/move chicken5 -1 0 2 true/pause 100/move chicken2 3 0 1 true/pause 100/move chicken4 0 1 2 true/textAboveHead Shane \"Rosa...\"/pause 1200/faceDirection Shane 3/pause 200/speak Shane \"Let's be real. The war won't be over by next summer... #$b# Even if it was, I won't be here...$2\"/faceDirection Shane 1/pause 500/speak Shane \"You're right... it'll be fine.$1 #$b# You're gonna move across the sea, make new friends. I'm going to camp. I'm gonna make new friends, too. #$b# Then...$3 #$b# Then we'll forget about each other...$2\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 91 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/faceDirection Shane 2/showFrame Shane 19/speak Shane \"Rosa...$2 #$b# I can't do this... We... can't be friends anymore...$2\"/emote {{ModId}}_Rosalie 8/pause 300/speak {{ModId}}_Rosalie \"I don't understand...$6 #$b# All I did was apologize about assaulting you.$6\"/speak Shane \"Well, it didn't feel like you assaulted me!$11\"/jump {{ModId}}_Rosalie 5/speak {{ModId}}_Rosalie \"But I did, Shane!$2 #$b# You didn't like me like that!$11\"/speed Shane 5/advancedMove Shane false -2 0 3 100/pause 200/speak Shane \"How do you know, Rosalie?$5 #$b# God, for someone so smart, you can be so dense!$5 #$b# Did you ever think that maybe I *did* like you like that?!$5 #$b# And maybe I just...$11 #$b#...couldn't tell you...$2\"/emote {{ModId}}_Rosalie 16/speak {{ModId}}_Rosalie \"You... you did?$10\"/pause 800/faceDirection Shane 1/textAboveHead Shane \"*sigh*\"/pause 1200/speak Shane \"Look, we were like, 12 when it happened. We're adults now.$3 #$b# And even if you stayed then. Even if we went to the same high school. #$b# Nothing would change. I would still be here. You'd still be here.$2 #$b# It doesn't matter. None of this matters.$11\"/speak {{ModId}}_Rosalie \"You're right, it doesn't matter... But only because we can't change what happened.$3 #$b# We can't control our destinies, Farm Boy. But we can control what we choose to do now.$3 #$b# And right now, you're choosing to lose me.$6\"/textAboveHead Shane \"*scoff*\"/pause 1200/speak Shane \"I'm not *choosing* to lose you, Rosa. I'm letting you go.\"/pause 300/faceDirection {{ModId}}_Rosalie 3/pause 500/shake {{ModId}}_Rosalie 1000/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 400/speed Shane 3/speak {{ModId}}_Rosalie \"Fine. I lost you once, Farm Boy...$3 #$b# I'll leave if that will make you happy. If that's what you want.$3\"/pause 200/faceDirection Shane 3/speak Shane \"What I *want*? It doesn't matter what I want!$5\"/faceDirection Shane 1/advancedMove Shane false 1 0 1 100/pause 200/speak Shane \"You know what I was trying to do in the kitchen the other night.$3 #$b# But I'm glad you pushed me away.$3 #$b# You're right to be scared... I'm a disaster, Rosa...$2 #$b# You can't deny that your ex and I have things in common...$2 #$b# Our anxiety, depression, our vices...$2 #$b# I know you said we're different, but I don't want to put anyone through that... Least of all, you...$11 #$b# I can't do this. Not when I know how this ends.\"/faceDirection {{ModId}}_Rosalie 1/pause 200/speak {{ModId}}_Rosalie \"How does this end, Shane? And don't get all self sacrificing on me.$3 #$b# You're not being noble by pushing me away. This only ends if you want it to.$3\"/pause 100/faceDirection Shane 3/pause 300/speak Shane \"No, it doesn't.$5 #$b# *You* chose to end things with your husband. You *wanted* things to end with you two! *He* wouldn't let you go!$5 #$b# So don't act like I'm the only one who has a choice!$5\"/speak {{ModId}}_Rosalie \"...$8\"/pause 500/shake {{ModId}}_Rosalie 1000/faceDirection {{ModId}}_Rosalie 3/shake {{ModId}}_Rosalie 5000/emote {{ModId}}_Rosalie 12/pause 400/emote Shane 28/speed Shane 2/advancedMove Shane false -1 0 3 100/speak Shane \"Rosa... I'm ... I'm so sorry... I didn't mean-$10\"/pause 1000/speak {{ModId}}_Rosalie \"I never would have let myself get close to you again if I thought you were *anything* like him, Farm Boy.$5 #$b# I wanted a friend. Someone I could talk to outside of my family and friends who knew him.$2 #$b# Someone who worked to better himself. Every day... with or without me.$3\"/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/advancedMove {{ModId}}_Rosalie false 1 0 1 100/speak {{ModId}}_Rosalie \"I would have loved Romeo for the rest of my life. I was ready to subject myself to a life of pain and misery.$3#$b# Just because I loved him that much.$6 #$b# But, Farm Boy, if all you're seeing is how things will fail, it *will* fail.$6 #$b# Trust me, I brace for impact every day.$11\"/speed Shane 3/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 8 6/faceDirection Shane 1/warp {{ModId}}_Rosalie 7 6/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I won't forget you Farm Boy. I can't. I won't.$3\"/faceDirection Shane 3/speak Shane \"What makes you so sure?$2 #$b# We both knew this was going to end. It always does.$3 #$b# The jellies return, and with luck... I won't be back.$2 #$b# And neither will you.$2\"/move chicken3 0 1 2 true/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changeSprite Shane/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 89 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 90 23/pause 1000/speak {{ModId}}_Rosalie \"Maybe you're right to forget about me...$2 #$b# Forget me, forget what happened when we were twelve, just forget all of it...$2\"/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 300/showFrame {{ModId}}_Rosalie 31/pause 1000/speak {{ModId}}_Rosalie \"I... I'm gonna leave...$11\"/speak Shane \"Are you leaving the ranch or leaving the valley?$3\"/pause 500/speed {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 0/pause 200/advancedMove {{ModId}}_Rosalie false 0 3 2 100/pause 500/textAboveHead Shane \"Wait!\"/pause 1000/speed Shane 5/advancedMove Shane false 0 3 3 100/faceDirection {{ModId}}_Rosalie 1/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/warp Shane 8 6/warp {{ModId}}_Rosalie 7 6/faceDirection {{ModId}}_Rosalie 1/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie 15 -5/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I have to go... My family is waiting for me...$2 #$b# I'm *never* going to forget you, Farm Boy...$2\"/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 300/emote {{ModId}}_Rosalie 40/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"And I... won't forget this...$4\"/emote Shane 8/speed {{ModId}}_Rosalie 3/advancedMove {{ModId}}_Rosalie false 1 0 1 100/pause 500/showFrame {{ModId}}_Rosalie 16/positionOffset Shane -20 0 true/showFrame Shane 18/pause 800/positionOffset Shane -5 0 true/showFrame Shane 16/pause 2000/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/positionOffset Shane 23 0 true/showFrame Shane 0/faceDirection Shane 3/pause 1000/faceDirection {{ModId}}_Rosalie 1/speak Shane \"...$7\"/pause 1500/pause 1000/fade/viewport -1000 -1000/warp {{ModId}}_Rosalie -100 -100/speak Shane \"Wait!$7\"/playSound doorClose/fade/viewport 7 6/pause 2500/emote Shane 20/pause 1000/shake Shane 1500/fade/viewport -1000 -1000/warp Shane -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 90 25/warp {{ModId}}_Rosalie 89 25/faceDirection Shane 3/positionOffset Shane -8 0/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/speed Shane 4/positionOffset Shane -10 5 true/showFrame Shane 34/positionOffset {{ModId}}_Rosalie 10 -5 true/pause 500/showFrame {{ModId}}_Rosalie 27/pause 500/showFrame {{ModId}}_Rosalie 28/pause 2500/showFrame Shane 0/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie -10 5 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 500/speak {{ModId}}_Rosalie \"...$10\"/pause 1500/speed {{ModId}}_Rosalie 5/pause 200/advancedMove {{ModId}}_Rosalie false 20 0 1 100/faceDirection Shane 1/pause 1000/advancedMove Shane false 3 0 1 100/textAboveHead Shane \"Rosa! I-\"/pause 5000/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/globalFade/viewport -1000 -1000/pause 1000/speed {{ModId}}_Rosalie 3/speed Shane 3/AddConversationTopic {{ModId}}_RosalieShaneSecondFirstKissCT 3/end"
+*/
+//Could not move Rosalie properly toward the end after the first kiss. Tried everything and nothing worked. Just going to black now. Should be okay now but havent' tested (June 2/26)
 
-//    "stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent/LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"I would have loved Romeo for the rest of my life. I was ready to subject myself to a life of pain and misery.$3#$b# Just because I loved him that much.$6 #$b# But, Farm Boy, if all you're seeing is how things will fail, it *will* fail.$6 #$b# Trust me, I brace for impact every day.$11\"/speed Shane 3/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 6/faceDirection Shane 1/warp {{ModId}}_Rosalie 9 6/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I won't forget you Farm Boy. I can't. I won't.$3\"/faceDirection Shane 3/speak Shane \"What makes you so sure?$2 #$b# We both knew this was going to end. It always does.$3 #$b# The jellies return, and with luck... I won't be back.$2 #$b# And neither will you.$2\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changeSprite Shane/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 89 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 90 23/pause 1000/speak {{ModId}}_Rosalie \"Maybe you're right to forget about me...$2 #$b# Forget me, forget what happened when we were twelve, just forget all of it...$2\"/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 300/showFrame {{ModId}}_Rosalie 31/pause 1000/speak {{ModId}}_Rosalie \"I... I'm gonna leave...$11\"/speak Shane \"Are you leaving the ranch or leaving the valley?$3\"/pause 500/speed {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 0/pause 200/advancedMove {{ModId}}_Rosalie false 0 3 2 100/pause 500/textAboveHead Shane \"Wait!\"/pause 1000/speed Shane 5/advancedMove Shane false 0 3 3 100/faceDirection {{ModId}}_Rosalie 1/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/warp Shane 10 6/warp {{ModId}}_Rosalie 9 6/faceDirection {{ModId}}_Rosalie 1/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie 15 -5/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I have to go... My family is waiting...$2 #$b# I'm *never* going to forget you, Farm Boy...$2\"/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 300/emote {{ModId}}_Rosalie 40/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"And I... won't forget this...$4\"/emote Shane 8/speed {{ModId}}_Rosalie 4/advancedMove {{ModId}}_Rosalie false 1 0 1 100/pause 500/showFrame {{ModId}}_Rosalie 16/positionOffset Shane -20 0 true/showFrame Shane 18/pause 800/positionOffset Shane -5 0 true/showFrame Shane 16/pause 2000/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/positionOffset Shane 23 0 true/showFrame Shane 0/faceDirection Shane 3/pause 1000/faceDirection {{ModId}}_Rosalie 1/stopAdvancedMoves/speak Shane \"...$7\"/speed {{ModId}}_Rosalie 3/pause 1500/ignoreCollisions {{ModId}}_Rosalie/move {{ModId}}_Rosalie -6 0 3/advancedMove {{ModId}}_Rosalie false 0 2 2 1000/textAboveHead Shane \"Rosa! I...\"/speed {{ModId}}_Rosalie 4/advancedMove Shane false -2 0 3 100/pause 1000/warp {{ModId}}_Rosalie -100 -100/playSound doorClose/pause 2500/emote Shane 20/pause 1000/shake Shane 1500/fade/viewport -1000 -1000/warp Shane -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 90 25/warp {{ModId}}_Rosalie 89 25/faceDirection Shane 3/positionOffset Shane -8 0/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/speed Shane 4/positionOffset Shane -10 5 true/showFrame Shane 34/positionOffset {{ModId}}_Rosalie 10 -5 true/pause 500/showFrame {{ModId}}_Rosalie 27/pause 500/showFrame {{ModId}}_Rosalie 28/pause 2500/showFrame Shane 0/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie -10 5 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 500/speak {{ModId}}_Rosalie \"...$10\"/pause 1500/speed {{ModId}}_Rosalie 5/pause 200/advancedMove {{ModId}}_Rosalie false 20 0 1 100/faceDirection Shane 1/pause 1000/advancedMove Shane false 3 0 1 100/textAboveHead Shane \"Rosa! I-\"/pause 5000/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/fade/viewport -1000 -1000/pause 1000/speed {{ModId}}_Rosalie 3/speed Shane 3/end"
+//Need to add movements and placements for some chickens to make them more lively. (will advancedMovemnet work for them to go in a cycle??)
+
+
+    //    "stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent/LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"I would have loved Romeo for the rest of my life. I was ready to subject myself to a life of pain and misery.$3#$b# Just because I loved him that much.$6 #$b# But, Farm Boy, if all you're seeing is how things will fail, it *will* fail.$6 #$b# Trust me, I brace for impact every day.$11\"/speed Shane 3/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite Shane Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 6/faceDirection Shane 1/warp {{ModId}}_Rosalie 9 6/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I won't forget you Farm Boy. I can't. I won't.$3\"/faceDirection Shane 3/speak Shane \"What makes you so sure?$2 #$b# We both knew this was going to end. It always does.$3 #$b# The jellies return, and with luck... I won't be back.$2 #$b# And neither will you.$2\"/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changeSprite Shane/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 89 22/warp {{ModId}}_Rosalie 88 22/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/fade/viewport 90 23/pause 1000/speak {{ModId}}_Rosalie \"Maybe you're right to forget about me...$2 #$b# Forget me, forget what happened when we were twelve, just forget all of it...$2\"/pause 200/faceDirection {{ModId}}_Rosalie 2/pause 300/showFrame {{ModId}}_Rosalie 31/pause 1000/speak {{ModId}}_Rosalie \"I... I'm gonna leave...$11\"/speak Shane \"Are you leaving the ranch or leaving the valley?$3\"/pause 500/speed {{ModId}}_Rosalie 2/showFrame {{ModId}}_Rosalie 0/pause 200/advancedMove {{ModId}}_Rosalie false 0 3 2 100/pause 500/textAboveHead Shane \"Wait!\"/pause 1000/speed Shane 5/advancedMove Shane false 0 3 3 100/faceDirection {{ModId}}_Rosalie 1/pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn_12RxS false/viewport -1000 -1000/warp Shane 10 6/warp {{ModId}}_Rosalie 9 6/faceDirection {{ModId}}_Rosalie 1/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie 15 -5/fade/viewport 7 6/pause 1000/speak {{ModId}}_Rosalie \"I have to go... My family is waiting...$2 #$b# I'm *never* going to forget you, Farm Boy...$2\"/advancedMove {{ModId}}_Rosalie false -1 0 3 100/pause 300/emote {{ModId}}_Rosalie 40/pause 1000/faceDirection {{ModId}}_Rosalie 1/pause 1000/speak {{ModId}}_Rosalie \"And I... won't forget this...$4\"/emote Shane 8/speed {{ModId}}_Rosalie 4/advancedMove {{ModId}}_Rosalie false 1 0 1 100/pause 500/showFrame {{ModId}}_Rosalie 16/positionOffset Shane -20 0 true/showFrame Shane 18/pause 800/positionOffset Shane -5 0 true/showFrame Shane 16/pause 2000/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/positionOffset Shane 23 0 true/showFrame Shane 0/faceDirection Shane 3/pause 1000/faceDirection {{ModId}}_Rosalie 1/stopAdvancedMoves/speak Shane \"...$7\"/speed {{ModId}}_Rosalie 3/pause 1500/ignoreCollisions {{ModId}}_Rosalie/move {{ModId}}_Rosalie -6 0 3/advancedMove {{ModId}}_Rosalie false 0 2 2 1000/textAboveHead Shane \"Rosa! I...\"/speed {{ModId}}_Rosalie 4/advancedMove Shane false -2 0 3 100/pause 1000/warp {{ModId}}_Rosalie -100 -100/playSound doorClose/pause 2500/emote Shane 20/pause 1000/shake Shane 1500/fade/viewport -1000 -1000/warp Shane -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 90 25/warp {{ModId}}_Rosalie 89 25/faceDirection Shane 3/positionOffset Shane -8 0/faceDirection {{ModId}}_Rosalie 1/fade/viewport 92 23/pause 1000/speed Shane 4/positionOffset Shane -10 5 true/showFrame Shane 34/positionOffset {{ModId}}_Rosalie 10 -5 true/pause 500/showFrame {{ModId}}_Rosalie 27/pause 500/showFrame {{ModId}}_Rosalie 28/pause 2500/showFrame Shane 0/faceDirection Shane 3/positionOffset {{ModId}}_Rosalie -10 5 true/showFrame {{ModId}}_Rosalie 0/faceDirection {{ModId}}_Rosalie 1/pause 500/speak {{ModId}}_Rosalie \"...$10\"/pause 1500/speed {{ModId}}_Rosalie 5/pause 200/advancedMove {{ModId}}_Rosalie false 20 0 1 100/faceDirection Shane 1/pause 1000/advancedMove Shane false 3 0 1 100/textAboveHead Shane \"Rosa! I-\"/pause 5000/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/fade/viewport -1000 -1000/pause 1000/speed {{ModId}}_Rosalie 3/speed Shane 3/end"
 //THE VERSION ABOVE WORKS BUT IS NOT COMPLETE WITH THE FIRST PART
 }
 
 
+
+  },
+  
+
+      {
+    "LogName": "Rosalie x Shane Bouquet Event",
+  "Action": "EditData",
+  "Target": "Data/Events/Town",
+  "Entries": {
+
+    //Works perfectly! Just transitions between maps needs work but not a deal breaker :) 
+
+    //debug ebi stardewaly.rosalie_ShaneRosalieCandle
+
+
+
+  "stardewaly.rosalie_ShaneRosalieCandleEvent/EventLocalMail stardewaly.rosalie_ShanexRosalieBouquetEventFlag/Time 1700 2300": "fall_day_ambient/96 54/farmer 93 51 0 Shane 97 63 0 Jas 96 62 0 {{ModId}}_Rosalie -100 -100 2/changeToTemporaryMap Movie_NoJJCC/skippable/pause 2000/playSound doorClose/
+  warp {{ModId}}_Rosalie 96 51/
+  pause 100/
+  faceDirection farmer 1/
+  pause 100/
+  emote farmer 16/
+  faceDirection {{ModId}}_Rosalie 3/
+  emote {{ModId}}_Rosalie 32/
+  speak {{ModId}}_Rosalie \"Oh! Hey, @! #$b# How are you? I heard the farm is really thriving!$1\"/
+  question null \"Come on, be honest!#Things are going really well, thanks!#I think things are going well, I've been busy with some other things lately.#About as well as it can be.\"/
+  pause 10/
+  speak {{ModId}}_Rosalie \"Good! That's good!$1\"/
+  pause 100/
+  faceDirection {{ModId}}_Rosalie 2/
+  pause 200/
+  faceDirection {{ModId}}_Rosalie 3/
+  pause 200/
+  speak {{ModId}}_Rosalie \"I'm sorry I haven't been very talkative in the last little while...$2 #$b# I was actually going to invite you to watch the movie with me. #$b# But my therapist said that doing thing that would typically be done with a partner would be beneficial for me. #$b# It was fun, except for not having someone watch your stuff when you have to go to the bathoom!$1\"/
+  pause 200/
+  faceDirection {{ModId}}_Rosalie 2/
+  move {{ModId}}_Rosalie 0 2 2/
+  faceDirection farmer 2/
+  speak {{ModId}}_Rosalie \"Isn't it funny how you can go from knowing someone so well, always expecting them to be there,$2#$b# then suddenly, you're just...total strangers?$2\"/
+  pause 300/
+  showFrame {{ModId}}_Rosalie 31/
+  pause 300/
+  speak {{ModId}}_Rosalie \"You know, @... I'm thinking about moving...$2 #$b# Back home, I mean. #$b# Not the city, but I mean with the rest of my family...$2\"/
+  jump farmer 5/
+  speed farmer 5/
+  move farmer 0 2 1/
+  pause 200/
+  showFrame {{ModId}}_Rosalie 0/
+  faceDirection {{ModId}}_Rosalie 3/
+  emote farmer 36/
+  quickQuestion What do you mean 'no'?#You shouldn't move because of Shane.#I wish we spent more time together.#Don't move away!(break)friendship {{ModId}}_Rosalie 10\\speak {{ModId}}_Rosalie \"Oh... you heard about that, huh? Or... he probably told you...$2 #$b# *sigh* It's okay, I would have told you about it anyway...$3 #$b# But I'm not moving because of Shane, I'm just thinking that i need a... fresh start. But I don't know.$2 #$b# I don't have all the details yet and I don't want to leave my job as the Voice of the Valley.$2 #$b# Maybe I can get Sam to take over...\"\\pause 10(break)friendship {{ModId}}_Rosalie 30\\speak {{ModId}}_Rosalie \"Me too! #$b# I'm trying to get better at just assuming people are busy$1. #$b# But don't worry, I haven't decided yet. #$b# I don't want to leave my job as the Voice of the Valley. Maybe I can get Sam to take over, I don't know...$2\"\\pause 10(break)friendship {{ModId}}_Rosalie 20\\speak {{ModId}}_Rosalie \"Woah woah chillax, @! I haven't decided yet!$1\"\\pause 10/
+  pause 300/
+  faceDirection {{ModId}}_Rosalie 1/
+  advancedMove {{ModId}}_Rosalie false 3 0 1 100/
+  speak {{ModId}}_Rosalie \"Okay, I admit it... I'd be lying if I said Shane wasn't at least part of the reason... #$b# Uncle Gus has been worried since Shane and I became friends again, and when he started visiting me during my flare ups.#$b# Aside from you, he's the closest person I've ever let myself get close to...$4 #$b# And I'm... scared... terrified...\"/
+  faceDirection {{ModId}}_Rosalie 3/
+  speak {{ModId}}_Rosalie \"Did I ever tell you that my ex was also my best friend before we got together?$2 #$b# I guess that's part of why things with Shane are so scary...$2 #$b# But you know, in our thirteen years of being together, I never felt as close to Romeo as I ever did, and do now, to Shane...$4 #$b# I didn't want to lose that... but I guess I did anyway...$6\"/
+  quickQuestion {{i18n:RosalieShaneCandleBouquet.Q3}}#{{i18n:RosalieShaneCandleBouquet.A7}}#{{i18n:RosalieShaneCandleBouquet.A8}}#{{i18n:RosalieShaneCandleBouquet.A9}}(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.R7}}\"\\pause 20(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.R8}}\"\\pause 10(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.R9}}\"\\pause 10/speed Jas 5/
+textAboveHead Jas \"ROOOSAAAA!!!\"/
+move Jas 0 -9 1 true/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection farmer 2/
+emote farmer 16 true/
+emote {{ModId}}_Rosalie 16 true/
+jump {{ModId}}_Rosalie 5/
+faceDirection {{ModId}}_Rosalie 3/
+faceDirection farmer 1/
+move {{ModId}}_Rosalie -1 0 3/
+speak {{ModId}}_Rosalie \"Minnie? Honey, what's wrong?!$8\"/
+pause 1500/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet_RosalieShane_SmallActor/
+pause 1500/
+speak {{ModId}}_Rosalie \"Oh, uh, Minnie! Those are some really pretty flowers!$1\"/
+speak Jas \"It's from Shane, Miss Rosa!$4\"/
+textAboveHead Shane \"JAS!!\"/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection farmer 2/
+faceDirection Jas 2/
+pause 700/
+textAboveHead Shane \"JAS! GET BACK HERE WITH THAT!!!\"/
+pause 1000/
+faceDirection Jas 1/
+faceDirection {{ModId}}_Rosalie 3/
+speak Jas \"They're for you, Miss Rosa! Shane had them for you!$1\"/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection Jas 2/
+speed Shane 4/
+move Shane 0 -9 0/
+pause 1000/
+warp Shane -100 -100/
+speed Shane 3/
+addTemporaryActor Shane_PassedOut 19 27 97 54 0 false Shane_PassedOut/
+positionOffset Shane_PassedOut 0 10 false/
+showFrame {{ModId}}_Rosalie 27/
+jump {{ModId}}_Rosalie 5/
+pause 1000/
+showFrame {{ModId}}_Rosalie 0/
+advancedMove {{ModId}}_Rosalie false 0 1 3 100/
+move Jas 0 1 1/
+pause 300/
+speak {{ModId}}_Rosalie \"Farm Boy! Are you okay?!$8\"/
+speak Shane \"Yeah... I mean... I may throw up... Jas is... fast...$7\"/
+pause 300/
+speak {{ModId}}_Rosalie \"Minnie... Why were you running away from your Uncle?$2\"/
+pause 200/
+warp Shane_PassedOut -1000 -1000/
+warp Shane 97 54/
+jump Shane/
+pause 1000/
+warp Bouquet_RosalieShane_SmallActor -100 -100/
+move Shane 0 -1 2/
+speak Shane \"Uh.... No reason. Kids just... do that kind of thing, you know?$3\"/
+faceDirection Shane 0/
+speak Jas \"I ran cause Uncle Shane has been spending so much time with the chickens, he's become one!\"/
+jump Shane/
+showFrame Shane 18/
+animate farmer false true 100 102 103/
+pause 1000/
+showFrame Shane 0/
+speak Shane \"Jas!$10 #$b# That.... That's just mean...$11\"/
+faceDirection Shane 3/
+speak Shane \"@, don't encourage her!$5\"/
+stopAnimation farmer/
+faceDirection farmer 1/
+speak Jas \"Uncle Shane bought the bouquet a few days ago, but then he said that he was never gonna do it!$2 #$b# He said he didn't deserve you and that you could never love him.$2 #$b# But I said he was wrong! You DO love him! I know it! But he didn't believe me!$3 #$b# So, I ran here with the bouquet to prove him wrong!$1\"/
+advancedMove {{ModId}}_Rosalie false 0 -1 3 100/
+speak {{ModId}}_Rosalie \"Farm Boy... is that true?$8\"/
+pause 500/
+faceDirection Shane 0/
+emote Shane 40/
+faceDirection Shane 1/
+speak Shane \"It's not a big deal. They're just flowers...$3\"/
+move Jas 0 -1 1 true/
+speak Jas \"No no no!$1 #$b# It's a bouquet! In Pelican Town, it means he likes you, it means he wants to be your boyfriend, Miss Rosa!$4\"/
+faceDirection Shane 3/
+textAboveHead Shane \"Jas.\"/
+speak Jas \"He really really likes you, Miss Rosa!$1 #$b# He wants to marry you! And have babies with you, and have you sing them to sleep!$1 #$b# And raise chickens with you and your funny voices and-$1\"/
+speak Shane \"Jasmine, that's enough!$5\"/
+pause 500/
+speak {{ModId}}_Rosalie \"@, can you walk Jas home so Shane and I can talk?$7\"/
+emote farmer 32/
+speed farmer 2/
+move Jas -2 0 3/
+move Shane -1 0 3/
+textAboveHead Shane \"Jas.\"/
+pause 300/
+faceDirection Jas 1/
+pause 300/
+speak Shane \"You're grounded.$5\"/
+speak Jas \"Worth it.$4\"/
+move Jas -10 0 3 true/
+move farmer -7 0 3/
+warp farmer -1000 -1000/
+warp Jas -1000 -1000/
+faceDirection {{ModId}}_Rosalie 2/
+pause 300/
+faceDirection Shane 3/
+pause 200/
+faceDirection {{ModId}}_Rosalie 1/
+pause 1000/
+emote Shane 40/
+emote {{ModId}}_Rosalie 40/
+pause 500/
+speak {{ModId}}_Rosalie \"So...$2\"/
+speak Shane \"So...$3\"/
+pause 1000/
+faceDirection Shane 1/
+speak Shane \"Rosa... I'm... I'm sorry.$2\"/
+pause 200/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"For the fight or for kissing me?$3\"/
+pause 200/
+faceDirection Shane 2/
+showFrame Shane 19/
+pause 200/
+speak Shane \"The first one... maybe both...$2\"/
+pause 1000/
+showFrame Shane 0/
+faceDirection Shane 1/
+speak Shane \"Rosa, I'm scared... No, I'm *terrified*.$2 #$b# I'm a coward and I was scared you'd say no, and that's why I... said what I said... #$b# ... and did what I did... I'm sorry...$2\"/
+pause 200/
+speak {{ModId}}_Rosalie \"Yeah... me too...$2 #$b# The scared part and I'm also sorry...$6\"/
+pause 300/
+faceDirection Shane 2/
+showFrame Shane 19/
+pause 300/
+faceDirection {{ModId}}_Rosalie 2/
+showFrame {{ModId}}_Rosalie 31/
+pause 500/
+speak Shane \"So... You've thought about it?$3\"/
+speak {{ModId}}_Rosalie \"Yeah. Kind of impossible not to... Since we were kids... and now...$7\"/
+pause 400/
+showFrame {{ModId}}_Rosalie 0/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"I heard Jas' side... #$b# Can I know about the bouquet?$7 #$b# You were so sure that we wouldn't work out.$2\"/
+pause 300/
+speak Shane \"I don't know... It's... been a lot...$2\"/
+speak {{ModId}}_Rosalie \"Okay... Let's break it down then... #$b# What were you thinking about when you got the bouquet?\"/
+pause 500/
+showFrame Shane 0/
+pause 1000/
+faceDirection Shane 1/
+pause 1000/
+speak Shane \"Charlie doesn't like you.$6\"/
+pause 500/
+emote {{ModId}}_Rosalie 8/
+speak {{ModId}}_Rosalie \"Um... Yeah. I have the scars to prove it...$3\"/
+speak Shane \"But you were still just so determined to get her to like you.$1 #$b# I told you it was fine, but you said that it was important to me.$6 #$b# I don't remember the last time someone was just... so determined to make me happy...$4\"/
+pause 1000/
+speak Shane \"I don't pretend to know what you're going through... And I really never will.$2 #$b# And I get that you don't want to be... involved with *anyone*, never mind me...$2 #$b# Yeah, Romeo have similarities, but you were right, we're different people.$6 #$b# And, sure, I'm not the same kid you kissed in the chicken coop when we were twelve...$2 #$b# But since then, I... I can't deny that... that...$2\"/
+pause 200/
+faceDirection Shane 3/
+pause 500/
+textAboveHead Shane \"Buh... I'm no good at this...\"/
+pause 1700/
+speak {{ModId}}_Rosalie \"You're doing great, Farm Boy.$1\"/ 
+pause 400/
+faceDirection Shane 1/
+speak Shane \"Rosa, I'm not perfect, and I'm not one to make promises...$2 #$b# But I promise...$6 #$b# I'd be a much better boyfriend... partner... or... you know... and I think you know that too...$6\"/
+pause 500/
+speak {{ModId}}_Rosalie \"What about the future? My disability getting worse, or if we don't work out?$2\"/
+speak Shane \"We don't know the future, Rosa. Not really.$1 #$b# I know we're both anxious people, and it's in our nature to worry about that.$1 #$b# But when I'm with you, my future doesn't seem so scary anymore...$6 #$b# Even now, I'm just thinking about how much Jas adores you, and Marnie loves you,$4 #$b# and how determined you are for Charlie to love you too...$1 #$b# And... none of that will change if you don't want this.$3 #$b# I'll be here as long as you let me, Rosa.$6 #$b# As a friend or whatever you want... I don't want you to let me go... but I won't beg. Not like he did.$3\"/
+pause 300/
+faceDirection Shane 2/
+pause 300/
+speak Shane \"Rosa, the last time I felt this way about anyone was when we were kids.$4 #$b# When we were full of hope. Before everything.$4 #$b# I know things didn't go the way we planned then, and maybe this won't either.$2 #$b# But least we'd know. No more worrying about the 'what ifs'.$6\"/
+pause 300/
+faceDirection Shane 1/
+showFrame Shane 26/
+pause 100/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet_RosalieShane_SmallActor
+showFrame Shane 0/
+faceDirection Shane 1/
+pause 1500/
+speak Shane \"So... Rosa... Rosalie...$6 #$b# I... I want to try... If you'll have me...$4\"/
+pause 2500/
+emote Shane 8/
+speak Shane \"Um... I'm done speaking if you're worried about interrupting me...$3\"/
+pause 500/
+faceDirection {{ModId}}_Rosalie 0/
+pause 500/
+advancedMove {{ModId}}_Rosalie false 0 -1 4 100/
+speak {{ModId}}_Rosalie \"Farm Boy... Do you remember the summer before I left? #$b# We had this crazy thunderstorm and I couldn't sleep because of that zombie movie you made me watch earlier?$2 #$b# You snuck over to my place in the rain...\"/
+pause 200/
+advancedMove Shane false 0 -1 1 100/
+speak Shane \"Uh... Yeah... I think so?$3\"/
+speak {{ModId}}_Rosalie \"That was the scariest thing in the world to me as a kid. Zombies, I know.$1 #$b# Like always, you just knew something was wrong and you came over...\"/
+fade/
+viewport -2000 -2000/
+warp Shane -100 -100/
+warp {{ModId}}_Rosalie -100 -100/
+changeSprite {{ModId}}_Rosalie Preteen/
+changeSprite Shane Preteen/
+changeToTemporaryMap RosalieRoom_11YO/
+viewport -2000 -2000/
+warp {{ModId}}_Rosalie 9 22/
+positionOffset {{ModId}}_Rosalie -10 -20/
+faceDirection Shane 0/
+showFrame {{ModId}}_Rosalie 16/
+viewport 10 24/
+shake {{ModId}}_Rosalie 10000/
+pause 1000/
+speak {{ModId}}_Rosalie \"I was hyperventilating...crying... I was quiet so my family wouldn't worry about me...$2 #$b# not like they could hear over the storm...$2#$b# But that night, you came in through my window.\"/
+pause 100/
+playSound doorCreakReverse/
+warp Shane 10 23/
+pause 300/
+emote Shane 60/
+move Shane 0 -1 3 true/
+speak Shane \"Yeah, I was freaking out too. But I didn't want you to worry about me.$1\"/
+speak {{ModId}}_Rosalie \"You always made me feel safe, always knew how to make me feel better... #$b# But, that night, when holding my hand wasn't enough...\"/
+speak Shane \"I lit a candle for you.$6\"/
+pause 200/
+addTemporaryActor Candle_RosalieShane_SmallActor 16 16 9 22 0 false Candle_RosalieShane_SmallActor/
+animate Candle_RosalieShane_SmallActor false true 100 4 1 2 3 4 2 1 4 3 2 1 4 2 4 1 3 1/
+pause 300/
+showFrame {{ModId}}_Rosalie 17/
+pause 500/
+speak {{ModId}}_Rosalie \"I thought you were so cool cause I wasn't allowed to even use matches.$1 #$b# But, when you lit the candle, I calmed down...\"/
+showFrame {{ModId}}_Rosalie 18/
+positionOffset Candle_RosalieShane_SmallActor 30 -10/
+positionOffset {{ModId}}_Rosalie 10 0/
+pause 400/
+speak {{ModId}}_Rosalie \"You promised wouldn't go anywhere...#$b# And I was able to fall asleep that night knowing that, as long as you were there, I'd be okay... We both would be...$4\"/
+emote {{ModId}}_Rosalie 32 true/
+emote Shane 32 true/
+fade/
+viewport -2000 -2000/
+pause 1000/
+warp Shane -100 -100/
+warp {{ModId}}_Rosalie -100 -100/
+stopAnimation Candle_RosalieShane_SmallActor/
+warp Candle_RosalieShane_SmallActor -100 -100/
+changeSprite Shane/
+changeSprite {{ModId}}_Rosalie/
+pause 1000/
+speak {{ModId}}_Rosalie \"I think of that a lot, Farm Boy... #$b# No one else has ever been able to do that for me... #$b# Calming my fears with a simple candle...\"/
+warp {{ModId}}_Rosalie 98 52/
+warp Shane 96 52/
+positionOffset Shane 8 5/
+faceDirection {{ModId}}_Rosalie 3/
+faceDirection Shane 1/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet/
+changeToTemporaryMap Movie_NoJJCC/
+viewport -2000 -2000/
+viewport 96 54/
+fade/
+pause 1500/
+faceDirection {{ModId}}_Rosalie 2/
+showFrame {{ModId}}_Rosalie 31/
+pause 400/
+speak {{ModId}}_Rosalie \"Shane, you're already the best friend I ever had. You always have been. #$b# And yeah, getting into a relationship with someone else is scary...$2 But...$6\"/
+pause 300/
+showFrame {{ModId}}_Rosalie 0/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"When I face something scary, I want you with me...$2 #$b# And the scariest thing right now is...$6\"/
+pause 500/
+speak {{ModId}}_Rosalie \"I think I'm falling in love with you again, Farm Boy...$4\"/
+pause 200/
+jump Shane/
+emote Shane 16/
+speak Shane \"Wait, what?!$10 #$b# You-you're serious?! Rosa, you... what?!$10\"/
+pause 300/
+faceDirection {{ModId}}_Rosalie 1/
+advancedMove Shane false 1 0 1 100/
+speak {{ModId}}_Rosalie \"Yeah, I mean, I don't even know why you'd want to be with me,$1 #$b# I'm disabled, I'm a divorcee, and I annoy you half the time and--$1\"/
+       positionOffset Shane 10 10 true/
+faceDirection {{ModId}}_Rosalie 3/
+pause 100/
+animate Shane true true 1000 34 34 34/
+pause 100/
+      positionOffset {{ModId}}_Rosalie -20 0 true/
+animate {{ModId}}_Rosalie true true 1000 28 28 28/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+pause 3000/
+stopAnimation Shane/
+stopAnimation {{ModId}}_Rosalie/
+showFrame Shane 4/
+        positionOffset Shane -10 -10 true/
+positionOffset {{ModId}}_Rosalie 10 0 true/
+showFrame {{ModId}}_Rosalie 12/pause 500/
+speak {{ModId}}_Rosalie \"What... uh... What was I talking about again?$4\"/
+speak Shane \"We can talk about it later.$4\"/
+textAboveHead {{ModId}}_Rosalie \"Yeah... later...\"/
+pause 2000/
+      positionOffset {{ModId}}_Rosalie -10 0 true/
+        positionOffset Shane 10 10 true/
+animate Shane true true 1000 34 34 34/
+animate {{ModId}}_Rosalie true true 1000 28 28 28/
+pause 500/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+viewport move -1 -1 5000/
+pause 3000/
+globalFade/
+viewport -2000 -2000/
+stopAnimation {{ModId}}_Rosalie/
+stopAnimation Shane/
+pause 3000/
+speak Shane \"No regrets, Rosa?$4\"/
+speak {{ModId}}_Rosalie \"No regrets, Farm Boy...$4\"/
+pause 500/
+speak {{ModId}}_Rosalie \"So... are you still gonna ground Minnie?$9\"/
+speak Shane \"Nah... We both got what we wanted...$4\"/
+pause 2000/
+addConversationTopic {{ModId}}_NPC.RosaliexShane 14/
+/end"
+
+}
+
+},
+
+{
+  "LogName": "Rosalie x Shane - Rosalie The Mermaid",
+  "Action": "EditData",
+  "Target": "Data/Events/Beach",
+  "Entries":{
+
 //patch reload stardewaly.rosalie
-  } //debug ebi stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent
-
-//pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/changeSprite Shane Preteen/changePortrait Shane Preteen/changePortrait {{ModId}}_Rosalie Preteen/changeSprite {{ModId}}_Rosalie Preteen/viewport -1000 -1000/changeToTemporaryMap MarnieBarn false/viewport -1000 -1000/addTemporaryActor \"White Chicken\" 16 16 8 5 2 false Animal chicken1/addTemporaryActor \"White Chicken\" 16 16 8 9 3 false Animal chicken2/addTemporaryActor \"White Chicken\" 16 16 7 7 1 false Animal chicken3/addTemporaryActor \"White Chicken\" 16 16 14 11 3 false Animal chicken4/addTemporaryActor \"White Chicken\" 16 16 9 11 2 false Animal chicken5/warp Shane 10 10/viewport 7 6/
-//pause 1000/fade/viewport -1000 -1000/warp Shane -100 -100/warp {{ModId}}_Rosalie -100 -100/warp chicken1 -100 -100/warp chicken2 -100 -100/warp chicken3 -100 -100/warp chicken4 -100 -100/warp chicken5 -100 -100/changePortrait Shane/changePortrait {{ModId}}_Rosalie/changeSprite Shane/changeSprite {{ModId}}_Rosalie/viewport -1000 -1000/changeToTemporaryMap Forest/viewport -1000 -1000/warp Shane 92 22/warp {{ModId}}_Rosalie 88 22/viewport 92 23/faceDirection Shane 3/faceDirection {{ModId}}_Rosalie 1/pause 1000//
-
-
-]
+    //debug ebi stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent
+    
+"stardewaly.rosalie_ShanexRosalieTheMermaid/LocalMail stardewaly.rosalie_ShanexRosalieTheMermaidEventFlag/Time 1200 1700": "echos/92 23/farmer -100 -100 0 Shane 92 22 1 {{ModId}}_Rosalie 88 22 1/skippable/pause 1000/speak {{ModId}}_Rosalie \"Hey, @...$2 #$b# Thanks for meeting with me...$2\"/
+quickQuestion I don't know how to start...#Get it over with, Rosalie!#Does it have something to do with Shane?#Rosalie... are you pregnant?!/end"
+  }
 }
 
 
-//LocalMail stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag
-//AddConversationTopic {{ModId}}_RosalieShaneSecondFirstKissCT 14
+]}
 
-
-
-
-//LocalMail stardewaly.rosalie_ShanexRosalieBouquetEventFlag
 //AddConversationTopic {{ModId}}_NPC.RosaliexShane 14 **DOUBLE CHECK THIS!!!!!***
 
 
@@ -197,5 +583,6 @@
 //3910975 Shane's 6H event
 
 //2118991 is the post 6H event when SHane goes to the farmer's house
+
 
 

@@ -13,10 +13,10 @@
       "Entries": {
         "stardewaly.rosalie_SaloonRampMail": "{{i18n:SaloonRampMail}}-%item conversationTopic stardewaly.rosalie_RosalieRamp 1 %%[#]A Family Matter - Gus",
         "stardewaly.rosalie_WelcomeRosalieMail": "{{i18n:WelcomeRosalieMail}}-%item conversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7 %%[#]A New Resident - Mayor Lewis",
-        "{{ModId}}_RosaliesRadioRobinLetter": "{{i18n:RobinsLetter-VOTVRadio}}-%item conversationTopic {{ModId}}_RosalieRadioShopCT %%[#]Supporting Local Radiowaves - Robin", //CT not implemented yet
+        "{{ModId}}_RosaliesRadioRobinLetter": "{{i18n:RobinsLetter-VOTVRadio}}-%item conversationTopic {{ModId}}_RosalieVOTVJobEventCT 7 %%[#]Supporting Local Radiowaves - Robin", //CT not implemented yet
 
         "{{ModId}}_RosaliesQuestLetter": "{{i18n:RosaliesMushroomQuest.Letter}}-%item quest RosaliesMushroomQuest true %%[#]A Quest from Rosalie",
-        "stardewaly.rosalie_VOTVInvite": "{{i18n:VoiceOfTheValleyLive.Invite}}-%item conversationTopic {{ModId}}_VoiceOfTheValleyLive 4 %%[#]Voice Of The Valley Invite"
+        "stardewaly.rosalie_VOTVInvite": "{{i18n:VoiceOfTheValleyLive.Invite}}-%%[#]Voice Of The Valley Invite"
         
       }
     },
@@ -54,7 +54,7 @@
           "Id": "RosalieIsComingCT",
           "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_SaloonRampMail",
-          "Action": "AddConversationTopic stardewaly.rosalie_RosalieRamp 1"
+          "Action": "AddConversationTopic stardewaly.rosalie_RosalieRamp 4"
         },
 
         "{{ModId}}_RosalieWelcomeMailArrival": {
@@ -62,7 +62,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieRampEvent",
           "Actions": [
-            "AddMail Current stardewaly.rosalie_WelcomeRosalieMail now",
+            "AddMail All stardewaly.rosalie_WelcomeRosalieMail tomorrow",
             "RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
           ]
         },

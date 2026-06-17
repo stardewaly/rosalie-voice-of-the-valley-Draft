@@ -113,6 +113,46 @@
 
   "stardrop_tea": "{{i18n:stardrop_tea}}",
 
+"AcceptBirthdayGift_233": "{{i18n:Rosalie_BirthdayIceCream}}",
+"AcceptBirthdayGift_220": "{{i18n:Rosalie_BirthdayChocolateCake}}",
+"AcceptBirthdayGift_595": "{{i18n:Rosalie_BirthdayRoses}}",
+"AcceptBirthdayGift_866": "{{i18n:Rosalie_BirthdayRoses}}",
+
+"AcceptBirthdayGift_Liked": "{{i18n:Rosalie_BirthdayLikes}}",
+"AcceptBirthdayGift_Disliked": "{{i18n:Rosalie_BirthdayDislikes}}",
+"AcceptBirthdayGift_Neutral": "{{i18n:Rosalie_BirthdayNeutral}}",
+"AcceptBirthdayGift_Hated": "{{i18n:Rosalie_BirthdayHates}}",
+
+"AcceptGift_270": "{{i18n:Rosalie_AcceptGiftCorn}}", //corn
+"AcceptGift_205": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //fried mushroom
+"AcceptGift_635": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //orange
+"AcceptGift_724": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //maple syrup
+"AcceptGift_267": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Flounder
+"AcceptGift_701": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Tilapia
+"AcceptGift_717": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Crab
+"AcceptGift_797": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Pearl
+"AcceptGift_560": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Ocean Stone
+"AcceptGift_719": "{{i18n:Rosalie_AcceptGiftHomeCooking}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Muscle
+"AcceptGift_248": "{{i18n:Rosalie_AcceptGiftHomeCooking{{Random:1, 2}} }}", //Garlic
+"AcceptGift_829": "{{i18n:Rosalie_AcceptGiftHomeCooking}}", //Ginger
+"AcceptGift_834": "{{i18n:Rosalie_AcceptGiftHomeCooking}}||{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //mango
+"AcceptGift_608": "{{i18n:Rosalie_AcceptGiftPie}}", //pumpkin pie
+
+"AcceptGift_395": "{{i18n:Rosalie_AcceptGiftCoffee}}", //coffee
+"AcceptGift_215": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}",//pepper poppers
+
+
+"RejecttGift_167": "{{i18n:Rosalie_RejectGiftSoda}}", //joja cola
+"RejectGift_197": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}", //cheesy cauliflower i know we reject it but its bar food
+"RejectGift_903": "{{i18n:Rosalie_RejectGiftSoda}}",//gingerale
+"RejecttGift_303": "{{i18n:Rosalie_RejectGiftSoda}}", //Pale Ale
+"RejecttGift_346": "{{i18n:Rosalie_RejectGiftSoda}}", //Beer
+"RejectGift_{{ModId}}_RosaliesRibbon": "{{i18n:Rosalie_RejectGiftRosaliesRibbon}}",
+
+//Home: Corn (270), Fried Mushroom (205), Flounder 267, 701, Mango 834, orange 635
+//Cooking: Muscle 719, Garlic 248, Ginger 829, Mango (834)
+//MM : 267 (flounder), tilapia (701), Muscle 719, Crab 717, Pearl 797, Ocean Stone 560
+
 
 
 
@@ -122,6 +162,7 @@
         "secondchance_Girls": "{{i18n:secondchance_Girls}}",
         "dumped_Girls": "{{i18n:dumped_Girls}}",
         "breakUp": "{{i18n:breakUp}}",
+        "RejectBouquet_NotDatable": "{{i18n:Rosalie_RejectBouquet}}", //This is while she is not datable
 
 
         //WEATHER//
@@ -175,6 +216,7 @@
 
 
 
+
         //*****NOT Vanilla Tokens******//
 
 
@@ -200,7 +242,7 @@
                 "{{ModId}}_RosalieShaneSleepoverCT": "{{i18n:Rosalie.RosalieShaneSleepoverCT}}",
                 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Rosalie.SandCastlesWithJasCT{{Random: 1, 2, 3}} }}",
                 "{{ModId}}_RosalieKitchenLoveCT": "{{i18n:Rosalie.RosalieKitchenLoveCT{{Random: 1, 2, 3 }} }}",
-                "{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Rosalie.RosaliexShaneSecondFirstKissCT}}",
+                "{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Rosalie.RosaliexShaneSecondFirstKissCT{{Random: 1, 2}} }}",
 
 
 

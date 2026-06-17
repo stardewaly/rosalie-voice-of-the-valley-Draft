@@ -11,11 +11,21 @@
         //Conversation Topics
 
 
-            "{{ModId}}_RosalieRamp":"{{i18n:GusRosalieRamp}}",
+        "{{ModId}}_RosalieRamp":"{{i18n:GusRosalieRamp}}",
+        "{{ModId}}_NPCRosalieArrivalCT": "{{i18n:GusRosalieArrivalCT{{Random: 1, 2, 3}} }}",
 
-            "{{ModId}}_NPCRosalieArrivalCT": "{{i18n:GusRosalieArrivalCT{{Random: 1, 2, 3}} }}",
+        "{{ModId}}_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:GusOnRosalie1}}",
 
+        "611944_memory_oneday": "{{i18n:GusOnRosalie2}}", //mentions Rosalie and Shane's relationship before or after her arrival a day after his 2 heart event
 
+        "{{ModId}}_RosalieHarveyAptCT": "{{i18n:Gus.RosalieHarveyAptCT}}",
+
+        "{{ModId}}_RosalieEmilyWalkCT": "{{i18n:Gus.RosalieEmilyWalkCT}}",    
+        "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
+        "{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Gus.RosalieVOTVJobEventCT}}",
+        "{{ModId}}_RosaliesStoryCT": "{{i18n:Gus.RosaliesStoryCT}}",
+        "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Gus.RosaliesFlareUpEventCT{{Random: 1, 2, 3}} }}",
+        "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Gus.RosalieRadioEventCT}}",
 
 
             				   
@@ -23,21 +33,13 @@
             "{{ModId}}_FlareUpCT": "{{i18n:Gus.Flareup_1}}",
             
             
-            //Rosalie's Event CTs
-            "{{ModId}}_NPCRosalieWalkCT": "{{i18n:GusOnRosalieWalkCT}}",    
-
-        "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
-
-        "{{ModId}}_RosalieStoryCT": "{{i18n:Gus.RosaliesStoryCT}}",
-
-            "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Gus.RosaliesFlareUpEventCT{{Random: 1, 2}} }}",
-
-
+            
 
 
 
 //Shane x Rosalie Route CTs//
 
+"{{ModId}}_ShaneRosalieTherapyCT": "{{i18n:Gus.ShaneRosalieTherapyCT}}",
 "{{ModId}}_RosaliesRibbonCT":"{{i18n:Gus.RosaliesRibbonCT}}",
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Gus.RosalieSneezeEventCT}}", 
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Gus.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3, 4}} }}",
@@ -45,7 +47,7 @@
 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
 "{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Gus.RosalieShaneSleepOverCT{{Random: 1, 2 }} }}", 
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Gus.SandCastlesWithJasCT}}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT}}"
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.RosalieShaneSecondFirstKissCT{{Random: 1, 2}} }}"
 
 
 

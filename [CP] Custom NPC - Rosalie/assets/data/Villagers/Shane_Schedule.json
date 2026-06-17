@@ -13,7 +13,7 @@
                "Id": "Shane In Therapy Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_ShaneTherapy",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, DAY_OF_WEEK Monday"
             }
          }
       },
@@ -27,7 +27,7 @@
                "Id": "Shane x Rosalie Schedule Key - Besties",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.ShaneBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent, DAY_OF_WEEK Sat Sun, !WEATHER Here Rain Storm, !IS_JOJA_MART_COMPLETE, !IS_COMMUNITY_CENTER_COMPLETE"
             }
          }
       },
@@ -41,17 +41,7 @@
          "Entries": {
             "{{ModId}}_RosaliexShane.ShaneBFF": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 Forest 94 23 3/1800 Saloon 9 18 1/2300 AnimalShop 27 4 1 shane_sleep",
         
-            "{{ModId}}_ShaneTherapy": "800 BusStop 19 11 2/1200 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep",
-
-            "Mon": "GOTO {{ModId}}_ShaneTherapy",
-
-            "spring_Mon": "GOTO {{ModId}}_ShaneTherapy",
-            "summer_Mon": "GOTO {{ModId}}_ShaneTherapy",
-            "fall_Mon": "GOTO {{ModId}}_ShaneTherapy",
-            "winter_Mon": "GOTO {{ModId}}_ShaneTherapy",
-            
-            "Normal_Sun": "GOTO {{ModId}}_RosaliexShane.ShaneBFF"
-        
+            "{{ModId}}_ShaneTherapy": "800 BusStop 19 11 2/1200 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep"        
         }
       }
    ]

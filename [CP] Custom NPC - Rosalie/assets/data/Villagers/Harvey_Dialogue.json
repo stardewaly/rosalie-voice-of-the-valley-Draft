@@ -6,11 +6,24 @@
       "Target": "Characters/Dialogue/Harvey",
       "Entries": {
 
+        //Rosalie Heart Event CTs//
         "stardewaly.rosalie_RosalieRamp": "{{i18n:HarveyRosalieRamp}}",
         "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:HarveyRosalieArrivalCT}}",
 
-        /*Rosalie and George - Wheelchair Event - 4 Heart Event for Rosalie - CT*/
+
+   
         "{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Harvey.RosalieGeorgeWCCT}}",
+        "{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Harvey.RosalieVOTVJobEventCT}}",
+        "{{ModId}}_RosaliesStoryCT": "{{i18n:Harvey.RosaliesStoryCT{{Random: 1, 2}} }}",
+        "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Harvey.RosaliesFlareup{{Random: 1, 2 }} }}",
+        "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Harvey.RosalieRadioEventCT}}",
+
+
+        //Rosalie x Shane CTS//
+        "{{ModId}}_RosaliesRibbonCT":"{{i18n:Harvey.RosaliesRibbonCT{{Random: 1, 2 }} }}",
+        "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Harvey.RosalieDreamsAndDisastersCT}}",
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Harvey.SecondFirstKissCT{{Random: 1, 2}} }}",
+
 
         
         //There are Marriage versions of dialogue here as well, but not triggered yet and unsure how to add it
@@ -19,7 +32,6 @@
 "HarveyOnRosalie2": "{{i18n:HarveyOnRosalie2}}",
 "HarveyOnRosalie3": "{{i18n:HarveyOnRosalie3}}",
 "HarveyOnRosalie4": "{{i18n:HarveyOnRosalie4}}",
-"HarveyOnRosalie5": "{{i18n:HarveyOnRosalie5}}",
 "HarveyOnRosalie2Hearts1": "{{i18n:HarveyOnRosalie2Hearts1}}",
 "HarveyOnRosalie2Hearts2": "{{i18n:HarveyOnRosalie2Hearts2}}",
 "HarveyOnRosalie4Hearts1": "{{i18n:HarveyOnRosalie4Hearts1}}",
@@ -31,7 +43,6 @@
 "HarveyOnRosalie8Hearts2": "{{i18n:HarveyOnRosalie8Hearts2}}",
 "HarveyOnRosalie8Hearts3": "{{i18n:HarveyOnRosalie8Hearts3}}",
 "HarveyOnRosalie8Hearts4": "{{i18n:HarveyOnRosalie8Hearts4}}",
-"HarveyOnRosalie8Hearts5": "{{i18n:HarveyOnRosalie8Hearts5}}",
 "HarveyOnRosalieShane1": "{{i18n:HarveyOnRosalieShane1}}",
 "HarveyonRosalieShane2": "{{i18n:HarveyonRosalieShane2}}",
 

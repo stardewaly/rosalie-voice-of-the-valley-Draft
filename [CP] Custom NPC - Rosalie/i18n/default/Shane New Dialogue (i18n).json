@@ -10,25 +10,30 @@ Rosalie Arrived In Town
 "ShaneRosalieArrivalCT2": "...#$b# What? I'm always quiet.$2",
 "ShaneRosalieArrivalCT3": "Sorry, I can't... talk right now...$2",
 
+
+// NOTE: THIS IS NOT IMPLEMENTED PROPERLY!
+
 //Ramp Event MARRIED TO PLAYER//
 "ShaneRosalieRampEventMarried": "$query PLAYER_NPC_RELATIONSHIP Current Shane married#Wait, Rosalie?!$10 #$b# Gus' niece, Rosalie?! Rosa is coming back?!$10 #$b# $y 'I thought you didn't grow up here?_I didn't... #$b# _Wait you know her?_Yeah!$h #$b# Well, I used to..._Should I be worried?_No, no! I promise, she's not an ex or anything like that!$h' #$b# It's... a long story...$3 #$b# I'll tell you later... promise.$6",
 
-//Rosalie Arrived in Town MARRIED TO PLAYER//
+
+//Rosalie Arrived in Town MARRIED TO PLAYER
 "ShaneRosalieArrivalCTMarried": "$query PLAYER_NPC_RELATIONSHIP Current Shane married#I'm sorry, hun... I'm not in the mood to talk...$s",
 "ShaneRosalieArrivalCTMarried2": "$query PLAYER_NPC_RELATIONSHIP Current Shane married#Sorry I haven't been talking much lately, @. #$b# I think I'm just grappling with the idea that Rosa is back in Pelican Town. #$b# Rosa and I used to hang out when we were kids, in the summers when I'd stay with Marnie.$h #$b# Don't freak out, but she was actually my first kiss!$h #$e# Don't make a big deal about it, okay? It's ancient history, promise.$4",
 "ShaneRosalieArrivalCTMarried3": "$query PLAYER_NPC_RELATIONSHIP Current Shane married#I didn't expect Rosa to be in my therapy group. #$b# We didn't talk...",
 
 
+//CLICK DATA
+"ShaneRadioClickVOTV": "It looks like Shane listens to The Voice of The Valley when he wakes up.",
 
 
 //ROSALIE HEART EVENT CTS//
 
 "Shane.RosalieGeorgeWCCT": "$query PLAYER_HAS_SEEN_EVENT Current 3910975#George is lucky I wasn't out there. I hope he apologizes properly to Rosa.$5|I didn't know what was going on until I saw Rosa come in...$3 #$b#Not that me being there would have made a difference...$2",
 
-
+"Shane.RosalieRadioEventCT": "$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#Yeah, Rosa told me about her new gig. I'm happy for her.$6|It's nice to know I'm the only one in town who still has a radio, I guess. #$e# I use it as an alarm clock.",
 
 "Shane.RosaliesFlareUpEventCT": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}_RosaliexShaneDreamsAndDisasters#Rosa put up with her lazy ex's excuses and broken logic for thirteen years.$5 #$b# I'm amazed she has that much patience with the luck she's been given.$11 #$b# Then again, she has me as an excuse for a best friend...$3 #$b# The difference is, if I had a wife like her, and she was suffering as much as Rosa is,$3 #$b# I swear to Yoba, I wouldn't drag her down to my level like her leech of an ex husband. No matter how bad things got.$5 #$b# I know I wouldn't want Jas to be with someone like that. No one deserves to be that unhappy.$11 #$e# 'A wife like her'?! I said 'If I had a wife!' Like, in general!!$10 #$b# Don't twist my words, @!$11|I'll be honest... I figured that's what happened...$2 #$b# Last I heard about Rosa seven years ago, she got married. So, her coming here alone... it wasn't rocket science.$3 #$e# I think it would be pretty messed up to be happy someone's marriage is ending.$3 #$b# But if the guy was burdening her more than he was helping her, I'm glad. He doesn't deserve her.$5",
-
 
 
 //Shane x Rosalie Route CTs//
@@ -37,7 +42,7 @@ Rosalie Arrived In Town
 
 "ShanexRosalieBFF.Saloon1": "Hey, @! Can you tell Rosa that the whole 'older than you' thing only works when you're kids?$1",
 "ShanexRosalieBFF.Saloon2": "Rosa honestly makes me forget why I used to come here in the first place.$6 #$b# At least... for a while...$2",
-"ShanexRosalieBFF.Saloon3": "How's your arm doing, Rosa?$6 #$e# I hope you're not pushing yourself too hard.",
+"ShanexRosalieBFF.Saloon3": "How's your arm doing, Rosa?$6 #$e# You better not be pushing yourself too hard.",
 "ShanexRosalieBFF.Saloon4": "%Shane is busy focusing on a story Rosalie's telling.",
 
 
@@ -84,9 +89,6 @@ Rosalie Arrived In Town
   "Shane.SandCastlesWithJasCT3": "Rosa's mentioned having a goddaughter. #$b# A friend of her's she met after she moved across the sea. #$b# Unlike Jas' parents, her friend is still around. #$e# I know Rosa worries she's not doing enough for her, but she can't exactly compare her experience to mine.$2 #$e# The kid's name? Rosalie.",
   "Shane.SandCastlesWithJasCT4": "I know Rosa said she doesn't want to be with anyone again, #$b# and I don't blame her after everything her ex put her through...$2 #$b# But... if she did...$2 #$b# ...$6 #$b# Buh, forget it.$3 #$e# We just have a good thing going as friends.$2 #$b# I don't want to mess that up by making things weird.$11",
 
-  
-
-
 //KITCHEN LOVE//
 
 "Shane.RosalieKitchenLoveCT": "Urg... I don't know if I almost did something really stupid,#$b# Or almost did something really smart.$6 #$e# Um... I'd rather not talk about it...$3 #$e#",
@@ -96,7 +98,9 @@ Rosalie Arrived In Town
 "Shane.JasTeasing": "Jas has been obsessed with Rosa since you gave her the ribbon!$1 #$b# Here I thought I was her favourite person!$1 #$e$",
 
 //SECOND FIRST KISS CT//
-"Shane.RosaliexShaneSecondFirstKissCT": "Sorry, @. I just need to be alone.$2 #$b# I'll be fine... eventually.$2 #$e# No, I don't want to talk about it... And Rosa is... fine... I think...$2 #$b# Just, go away, please...$11",
+"Shane.RosalieShaneSecondFirstKissCT": "Sorry, @. I just need to be alone.$2 #$b# I'll be fine... eventually.$2 #$e# No, I don't want to talk about it... And Rosa is... fine... I think...$2 #$b# Just, go away, please...$11",
+
+
 
 
 
@@ -110,8 +114,26 @@ Rosalie Arrived In Town
 
 
 
+//WINTER MARKET IF SHANE X ROSALIE BECOMES A THING
+
+"Shane.WinterMM.FirstYear1": "I think some time apart will be good for Rosa and I. #$b# I know I get on her nerves sometimes.$1",
+"Shane.WinterMM.FirstYear2": "*sigh* It's too quiet...",
+"Shane.WinterMM.FirstYear3": "Anytime I miss Rosa, I just remember that she's living her dream. #$b# I never got that chance, but I'm gonna support her like she always has with me.",
+"Shane.WinterMM.FirstYear4": "In the summers, Rosa used to help me write essays to get a scholarship for Gridball camp. #$b# I wouldn't have Jas in my life if it weren't for Rosa.$6 #$b# The least I can do is wait for her.$6",
 
 
+
+"Shane.WinterMM.1Year": "*sigh* Like seasonal depression wasn't enough...$2 #$b# I hope Rosa can get a job close by next time...$2",
+
+
+"Shane.MermaidEventUpcoming": "I know Rosa never got to see me play any games, but I plan on being there every night to see her perform. #$e# I know she worries about me when she's away...$2",
+
+
+"Shane.MermaidEvent1": "Maybe I'm biased, but I think the mermaid show is better now that Rosa's in it.$6",
+"Shane.MermaidEvent2": "I'm freezing out here, but I can't imagine how Rosa and the other mermaids are doing.",
+
+"Shane.SpiritsEveMM": "Don't tell Rosa, but I only dressed up because it's her last day here. #$e# It'll be nice to have some space and quiet, but I'm gonna miss her a lot...$2",
+"Shane.WinterStarMM": "It sucks that Rosa's only here for a day. But we get the other three seasons.",
 
 
 
@@ -210,7 +232,8 @@ Rosalie Arrived In Town
 
 
 //SECOND FIRST KISS//
-    "Marnie.SecondFirstKissCT": "Shane's been quiet again lately... I'm really worried about him...$2 #$e# Rosa isn't answering my calls either... I wonder if something happened...$s",
+    "Marnie.SecondFirstKissCT1": "Shane's been quiet again lately... I'm really worried about him...$2 #$e# Rosa isn't answering my calls either... I wonder if something happened...$s",
+    "Marnie.SecondFirstKissCT2": "I haven't seen Shane this quiet since that last day Rosa was here...$2#$b# It's a strange sense of deja vu, but I called Gus and I asked if Rosa was moving...$2 #$b# He said that she hadn't talked about it recently, but I hope if she does leave, she says goodbye. #$e# Jas would be so heartbroken if Rosa left...$2",
   
 
     "MarnieOnSDR": "Shane used to love playing with Rosa as kids, I'm glad they found each other again as adults.",
@@ -248,7 +271,8 @@ Rosalie Arrived In Town
 
 //SECOND FIRST KISS CT//
 
-"Jas.SecondFirstKissCT": "Uncle Shane's being sad again... But it's a different kind of sad...$2 #$e# I tried to ask Rosa to come over and cheer him up like she always does, but she told me she couldn't because of 'grown up stuff'.$2 #$e# I hope it's not my fault...$2",
+"Jas.SecondFirstKissCT1": "Uncle Shane's being sad again... But it's a different kind of sad...$2 #$e# I tried to ask Rosa to come over and cheer him up like she always does, but she told me she couldn't because of 'grown up stuff'.$2 #$e# I hope it's not my fault...$2",
+"Jas.SecondFirstKissCT2": "I hope Miss Rosa isn't moving away again...$2",
 
 
 
