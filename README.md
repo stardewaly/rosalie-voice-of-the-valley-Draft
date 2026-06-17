@@ -13,7 +13,7 @@ Start with a NEW save so that way as we update it you don't get attached as thin
 - ROSALIE HAS A NEW RIBBON IN HER PORTRAITS! Well, it's still the same one but it doesn't look as blocky as the old design and I'm so happy with how it looks now!
 - Jas' ribbon should also work so after you complete Rosalie's Ribbon Quest, Jas will change into her new ribbon as soon as she leaves whatever building she's in :) (I don't know how ot speed this up unfortinately i'm just glad it works at all!)
 
-###I PLAN TO RELEASE ROSALIE THIS MONTH! PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
+### I PLAN TO RELEASE ROSALIE THIS MONTH! PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
 
 
 
