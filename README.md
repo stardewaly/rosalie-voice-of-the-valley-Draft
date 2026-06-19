@@ -1,17 +1,21 @@
-# PLAY TESTER BUILD (v 0.0.4)
+# PLAY TESTER BUILD (v 0.0.5)
 
 
 Start with a NEW save so that way as we update it you don't get attached as things will be changing 🙂
 
-## NOTES: (June 16/26)
+## NOTES: (June 19/26)
+- Fixed error with Rosalie's "Summer" schedule
+- Fixed Abigal's dialogue that had "no translation" when meeting Rosalie for the town Conversation Topic
+- Shane x Rosalie's love story is complete.
 - Rosalie's storyline is complete.
-- Rosalie's 8 Heart Event still needs to load in the map.
+- Seperated some events for Shane x Rosalie to make it easier to view and fix
+- Made the Translation File for the Candle event (92 LINES OF DIALOGUE?! omg...)
+- Rosalie's 8 Heart Event still needs to load in the map (the assets I'm not happy with so I will have to make them myself or have a sub for now)
 - I managed to get Temp Maps to work! Please let me know if there are issues still!!
-- Rosalie and Shane's story is COMPLETE (Technically)! The final event I planned to be the same across all the bachelors and the player, but I figured out earlier than I thought on how to do what I wanted!
 - There will also be some issues that may come up in events, especially the Sneeze Event that I need to fix
 - YOU WILL NEED TO UNLOCK ROSALIE NOW! You can do this by getting 1 Heart with Gus.
 - ROSALIE HAS A NEW RIBBON IN HER PORTRAITS! Well, it's still the same one but it doesn't look as blocky as the old design and I'm so happy with how it looks now!
-- Jas' ribbon should also work so after you complete Rosalie's Ribbon Quest, Jas will change into her new ribbon as soon as she leaves whatever building she's in :) (I don't know how ot speed this up unfortinately i'm just glad it works at all!)
+- Jas' ribbon should also work so after you complete Rosalie's Ribbon Quest, Jas will change into her new ribbon as soon as she leaves whatever building she's in :) (I don't know how to speed this up unfortinately i'm just glad it works at all!)
 
 ### I PLAN TO RELEASE ROSALIE THIS MONTH! PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
 
