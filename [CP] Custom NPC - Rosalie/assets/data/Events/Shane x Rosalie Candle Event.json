@@ -1,0 +1,383 @@
+  { 
+
+  "Changes": [
+      {
+    "LogName": "Rosalie x Shane Bouquet Event",
+  "Action": "EditData",
+  "Target": "Data/Events/Town",
+  "Entries": {
+
+"stardewaly.rosalie_ShaneRosalieCandleEvent/LocalMail stardewaly.rosalie_ShanexRosalieBouquetEventFlag/Time 1700 2300": "fall_day_ambient/96 54/farmer 93 51 0 Shane 97 63 0 Jas 96 62 0 {{ModId}}_Rosalie -100 -100 2/changeToTemporaryMap Movie_NoJJCC/skippable/pause 2000/playSound doorClose/
+  warp {{ModId}}_Rosalie 96 51/
+  pause 100/
+  faceDirection farmer 1/
+  pause 100/
+  emote farmer 16/
+  faceDirection {{ModId}}_Rosalie 3/
+  emote {{ModId}}_Rosalie 32/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.1}}\"/
+
+  question null \"{{i18n:RosalieShaneCandleBouquet.Q1}}#{{i18n:RosalieShaneCandleBouquet.A1}}#{{i18n:RosalieShaneCandleBouquet.A2}}#{{i18n:RosalieShaneCandleBouquet.A3}}\"/
+
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.2}}\"/
+  pause 100/
+  faceDirection {{ModId}}_Rosalie 2/
+  pause 200/
+  faceDirection {{ModId}}_Rosalie 3/
+  pause 200/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.3}}\"/
+  pause 200/
+  faceDirection {{ModId}}_Rosalie 2/
+  move {{ModId}}_Rosalie 0 2 2/
+  faceDirection farmer 2/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.4}}\"/
+  pause 300/
+  showFrame {{ModId}}_Rosalie 31/
+  pause 300/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.5}}\"/
+  jump farmer 5/
+  speed farmer 5/
+  move farmer 0 2 1/
+  pause 200/
+  showFrame {{ModId}}_Rosalie 0/
+  faceDirection {{ModId}}_Rosalie 3/
+  emote farmer 36/
+  pause 300/
+
+  quickQuestion {{i18n:RosalieShaneCandleBouquet.Q2}}#{{i18n:RosalieShaneCandleBouquet.Q2.A1}}#{{i18n:RosalieShaneCandleBouquet.Q2.A2}}#{{i18n:RosalieShaneCandleBouquet.Q2.A3}}(break)friendship {{ModId}}_Rosalie 10\\speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q2.R1}}\"\\pause 10(break)friendship {{ModId}}_Rosalie 30\\speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q2.R2}}\"\\pause 10(break)friendship {{ModId}}_Rosalie 20\\speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q2.R3}}\"\\pause 10/
+  
+  pause 300/
+  faceDirection {{ModId}}_Rosalie 1/
+  advancedMove {{ModId}}_Rosalie false 3 0 1 100/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.13}}\"/
+  faceDirection {{ModId}}_Rosalie 3/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.14}}\"/
+  faceDirection {{ModId}}_Rosalie 1/
+  advancedMove {{ModId}}_Rosalie false 3 0 1 100/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.13}}\"/
+  faceDirection {{ModId}}_Rosalie 3/
+  speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.14}}\"/
+
+quickQuestion {{i18n:RosalieShaneCandleBouquet.Q3}}#{{i18n:RosalieShaneCandleBouquet.Q3.A1}}#{{i18n:RosalieShaneCandleBouquet.Q3.A2}}#{{i18n:RosalieShaneCandleBouquet.Q3.A3}}(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q3.R1}}\"\\pause 20(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q3.R2}}\"\\pause 10(break)speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.Q3.R3}}\"\\pause 10/speed Jas 5/
+
+pause 10/speed Jas 5/
+textAboveHead Jas \"{{i18n:RosalieShaneCandleBouquet.22}}\"/
+move Jas 0 -9 1 true/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection farmer 2/
+emote farmer 16 true/
+emote {{ModId}}_Rosalie 16 true/
+jump {{ModId}}_Rosalie 5/
+faceDirection {{ModId}}_Rosalie 3/
+faceDirection farmer 1/
+move {{ModId}}_Rosalie -1 0 3/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.23}}\"/
+pause 1500/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet_RosalieShane_SmallActor/
+pause 1500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.24}}\"/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.25}}\"/
+textAboveHead Shane \"{{i18n:RosalieShaneCandleBouquet.26}}\"/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection farmer 2/
+faceDirection Jas 2/
+pause 700/
+textAboveHead Shane \"{{i18n:RosalieShaneCandleBouquet.27}}\"/
+pause 1000/
+faceDirection Jas 1/
+faceDirection {{ModId}}_Rosalie 3/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.28}}\"/
+faceDirection {{ModId}}_Rosalie 2/
+faceDirection Jas 2/
+speed Shane 4/
+move Shane 0 -9 0/
+pause 1000/
+warp Shane -100 -100/
+speed Shane 3/
+addTemporaryActor Shane_PassedOut 19 27 97 54 0 false Shane_PassedOut/
+positionOffset Shane_PassedOut 0 10 false/
+showFrame {{ModId}}_Rosalie 27/
+jump {{ModId}}_Rosalie 5/
+pause 1000/
+showFrame {{ModId}}_Rosalie 0/
+advancedMove {{ModId}}_Rosalie false 0 1 3 100/
+move Jas 0 1 1/
+pause 300/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.29}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.30}}\"/
+pause 300/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.31}}\"/
+pause 200/
+warp Shane_PassedOut -1000 -1000/
+warp Shane 97 54/
+jump Shane/
+pause 1000/
+warp Bouquet_RosalieShane_SmallActor -100 -100/
+move Shane 0 -1 2/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.32}}\"/
+faceDirection Shane 0/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.33}}\"/
+jump Shane/
+showFrame Shane 18/
+animate farmer false true 100 102 103/
+pause 1000/
+showFrame Shane 0/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.34}}\"/
+faceDirection Shane 3/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.35}}\"/
+stopAnimation farmer/
+faceDirection farmer 1/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.36}}\"/
+advancedMove {{ModId}}_Rosalie false 0 -1 3 100/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.37}}\"/
+pause 500/
+faceDirection Shane 0/
+emote Shane 40/
+faceDirection Shane 1/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.38}}\"/
+move Jas 0 -1 1 true/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.39}}\"/
+faceDirection Shane 3/
+textAboveHead Shane \"{{i18n:RosalieShaneCandleBouquet.40}}\"/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.41}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.42}}\"/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.43}}\"/
+emote farmer 32/
+speed farmer 2/
+move Jas -2 0 3/
+move Shane -1 0 3/
+textAboveHead Shane \"{{i18n:RosalieShaneCandleBouquet.44}}\"/
+pause 300/
+faceDirection Jas 1/
+pause 300/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.45}}\"/
+speak Jas \"{{i18n:RosalieShaneCandleBouquet.46}}\"/
+move Jas -10 0 3 true/
+move farmer -7 0 3/
+warp farmer -1000 -1000/
+warp Jas -1000 -1000/
+faceDirection {{ModId}}_Rosalie 2/
+pause 300/
+faceDirection Shane 3/
+pause 200/
+faceDirection {{ModId}}_Rosalie 1/
+pause 1000/
+emote Shane 40/
+emote {{ModId}}_Rosalie 40/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.47}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.48}}\"/
+pause 1000/
+faceDirection Shane 1/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.49}}\"/
+pause 200/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.50}}\"/
+pause 200/
+faceDirection Shane 2/
+showFrame Shane 19/
+pause 200/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.51}}\"/
+pause 1000/
+showFrame Shane 0/
+faceDirection Shane 1/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.52}}\"/
+pause 200/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.53}}\"/
+pause 300/
+faceDirection Shane 2/
+showFrame Shane 19/
+pause 300/
+faceDirection {{ModId}}_Rosalie 2/
+showFrame {{ModId}}_Rosalie 31/
+pause 500/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.54}}\"/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.55}}\"/
+pause 400/
+showFrame {{ModId}}_Rosalie 0/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.56}}\"/
+pause 300/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.57}}\"/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.58}}\"/
+pause 500/
+showFrame Shane 0/
+pause 1000/
+faceDirection Shane 1/
+pause 1000/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.59}}\"/
+pause 500/
+emote {{ModId}}_Rosalie 8/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.60}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.61}}\"/
+pause 1000/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.62}}\"/
+pause 200/
+faceDirection Shane 3/
+pause 500/
+textAboveHead Shane \"{{i18n:RosalieShaneCandleBouquet.63}}\"/
+pause 1700/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.64}}\"/ 
+pause 400/
+faceDirection Shane 1/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.65}}\"/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.66}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.67}}\"/
+pause 300/
+faceDirection Shane 2/
+pause 300/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.68}}\"/
+pause 300/
+faceDirection Shane 1/
+showFrame Shane 26/
+pause 100/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet_RosalieShane_SmallActor
+showFrame Shane 0/
+faceDirection Shane 1/
+pause 1500/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.69}}\"/
+pause 2500/
+emote Shane 8/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.70}}\"/
+pause 500/
+faceDirection {{ModId}}_Rosalie 0/
+pause 500/
+advancedMove {{ModId}}_Rosalie false 0 -1 4 100/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.71}}\"/
+pause 200/
+advancedMove Shane false 0 -1 1 100/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.72}}\"/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.73}}\"/
+fade/
+viewport -2000 -2000/
+warp Shane -100 -100/
+warp {{ModId}}_Rosalie -100 -100/
+changeSprite {{ModId}}_Rosalie Preteen/
+changeSprite Shane Preteen/
+changeToTemporaryMap RosalieRoom_11YO/
+viewport -2000 -2000/
+warp {{ModId}}_Rosalie 9 22/
+positionOffset {{ModId}}_Rosalie -10 -20/
+faceDirection Shane 0/
+showFrame {{ModId}}_Rosalie 16/
+viewport 10 24/
+shake {{ModId}}_Rosalie 10000/
+pause 1000/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.74}}\"/
+pause 100/
+playSound doorCreakReverse/
+warp Shane 10 23/
+pause 300/
+emote Shane 60/
+move Shane 0 -1 3 true/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.75}}\"/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.76}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.77}}\"/
+pause 200/
+addTemporaryActor Candle_RosalieShane_SmallActor 16 16 9 22 0 false Candle_RosalieShane_SmallActor/
+animate Candle_RosalieShane_SmallActor false true 100 4 1 2 3 4 2 1 4 3 2 1 4 2 4 1 3 1/
+pause 300/
+showFrame {{ModId}}_Rosalie 17/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.78}}\"/
+showFrame {{ModId}}_Rosalie 18/
+positionOffset Candle_RosalieShane_SmallActor 30 -10/
+positionOffset {{ModId}}_Rosalie 10 0/
+pause 400/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.79}}\"/
+emote {{ModId}}_Rosalie 32 true/
+emote Shane 32 true/
+fade/
+viewport -2000 -2000/
+pause 1000/
+warp Shane -100 -100/
+warp {{ModId}}_Rosalie -100 -100/
+stopAnimation Candle_RosalieShane_SmallActor/
+warp Candle_RosalieShane_SmallActor -100 -100/
+changeSprite Shane/
+changeSprite {{ModId}}_Rosalie/
+pause 1000/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.80}}\"/
+warp {{ModId}}_Rosalie 98 52/
+warp Shane 96 52/
+positionOffset Shane 8 5/
+faceDirection {{ModId}}_Rosalie 3/
+faceDirection Shane 1/
+addTemporaryActor Bouquet_RosalieShane_SmallActor 16 16 97 53 0 false Bouquet/
+changeToTemporaryMap Movie_NoJJCC/
+viewport -2000 -2000/
+viewport 96 54/
+fade/
+pause 1500/
+faceDirection {{ModId}}_Rosalie 2/
+showFrame {{ModId}}_Rosalie 31/
+pause 400/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.81}}\"/
+pause 300/
+showFrame {{ModId}}_Rosalie 0/
+faceDirection {{ModId}}_Rosalie 3/
+pause 300/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.82}}\"/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.83}}\"/
+pause 200/
+jump Shane/
+emote Shane 16/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.84}}\"/
+pause 300/
+faceDirection {{ModId}}_Rosalie 1/
+advancedMove Shane false 1 0 1 100/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.85}}\"/
+       positionOffset Shane 10 10 true/
+faceDirection {{ModId}}_Rosalie 3/
+pause 100/
+animate Shane true true 1000 34 34 34/
+pause 100/
+      positionOffset {{ModId}}_Rosalie -20 0 true/
+animate {{ModId}}_Rosalie true true 1000 28 28 28/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+pause 3000/
+stopAnimation Shane/
+stopAnimation {{ModId}}_Rosalie/
+showFrame Shane 4/
+        positionOffset Shane -10 -10 true/
+positionOffset {{ModId}}_Rosalie 10 0 true/
+showFrame {{ModId}}_Rosalie 12/pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.86}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.87}}\"/
+textAboveHead {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.88}}\"/
+pause 2000/
+      positionOffset {{ModId}}_Rosalie -10 0 true/
+        positionOffset Shane 10 10 true/
+animate Shane true true 1000 34 34 34/
+animate {{ModId}}_Rosalie true true 1000 28 28 28/
+pause 500/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+emote Shane 20 true/emote {{ModId}}_Rosalie 20 true/
+viewport move -1 -1 5000/
+pause 3000/
+globalFade/
+viewport -2000 -2000/
+stopAnimation {{ModId}}_Rosalie/
+stopAnimation Shane/
+pause 3000/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.89}}\"/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.90}}\"/
+pause 500/
+speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.91}}\"/
+speak Shane \"{{i18n:RosalieShaneCandleBouquet.92}}\"/
+pause 2000/
+addConversationTopic {{ModId}}_NPC.RosaliexShane 14/
+/end"
+
+}
+
+}
+
+
+
+]}

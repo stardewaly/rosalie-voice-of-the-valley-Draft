@@ -15,18 +15,18 @@
         "spring_Thu": "GOTO spring_Tue",
 
          
-         "summer": "{{Random: spring, stardewaly.rosalie_flareup}}",
+         "summer": "spring",
          "summer_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "summer_Tue": "GOTO spring_Tue",				
         
         
         
-        "fall": "{{Random: spring, stardewaly.rosalie_flareup}}",
+        "fall": "spring",
          "fall_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "fall_Tue": "GOTO spring_Tue",				
 
 
-        "winter":"{{Random: spring, stardewaly.rosalie_flareup}}",
+        "winter": "spring",
          "winter_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "winter_Tue": "GOTO spring_Tue",				
         "winter_Thu": "GOTO spring_Tue",
@@ -50,15 +50,23 @@
                "Id": "Rosalie Flareup Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_flareup",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieFlareUpFlag Received" //ON HOLD
+               "Condition": "PLAYER_HAS_MAIL Any stardewaly.rosalie_RosalieFlareUpFlag Received" //ON HOLD
             },
 
             "Rosalie x Shane BFF Schedule Key": {
                "Id": "Rosalie x Shane BFF Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.RosalieBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieSneezeEvent"
+            },
+
+            "Rosalie Mermaid Schedule Key": {
+               "Id": "Rosalie Night Market Schedule Key",
+               "ScheduleKey": "stardewaly.rosalie_RosalieMermaid",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShanexRosalieTheMermaid",
             }
+
          }
       },
 

@@ -34,9 +34,18 @@
   {
       "UniqueID": "stardewaly.ActuallySadShane",
       "IsRequired": false
-    }
+    },
 
+  {
+        "UniqueID": "xetyaj.NR.CP",
+      "IsRequired": true
+    },
 
+        {
+      "UniqueID": "xetyaj.NR",
+      "IsRequired": true
+
+        }
 
 
   ]

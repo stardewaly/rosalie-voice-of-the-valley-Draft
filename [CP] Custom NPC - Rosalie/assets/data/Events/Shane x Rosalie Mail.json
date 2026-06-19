@@ -12,8 +12,10 @@
       "Entries": {
         //Shane x Rosalie Actual Mail
         "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}-%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
-        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}} %%[#]Dinner At The Ranch"
-      }
+        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}}-%%[#]Dinner At The Ranch",
+		"{{ModId}}_RosaliexShaneMMLetter": "{{i18n:ShaneRosalieMMLetter}}-%%[#]A Secret Meeting with Rosalie"
+		
+	}
     },
 
             //MAIL TRIGGERS 
@@ -180,7 +182,7 @@
 
     		"{{ModId}}_ShanexRosalieTheMermaidEventTrigger": {
 			"Id": "Shane x Rosalie The Mermaid Event Trigger",
-			"Trigger": "DayEnded",
+			"Trigger": "DayEnding",
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieCandleEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_NPC.RosaliexShane, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, !SEASON Winter",
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTheMermaidEventTrigger received"
 			}
