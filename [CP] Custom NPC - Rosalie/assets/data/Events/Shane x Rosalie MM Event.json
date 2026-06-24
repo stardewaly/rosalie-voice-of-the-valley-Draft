@@ -1,17 +1,18 @@
   { 
 
   "Changes": [
-  
+ 
+    //June 19 - Needs music
 
 {
-  "LogName": "Rosalie x Shane - Rosalie The Mermaid",
+  "LogName": "Rosalie x Shane - One Season Twenty Years Event",
   "Action": "EditData",
   "Target": "Data/Events/Mountain",
   "Entries":{
 
 //patch reload stardewaly.rosalie
-    //debug ebi stardewaly.rosalie_ShanexRosalieTheMermaid
-    "stardewaly.rosalie_ShanexRosalieTheMermaid/LocalMail stardewaly.rosalie_RosaliexShaneMMLetter/Time 610 1700": "fall_day_ambient/40 32/farmer 27 30 1 {{ModId}}_Rosalie 46 31 1 Shane -100 100 0 Linus 39 23 2/skippable/pause 1000/
+    //debug ebi stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent
+    "stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent/LocalMail stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsLetter/Time 610 1700": "fall_day_ambient/40 32/farmer 27 30 1 {{ModId}}_Rosalie 46 31 1 Shane -100 100 0 Linus 39 23 2/skippable/pause 1000/
 move farmer 10 0 1/pause 500/emote farmer 16/pause 500/jump farmer 5/speed farmer 5/move farmer 0 1 2/move farmer 6 0 1/pause 500/
 faceDirection {{ModId}}_Rosalie 3/
 advancedMove {{ModId}}_Rosalie false -2 0 3 100/
@@ -223,7 +224,7 @@ globalFade/
 viewport -2000 -2000/
 pause 2000/
 message \"{{i18n:ShanexRosalieTheWinterMM.48}}\"/
-addConversationTopic {{ModId}}_NPC.RosalieMermaid/mail {{ModId}}_RosalieTheWinterMermaidFlag/
+addConversationTopic {{ModId}}_NPC.RosalieTheWinterMermaidCT/mail {{ModId}}_RosalieTheWinterMermaidFlag/
 end"
   }
 }

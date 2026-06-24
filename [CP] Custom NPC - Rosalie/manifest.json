@@ -11,7 +11,7 @@
 
   "Dependencies": [
     {
-      "UniqueID": "datamancer.CustomFixedDialogue",
+      "UniqueID": "aedenthorn.CustomFixedDialogue",
       "IsRequired": true
     },
     {

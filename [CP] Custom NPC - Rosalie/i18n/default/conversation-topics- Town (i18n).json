@@ -2,35 +2,38 @@
    
 /*
 
+
 ********************************
   ROSALIE EVENT CTS
 ********************************
 
-"{{ModId}}_RosalieRamp": "{{i18n:NPCRosalieRamp}}",
-"{{ModId}}_NPCRosalieArrivalCT": "{{i18n:NPCRosalieArrivalCT}}",
-"{{ModId}}_RosalieHarveyAptCT:: "{{i18n:NPC.RosalieHarveyAptCT}}",
-"{{ModId}}_RosalieEmilyWalkCT": "{{i18n:NPC.RosalieEmilyWalkCT}}",
-"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:NPC.RosalieGeorgeWCCT}}",
-"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:NPC.RosalieVOTVJobEventCT}}",
-"{{ModId}}_RosaliesStoryCT": "{{i18n:NPC.RosaliesStoryCT}}",
-"{{ModId}}_RosaliesFlareUpEventCT":"{{i18n:NPC.RosaliesFlareUpEventCT}}",
-"{{ModId}}_NPC.RosalieRadioEventCT":"{{i18n:NPC.RosalieRadioEventCT}}",
+"NPCRosalieRamp": "",
+"NPCRosalieArrivalCT": "",
+"NPC.RosalieHarveyAptCT:: "",
+"NPC.RosalieEmilyWalkCT": "",
+"NPC.RosalieGeorgeWCCT": "",
+"NPC.RosalieVOTVJobEventCT": "",
+"NPC.RosaliesStoryCT": "",
+"NPC.RosaliesFlareUpEventCT":"",
+"NPC.RosalieRadioEventCT":"",
 
 ********************************
 ROSALIE x SHANE CTS
 ********************************
 
-"{{ModId}}_ShaneRosalieTherapyCT": "{{i18n:NPC.ShaneRosalieTherapyCT}}",
-"{{ModId}}_RosaliesRibbonCT": "{{i18n:NPC.RosaliesRibbonC}}",
-"{{ModId}}_RosalieSneezeEventCT": "{{i18n:NPC.RosalieSneezeEventCT}",
-"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:NPC.ShaneRosalieChildhoodTalkJasCT}}",
-"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:NPC.ShaneRosalieLowDayCT}}",
-"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:NPC.RosalieShaneDreamsAndDisastersCT}}",
-"{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:NPC.RosalieShaneSleepOverCT}}",
-"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:NPC.ShaneRosalieKitchenLoveCT}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:NPC.RosalieShaneSecondFirstKissCT}}",
+"NPC.ShaneRosalieTherapyCT": "",
+"NPC.RosaliesRibbonCT": "",
+"NPC.RosalieSneezeEventCT": "",
+"NPC.ShaneRosalieChildhoodTalkJasCT": "",
+"NPC.ShaneRosalieLowDayCT": "",
+"NPC.RosalieShaneDreamsAndDisastersCT": "",
+"NPC.RosalieShaneSleepOverCT": "",
+"NPC.ShaneRosalieKitchenLoveCT": "",
+"NPC.RosalieShaneSecondFirstKissCT": "",
+"NPC.RosaliexShane": "",
+"NPC.RosalieTheWinterMermaidCT": ""
 
-{{ModId}}_NPC.RosaliexShane 14 **DOUBLE CHECK THIS!!!!!***": "{{i18n:NPC.ShaneRosalieTherapyCT}}"
+
 
  */
 
@@ -39,14 +42,19 @@ ROSALIE x SHANE CTS
 
 "AbigailRosalieRamp": "I think walking into the saloon with my combat boots will be a little easier now with the ramp.",
 "AbigailRosalieArrivalCT": "I like Rosalie's hair ribbon! I wonder where she got it?",
+"Abigail.RosalieEmilyWalkCT": "I saw Rosalie the other day. She seemed to be struggling to walk up the hill past my place.$2 #$b# I thought of offering to get her wheelchair for her, but I didn't realize how much of the town is uphill. So it likely wouldn't have helped her...",
 "Abigail.RosalieGeorgeWCCT": "It must be nice to be a ghost. You don't need to worry about if you can go somewhere based on your abilities...$2 $#e#There is the possibility ghosts are stuck in the place they died... So maybe not...$2",
-"Abigail.RosalieVOTVJobEventCT": "I wonder if Rosalie will interview me about the ghosts in the graveyard. Their stories need to be heard too!$1",
+"Abigail.RosalieVOTVJobEventCT": "I wonder if Rosalie will interview me about the ghosts in the graveyard. Their stories need to be heard too!",
 "Abigail.RosaliesStoryCT": "So, I'd never ask Rosalie or George what happened to make them disabled...$2 #$b# Do you think the same rule applies to the dead?$1",
 "Abigail.RosaliesFlareUpEventCT": "Sometimes I wonder if my parents would have been better off divorced...$s #$e# I know people talk about staying for the kids, but it only hurts them more...$s",
 "Abigail.RosalieRadioEventCT": "So, @, what's it like being famous now that you were interviewed by The Voice of the Valley?",
 
+"Abigail.RosaliesRibbonCT": "I may have to ask Rosalie if I can have one of her ribbons too! It looks so cute on Jas!$1",
 "Abigail.DreamsAndDisastersCT": "I don't think there's anything wrong with two friends becoming more, right?",
+"Abigail.RosaliexShane": "$query !PLAYER_NPC_RELATIONSHIP Current Alex Dating Engaged Married#Shane's come a long way from brooding in the corner. Now he has a gorgous girlfriend!$1 #$e# See, Sebastian?$5|Next time my mom tells me I can't change someone, I'm going to point at Rosalie and Shane.$1",
 
+"Abigail.RosalieTheWinterMermaidCT": "I knew it! I KNEW there was something about Rosalie's voice!$7 #$b# Oh... You meant at the Night Market...$2",
+"Abigail.RosalieTheWinterMermaidCT_OneDay": "%Abigail has that look, like you just told her Santa doesn't exist.",
 
 
 
@@ -54,47 +62,62 @@ ROSALIE x SHANE CTS
 
 /*Alex*/
 "AlexRosalieArrivalCT": "I heard the new girl was an actress from the city. #$b# Maybe she was a plus size model? #$b# What? It's a compliment!$h",
-
-"Alex.RosaliesFlareUpEventCT": "The plus size model is getting a divorce?! $u #$e# I wonder who cheated on who?$h",
+        "Alex.RosalieEmilyWalkCT": "I saw the new girl trying to walk up the hill the other day. It's nice to see she's getting some exercise.",
+        "Alex.RosalieGeorgeWCCT": "I should have known my Grandpa would do this the minute the new girl showed up in the wheelchair.$5 #$e# I see Grandpa's point, you shouldn't use something if you don't need it, but I mean... the doc wouldn't say she did if she didn't, right?$2",
+        "Alex.VOTVJobEvent": "Grandma listens to the radio all the time, it's so cool that the plus size model is also there too!",
+        "Alex.RosaliesFlareUpEventCT": "The plus size model is getting a divorce?!$u #$e# I wonder who cheated on who?$h",
+        "Alex.RosalieRadioEvent": "I'm bummed I missed the live event, but at least we can hear her anytime we want just by talking to her!$1 #$e# I heard she sings on the beach on rainy days. Elliott's probably probably thrilled he gets a free concert.$1",
+       
+        "Alex.ShaneRosalieLowDayCT": "I've been seeing Rosalie and the Joja Mart guy together a lot lately. It's weird.$2 #$b# He's probably in it for the free alcohol. But what's she getting out of it?$2 #$e# Rosalie can do so much better! I mean, look at her!$2",
+        "Alex.RosalieShaneSecondFirstKissCT": "Things are weird in town lately... Any idea why? #$b# I probably just need to work out more!$1",
+        "Alex.RosaliexShane": "$query !PLAYER_NPC_RELATIONSHIP Current Alex Dating Engaged Married#What?! How on earth did-?! But she's-!$6 #$e# I give them a week!$1",
+        "Alex.RosalieTheWinterMermaidCT": "Wow... That new girl... The Night Market Mermaid... Who knew?",
 
 /*Caroline*/
 "CarolineRosalieArrivalCT": "I heard that Rosalie moved somewhere by the ocean when she and her family left. #$b# I hope Pierre doesn't start stocking sea food...$s",
+"Caroline.RosaliesFlareUpEventCT": "Pierre is too stingy to think about getting a divorce. Besides, I wanted Abigail to grow up with both of her parents.",
 
 "Caroline.RosalieShaneSecondFirstKissCT": "$query !PLAYER_NPC_RELATIONSHIP Current Abigail Dating Engaged Married#Well, I hope that Abigail doesn't get any ideas about ruining her friendship with Sebastian.|This is why I told Abigail to wait for the person to bring a bouquet to you. #$b# Sometimes... it's better not knowing...$s",
 
+"Caroline.RosalieTheWinterMermaidCT": "Don't tell Abigail about the new mermaid.",
+
+
 /*Clint*/
 "ClintOnRosalieRamp": "Don't tell Gus, but I did think that the stairs into the saloon were a bit steep.",
-
 "ClintRosalieArrivalCT": "Rosalie and I didn't talk much as kids. I doubt that'll change. #$e# We used to hang out sometimes, but not much...",
-
-"ClintOnRosalie": "I heard Rosalie and Emily are friends... do you think she'd put in a good word for me to Emily?",
-
+"Clint.RosalieEmilyWalkCT": "I heard Rosalie and Emily are friends... Do you think she'd put in a good word for me to Emily?$1",
+"Clint.RosalieVOTVJobEventCT": "I never used to get why my dad would listen to the radio while working, but I think I get it now.",
 "Clint.RosaliesFlareUpEventCT": "Rosalie is single?!$u #$b# Uh... I mean...$s #$b# That's too bad... Poor Rose...$s",
+
+"Clint.ShaneRosalieChildhoodTalkJasCT": "I didn't realize that the boy Rosalie used to hang out with in the summers was Shane. #$b# I don't expect her to remember we used to take the bus to and from school together every day until she moved...$2",
+"Clint.RosalieShaneSleepOverCT": "Rosalie seemed to be doing okay the other night, but Shane wasn't doing so good.$2 #$b# Last I saw, he was asking Gus and Emily to take over for Rosalie. #$e# Maybe I'm not as observant as I ought to be...$2",
+"Clint.RosaliexShane": "*sigh* Should have expected Rosalie and Shane to start dating when she came back.$2 #$e# I guess I hoped she would remember me and give me a chance...$2",
+
 
 /*Demetrius*/
 "DemetriusRosalieArrivalCT": "It's interesting how some people dress up in styles from the past. #$b# I prefer to look to the future myself.$h",
-"Demetrius.RosalieGeorgeWCCT": "Have you ever seen a cat who is unable to use all their limbs? #$b# It's amazing how easily they're able to adapt. #$e# They don't know that they're any different. #$b# If only humans could be that adaptable.",
+"Demetrius.RosalieGeorgeWCCT": "Have you ever seen a cat who is unable to use all their hind limbs climb a tree? #$b# It's amazing how easily they're able to adapt. #$e# They don't know that they're any different. #$b# If only humans could be that adaptable.",
+"Demetrius.RosaliesFlareUpEventCT": "Did you know that true lifelong monogamy is rare in the animal kingdom? #$b# Monogamy is less about romance and more of a practical survival strategy. #$b# I suppose some humans think the same way.$1",
+
+"Demetrius.RosaliexShane": "Did you know that over the first ten years of marriage, the chance of a divorce is 32%. #$b# For high school and childhood sweethearts who marry, it's 54% chance they'll divorce within the same timeframe.$2 #$b# However, those who wait to marry or reconnect later in life, have a much lower rate. #$e# I think Rosalie and Shane will be fine.$1",
 
 /*Dwarf*/
 "DwarfRosalieArrivalCT": "I thought I heard a siren's call this morning...",
 
 /*Elliott*/
 "ElliottRosalieArrivalCT": "I heard that Miss Rosalie was an actress, but she told me she's also a writer.#$b# Leah also said she's an artist. And Gus said she's a singer. #$b# I can't imagine one person having that many passions, but it's inspiring! #$b# Then again, maybe that's what's taking a toll on the rose.$s",
-"Elliott.RosalieGeorgeWCCT": "It's unfortunate that we always think of some stories as a work of fiction. #$b# I just wish Rosalie hadn't been the prom example of it.$a",
-
-
-"ElliottOnRosalie": "That which we call a rose, by any other name would smell as sweet.$l #$b# Oh, I'm sorry, I've been reading the classics lately.$h",
-
+"ElliottRosalieArrivalCT_OneWeek": "That which we call a rose, by any other name would smell as sweet.$l #$b# Oh, I'm sorry, I've been reading the classics lately.$h",
+"Elliott.RosalieGeorgeWCCT": "It's unfortunate that we always think of some stories as a work of fiction. #$b# I just wish Rosalie hadn't been the prime example of it.$a",
+"Elliott.RosalieVOTVJobEventCT": "If having a simpler life by the ocean wasn't relaxing enough, I now have a radio to listen to our local celebrity.$1 #$b# It's so much less distracting than watching television.",
+"Elliott.RosaliesStoryCT": "I did some of my best writing when I was isolated five years ago. #$b# Would I be horrible to say I missed it?$2",
 "Elliott.RosaliesFlareUpEventCT": "I know Rosalie thought she found her fairytale ending,$s #$b# But the story wouldn't be as interesting if she didn't have some trials to overcome.$h #$e#I do hope she's doing alright, though...$s",
-
 "Elliott.RosalieRadioEventCT": "Many don't know that in the original story of 'the Little Mermaid',$s #$b# She is unable to walk on land without feeling like knives were going through her new legs.$s #$b$ Maybe there's some truth to the rumours and Miss Rosalie's condition. #$e# I certianly believe.$h",
 
-"ElliottOnMermaidEventCT": "It's facinating when fantasy immitates reality, don't you think @?",
-
 "Elliott.RosalieDreamsAndDisastersCT":"Shane and Rosalie's relationship make for quite the interesting story. #$b# Though I will admit, quite predictable... too predictable...$2 #$e# I hope if things are platonic, they're on the same page about that.$2 #$b# But it wouldn't make an interesting story if they were.$h",
-
 "Elliott.RosalieShaneSecondFirstKissCT1": "I see this kind of thing in romance novels all the time. #$b# It's obvious that one of them kissed the other. #$b# It's hard to tell how they feel about it though... It could go either way...$2",
 "Elliott.RosalieShaneSecondFirstKissCT2": "Did you know that forcing a kiss on someone, though romanticised throughout history, is really a form of assult.$s #$b# It *can* be romantic if both parties share feelings,$h #$b# But if not, it's just assult...$s #$e# How dare you?! I'm a writer! Researching the law and staying current is important!$a",
+
+"Elliott.RosalieTheWinterMermaidCT": "It's facinating when fantasy immitates reality, don't you think @?",
 
 /*
 Emily
@@ -108,19 +131,25 @@ Emily
 
 "Emily.RosaliesRibbonCT": "I had no idea that Shane and Rosie were childhood friends! It's such a small world! #$e# Though I do wonder why they didn't speak until now though...$2",
 "Emily.RosalieSneezeEventCT": "I've seen Rosie's sneezes cause a flare before, but never so bad that she collapsed.$2 #$b# I hope she's doing better now...$2",
+"Emily.RosalieSneezeEventCT_TwoWeeks": "I don't think I've ever seen Shane smile as much as he does around Rosie. #$b# It's amazing to see how much his personality changes when he's around her!$1",
 "Emily.ShaneRosalieLowDayCT": "Rosie was so worried about Shane. I don't blame her given what he almost did before you stepped in.$2",
-
 "Emily.RosalieDreamsAndDisastersCT1": "Shane is always looking at Rosalie to make sure she's doing okay when he's here at the saloon. #$b# It's really sweet how much he cares about his friend. #$e# I like to think that Rosie would tell me if she liked Shane in that way. Or Shane would if he did.$3",
 "Emily.RosalieDreamsAndDisastersCT2": "Don't bring up Shane and Rosalie to my sister... She's not... acting like herself.$2 #$e# Why? No reason.",
+"Emily.ShaneRosalieKitchenLoveCT": "Shane's been acting weird with Rosie around lately...$2",
+"Emily.RosalieShaneSecondFirstKissCT": "I think Rosie and Shane had a fight...$s #$b# I thought she'd talk to me about it, but she's been really tight lipped and Shane hasn't come in.$2 #$b# I thought Rosie and I were close enough to talk about this kind of thing...$2",
+"Emily.RosaliexShane": "I just knew the moment that Shane and Rosie looked at each other that they were meant to be together! #$e# I've never seen another couple so happy!$1",
+"Emily.RosalieTheWinterMermaidCT": "Rosie is our Night Market Mermaid! I knew we were best friends for a reason!$1 #$e# I always go to the beach to look for mermaids, I should have known that there was one who was working with me at the saloon!$1",
 
-"Emily.RosalieShaneSecondFirstKissCT": "I think Rosie and Shane had a fight...$s #$b# I thought she'd talk to me about it, but she's been really tight lipped and Shane hasn't come in.$2 #$b# I thought Rosie and I were close...$2",
 /*
 Evelyn
 */
 "EvelynRampEventCT": "I heard that Gus had a ramp installed at the Saloon! #$b# Maybe George and I will pay a visit!$h",
 "EvelynRosalieArrivalCT": "It's so nice to see Rosalie again after all this time! #$b# Now... Was she the first or second born to the nurse?",
 
-"Evelyn.RosaliesFlareUpEventCT": "Back in my day, if things didn't work out between a married couple, you just stuck it out. #$e# George and I may not seem like it, but we still love each other dearly. #$b# I hope Rosalie can find that, and find peace.",
+"Evelyn.RosaliesFlareUpEventCT": "Back in my day, if things didn't work out between a married couple, you just stuck it out. #$b# George and I may not seem like it, but we still love each other dearly. #$b# I hope Rosalie can find that, and find peace.",
+"Evelyn.RosaliexShane": "I saw the Rose and the chicken boy holding hands earlier today. How wonderful! #$e# After everything they've been through, they deserve something that lasts.",
+"Evelyn.RosaliexShane_oneyear": "I wonder when Miss Rosalie and her sweetheart are going to have children? #$b# I'm sure they'd be adorable! I hope I'm around to see it!",
+
 
 /*
 George
@@ -129,8 +158,9 @@ George
 "GeorgeRosalieArrivalCT": "Rosalie was a thorn in my side! #$b# She always stuck sticks in my wheelchair, and disobeyed her mother! #$b# Yoba must be on my side to stick her in one, too! Heh heh!$h #$e# Wait... was she the quiet one?$s #$b# Oh... yes. She'll be fine.$h #$b# As long as she stays away from the drunk.",
 "George.RosalieGeorgeWCCT": "How was I supposed to know the girl had chronic pain? #$b# She should have just said so!#$e#I know what that's like... I should probably apologize...$s#$b#...tomorrow.$h",
 
-"George.RosaliesFlareUpEventCT": "I'm lucky that when I became disabled, Evelyn stayed with me. Made sure everything in the home was accessable.$s #$b# If Rosalie's husband couldn't do that, good riddence to him and good on her for kicking that leech to the curb.$h #$e# I'm sure that boy she was always with is dancing with joy now that the news is out$h",
+"George.RosaliesFlareUpEventCT": "I'm lucky that when I became disabled, Evelyn stayed with me. Made sure everything in the home was accessable.$s #$b# If Rosalie's husband couldn't do that, good riddence to him and good on her for kicking that leech to the curb.$h #$e# I'm sure that boy she was always with is dancing with joy now that the news is out.",
 
+"George.RosaliexShane": "So, the little rascals who put wheels in my wheelchair are finally giving it the old college try. Took 'em long enough. #$e# I think her father owes me twenty gold. That was a lot back in our day.$1",
 
 
 /*
@@ -151,13 +181,16 @@ Hayley
 "HaleyRosalieArrivalCT2": "%Haley's mind is elsewhere",
 "HaleyRosalieArrivalCT3": "Huh? What? Nothing!$2 #$b# Stop bugging me! I don't know anything!$3",
 "HaleyRosalieArrivalCT4": "%Haley is not looking at you",
-"HaleyOnRosalie": "Rosalie is pretty...$2 #$b# Pretty weird.$3",
+"HaleyRosalieArrivalCT_oneweek": "Rosalie is pretty...$2 #$b# Pretty... weird.$3",
 
 "Haley.RosaliesFlareUpEventCT": "Rosalie was married, and now she isn't?!$8 #$b# Oh no... how terrible...$2",
 
-"Haley.RosalieDreamsAndDisastersCT": "%Haley is muttering to herself. #$e# (Maybe if I give her some wine... or something...)$2 #$e# (Why would she go for *Shane* when her soulmate is so much better!)$3 #$e# (I don't know why Emily isn't helping, this is her thing!)$5 #$e# (I have to tell her! I just have to! There's no other way!)$3 #$e# (Sure, it'll break the kid's heart but she'll get over it!)$2 #$e# %Haley just noticed you are there #$b# Um... shopping... hair... la la la...$2",
-
+"Haley.RosalieDreamsAndDisastersCT": "%Haley is muttering to herself. #$e# (Maybe if I give her some wine... or something...)$2 #$e# (Why would she go for *Shane* when her soulmate is so much better!)$3 #$e# (I don't know why Emily isn't helping, this is her thing!)$5 #$e# (I have to tell her! I just have to! There's no other way!)$3 #$e# (Sure, it'll break the kid's heart but she'll get over it!)$2 #$e# Oh! @!$2 #$b# Um... shopping... hair... la la la...$1",
 "Haley.RosalieShaneSecondFirstKissCT": "I thought I'd be happy about something like this happening... But I'm not...$2",
+"Haley.RosaliexShane": "Well... I guess the heart wants what it wants... and they *do* make a cute couple...$2 #$e# I never say this but... Emily was right. All this stress is going to give me crows feet.$3",
+
+"Haley.RosalieTheWinterMermaidCT": "I didn't know they were casting for a new mermaid.$8 #$b# Did the casting director come here? I would be a much better choice?$3",
+
 
 /*
 Jas
@@ -167,15 +200,20 @@ Jas
 /*
 Jodi
 */
-"JodiRosalieArrivalCT": "I wonder if Gus' niece is the same 'Rosalie' that's carved into Sam's wall from when we moved. #$b# That would be a fun coincidence!$h",
-
+"JodiRosalieArrivalCT": "I wonder if Gus' niece is the same 'Rosalie' that's carved into Vincent's wall from when we moved. #$b# That would be a fun coincidence!$h",
+"Jodi.RosalieVOTVJobEventCT": "It's so nice that I can just listen to 'The Voice of the Valley' and I don't need to worry about forgetting anyone's birthday!",
 "Jodi.RosaliesFlareUpEventCT": "I can't imagine what Rosalie's is going through with the divorce.$s #$e# When Kent and I got married, we didn't know each other for very long. #$b# It's a shame that it didn't work out after thirteen years...$s",
+
+"Jodi.RosaliexShane": "I always wondered why Shane never seemed interested in dating anyone. I thought maybe Jas was keeping him from considering it. #$b# But I guess he was just waiting for Rosalie to come home.$1",
 
 /*
 Kent
 */
 "KentRosalieArrivalCT": "Gus says his niece moved away from here because of the war... #$b#Similar circumstances brought us here from the city.",
 "Kent.RosaliesFlareUpEventCT": "Divorce always brings out the worst in people. #$b# I'm lucky not to know first hand what it's like.",
+
+"Kent.ShaneRosalieChildhoodTalkJasCT": "Rosalie's a good kid. I like that she always keeps an eye out on Jas and Vincent.$1",
+"Kent.RosaliexShane": "When I was in the trenches, it was seeing Jodi, Samson, and Vincent again that kept me hopeful. #$e# Rosalie and Shane seem to have gone through a war of their own. It's good that they have each other.$1",
 
 /*
 Krobus
@@ -279,12 +317,8 @@ Robin
 "Robin.RosaliesFlareUpEventCT": "I told Gus for years that Rosalie's husband was a boy. She needs a man to care for her.$3 #$e# Sebastian's dad and I weren't happy. I didn't realize how lucky I was that he was understanding of that throughout the whole process.$2 #$e# I wish Rosie's ex was honest about his feelings for her. Maybe she'd be hurting less if he had...$2",
 
 
-
-
 "Robin.RosalieDreamsAndDisastersCT": "Rosalie and Shane have always been close. Like brother and sister. #$b# But as they got older, they had a spark of something more between them.$1 #$e# All I'll say is Shane would be crazy not to be interested in Rosalie. I mean, she's gorgeous!$1 #$e# I did wonder what would have happened if Rosie and Shane had gone to the same high school though...$2",
-
 "Robin.RosalieShaneSleepOverCT": "Demetrius noticed something was off with Rosie when we were at the saloon last...$2 #$b# I thought he was just imagining it, but Rosie seemed to be in tears when Shane took her into the back...$2 #$b# I'm glad Rosie has her best friend back. Looks like nothing's changed!$1 #$e# I wish Demetrius was as in tune with my emotions as he was with her's...$3",
-
 "Robin.RosalieShaneSecondFirstKissCT": "I tried to ask Rosalie what was going on lately with her and Shane, but she hasn't been opening up to me like she used to...$2 #$e# I know I'm not her mother, but if he did something to hurt her, he's going to have some words with my favorite axe.$m #$e# I was kidding!$4 #$b# or was I?$2",
 
 /*
@@ -293,18 +327,17 @@ Sam
 "SamRosalieRamp": "A ramp?! No way!$h #$b# I can't wait to use it to skateboard into the saloon!",
 "SamRosalieArrivalCT": "Rumour has it the new girl has a good voice. #$b# But I heard her talk, it's nothing special.$s",
 
-
-        //Not Added yet into Conversation Topic
 "Sam.RosalieRadioEventCT": "I have to admit, I was wrong! #$b# Rosalie has some pipes!$1 #$e# Do you think Rosalie would join my band?",
-"SamRosalieMermaidEventCT": "Now that Rosalie's been discovered, I guess it's a bit late to ask her to join my band, huh...$s",
+"Sam.RosalieTheWinterMermaidEventCT": "Now that Rosalie's been discovered, I guess it's a bit late to ask her to join my band, huh...$s",
 
 /*
 Sandy
 */
 "SandyRosalieArrivalCT": "I heard that Emily has a new friend! #$e# You're not getting anything out of me!$h",
 
-        //Not added yet into Conversation Topic
-"Sandy.RosalieRadioEventCT": "Emily's mermaid friend has quite the voice! #$b# I heard she's quite the local celebrity!$h",
+"Sandy.RosalieRadioEventCT": "I heard your interview on the radio! #$b# It seems like you and the Stardew Valley Rose are quite close!$1",
+
+"Sandy.RosalieTheWinterMermaidCT": "Emily's mermaid friend has quite the voice! #$b# I heard she's quite the local celebrity!$h",
 
 /*
 Sebastian
@@ -313,36 +346,40 @@ Sebastian
 "Sebastian.RosalieGeorgeWCCT": "My mom's been ranting about the thing with George. #$b# She keeps talking about what *she* would have done, but honestly, I would have ran too... #$b# Or, wheeled away.$h,",
 
 "Sebastian.RosaliesFlareUpEventCT": "$query PLAYER_NPC_RELATIONSHIP Dating Engaged Married#Huh. That sucks for the new girl. #$e# People can be genuine, but not honest. #$e# And yet, people ask why I prefer to be alone.$s|Huh. That sucks for the new girl. #$e# People can be genuine, but not honest. #$e# And yet, people ask why I prefer to be alone.$s #$b# Except you, of course.$1",
-
 "Sebastian.RosalieShaneSecondFirstKissCT": "My mom's been.... a bit scary lately...$s #$b# Like, Rosalie's not even her kid. It's weird, right?",
 
 /*Vincent
 */
-"VincentRosalieArrivalCT": "There was a lot of noise last night at the house next door...#u",
+"VincentRosalieArrivalCT": "There was a lot of noise last night at the house next door...$2",
+"Vincent.RosaliesRibbonCT": "Jas got a present? No fair!$s",
+"Vincent.ShaneRosalieChildhoodFriendsCT": "Jas says that Miss Rosalie is really nice.",
+"Vincent.RosaliexShane": "Jas said that her Uncle and his girlfriend were best friends like Jas and I are.$2 #$b# But I want to marry Miss Penny! It's not fair!$2",
 
 /*
 Willy*/
 "WillyRosalieArrivalCT": "Something's... not right about the new lass... #$e# I can feel it in me ol' sea legs...#s",
+"Willy.RosalieTheWinterMermaidCT": "Ah! So, the Night Market Mermaid has decided to sail to another of the seven seas. #$b# How wonderful our local siren gets her voice.$1",
+
 
 /*Wizard*/
 "WizardRosalieArrivalCT": "Something... has changed... #$b# The winds... They're carrying a sound... #$e# I must observe this change.", 
+"WizardRosalieArrivalCT_OneWeek": "She appears younger than she is... It can't just be good genetics...",
+"WizardRosalieArrivalCT_TwoWeeks": "I have my suspicions... but I'll need more time to observe the girl.",
+"WizardRosalieArrivalCT_FourWeeks": "She doesn't appear to be evil, though her voice appears to attract many. She was right to keep silent as a child.",
+"WizardRosalieArrivalCT_EightWeeks": "The Doctor... The Rose... The Farm Boy... #$b# There's something I must be missing...",
 
-"WizardOnWC": "I saw the girl unable to walk today... #$b# Coincidence? Nothing is coincidence.", //first time Rosalie seen in a WC//
-
-"WizardOnRosalie1": "She appears younger than she is... It can't just be good genetics...",
-"WizardOnRosalie2": "I have my suspicions... but I'll need more time to observe the girl.",
-"WizardOnRosalie3": "She doesn't appear to be evil, though her voice appears to attract many. She was right to keep silent as a child.",
-"WizardOnRosalie4": "They say she lived near the ocean... 'Somewhere across the sea'... #$b# I cannot rule out that the girl doesn't have some magical properties to her. #$b# If she stays, I will continue my research.",
-"WizardOnRosalie5": "She's good with animals? That's hardly news.",
-
+"Wizard.RosaliesStoryCT": "They say she lived near the ocean... 'Somewhere across the sea'... #$b# I cannot rule out that the girl doesn't have some magical properties to her. #$b# If she stays, I will continue my research.",
 "Wizard.RosaliesFlareUpEventCT": "So, she's going through a divorce... does she know a good lawyer? #$b# I'm uh asking for a friend.",
-
+"Wizard.RosaliesFlareUpEventCT_OneWeek": "The Rose and the Doctor have something going on. But it's not my place to say. #$e# It's a little out of character even for him.",
 "Wizard.RosalieRadioEventCT1": "A child has been spreading rumours about the Rose girl. #$b# I'm unsure to put an end to her fantasies, or to consider them.",
 "Wizard.RosalieRadioEventCT2": "There is always some truth in every story we hear. #$b# Even those of fiction. #$b# I don't think the child, or any of us have any reason to fear her.",
 
-"WizardOnRosaliexShane": "The Doctor... The Rose... The Farm Boy... #$b# There's something I must be missing...",
+"Wizard.ShaneRosalieLowDayCT": "She's good with animals? Except a certain chicken? That's hardly news.",
+"Wizard.RosaliexShane": "I can't put my finger on it but... something just isn't right about the Rose and the Farm Boy being together... #$b# It's nothing personal. Just... something is wrong... like the fates are saying it's not right... #$e# I wish the fates would have said the same thing about me and my ex wife. #$e# Why would I say something? Sometimes soulmates are friends and nothing more. If they want to be, that's on them.",
 
-"WizardMermaidEventCT":"She's playing the mermaid for the Night Market? #$b# That's just coincidence. #$e# What?"
+"Wizard.RosalieTheWinterMermaidCT":"She's playing the mermaid for the Night Market? #$b# Oh. That's just coincidence. #$e# What?",
+
+"WizardOnWC": "I saw the girl unable to walk today... #$b# Coincidence? Nothing is coincidence.", //first time Rosalie seen in a WC//
 
 
  

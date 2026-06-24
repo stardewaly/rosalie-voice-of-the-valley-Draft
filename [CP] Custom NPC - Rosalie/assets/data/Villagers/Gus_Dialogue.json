@@ -47,8 +47,9 @@
 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
 "{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Gus.RosalieShaneSleepOverCT{{Random: 1, 2 }} }}", 
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Gus.SandCastlesWithJasCT}}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.RosalieShaneSecondFirstKissCT{{Random: 1, 2}} }}"
-
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.RosalieShaneSecondFirstKissCT{{Random: 1, 2}} }}",
+"{{ModId}}_NPC.RosaliexShane": "{{i18n:Gus.RosaliexShane}}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Gus.RosaliexShane_oneyear}}"
 
 
 

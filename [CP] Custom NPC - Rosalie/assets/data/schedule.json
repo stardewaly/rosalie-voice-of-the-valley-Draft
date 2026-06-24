@@ -62,9 +62,9 @@
 
             "Rosalie Mermaid Schedule Key": {
                "Id": "Rosalie Night Market Schedule Key",
-               "ScheduleKey": "stardewaly.rosalie_RosalieMermaid",
+               "ScheduleKey": "stardewaly.rosalie_RosalieWinterMermaid",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShanexRosalieTheMermaid",
+               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent, DATE_RANGE WINTER 15 1 Winter 17 1"
             }
 
          }
@@ -78,11 +78,17 @@
             "stardewaly.rosalie_flareup": "1200 Saloon 5 4 2/1300 Saloon 7 4 0/1800 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
             "{{ModId}}_RosaliexShane.RosalieBFF": "615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1450 Forest 93 23 1/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "{{ModId}}_RosaliexShane.RosalieJas": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 16 91 0/1750 AnimalShop 3 6 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
-         
+         "{{ModId}}_RosalieWinterMermaid": "615 AnimalShop 23 15 0/1100 AnimalShop 24 5 0/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3\"Strings\\schedules\\Shane:winter_15.000\"/2300 AnimalShop 27 4 1 stardewaly.rosalie_Rosalie_sleeping
+         615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+
          }
       }
+
+      
    ]
     }
+
+    
 
 
 

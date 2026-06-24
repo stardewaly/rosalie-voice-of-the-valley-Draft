@@ -11,10 +11,10 @@
       "Target": "Data/mail",
       "Entries": {
         //Shane x Rosalie Actual Mail
-        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}-%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
-        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}}-%%[#]Dinner At The Ranch",
-		"{{ModId}}_RosaliexShaneMMLetter": "{{i18n:ShaneRosalieMMLetter}}-%%[#]A Secret Meeting with Rosalie"
-		
+        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
+        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}}[#]Dinner At The Ranch",
+		"{{ModId}}_RosaliexShaneOneSeasonTwentyYearsLetter": "{{i18n:ShaneRosalie.OneSeasonTwentyYearsLetter}}[#]A Secret Meeting with Rosalie",
+		"{{ModID}}_RosaliexShane.BreakUpPlayer": "{{i18n:ShaneRosalieBreakUp}}%item 277 1 %%%Spiderbuttons.BETAS_ChangeRelationship Shane Friendly %% [#]It's Not You, It's Shane",
 	}
     },
 
@@ -25,20 +25,42 @@
       "Target": "Data/TriggerActions",
       "Entries": {
 
-        "{{ModId}}_Jas.RosaliesRibbonPrologueTrigger": {
-          "Id": "{{ModId}}_Jas.RosaliesRibbonCutSceneTrigger",
-          "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Jas 3, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",
-          "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbonPrologueFlag received"
-        },
+		"{{ModId}}_RosaliexShane.BreakUpWithPlayer": {
+		  "Id": "Shane breaks up with player with Rosalie's arrival",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating, PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RampEvent",
+          "Action": "AddMail Current {{ModID}}_RosaliexShane.BreakUpPlayer now" 
+		  //June 20 - Haven't tested. May need to add Change Relationship by BETAS into Action as well if doesn't happen until you open the letter
+
+
+		},
 
         
-        "{{ModId}})_MarnieLetterForDinnerTrigger": {
+        "{{ModId}})_MarnieLetterForDinnerLetterTrigger": {
           "Id": "{{ModId}}_DinnerAtMarniesTrigger",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Marnie 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC {{ModId}}_RosaliesRibbonCT",
+          "Condition": "PLAYER_HEARTS Current Marnie 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_RosaliesRibbonCT",
           "Action": "AddMail Current stardewaly.rosalie_MarnieLetterForDinner now"
-        }
+        },
+
+		//To notify the game that it's been at least 8 weeks since RxS got together
+		        "{{ModId}}_RosaliexShane.OneSeasonTwentyYearsLetterFlag": {
+          "Id": "{{ModId}}_RosaliexShane.OneSeasonTwentyYears.LetterTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_NPC.RosaliexShane_memory_eightweeks",
+          "Action": "AddMail Current {{ModId}}_RosaliexShaneOneSeasonTwentyYearsLetterFlag received"
+		  
+        },
+
+		//To trigger the letter for the One Season Event
+    		"{{ModId}}_ShanexRosalie.OneSeason.TwentyYears.SeasonBackUpTrigger": {
+			"Id": "Shane x Rosalie One Season Letter Trigger",
+			"Trigger": "DayEnding",
+			"Condition": "!SEASON Winter, PLAYER_HAS_MAIL {{ModId}}_RosaliexShaneOneSeasonTwentyYearsLetterFlag Current received",
+			"Action": "AddMail Current stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsLetter now"
+
+		}
+
 
     }
 
@@ -92,8 +114,8 @@
           //Trigger Therapy Change Event //
 		"{{ModId}}_ShanexRosalieTherapyChangeEventTrigger": {
 			"Id": "Shane x Rosalie Therapy Change Event Trigger",
-			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieBus1, !DAY_OF_WEEK Monday",                
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShanexRosalieBus1, !DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapyChangeEventFlag received"
 		},
 
@@ -106,6 +128,15 @@
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneTherapyChange, DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy2Flag received"
 		},
+
+		//Rosalie and Jas Rosalies Ribbon Prologue Trigger
+        "{{ModId}}_Jas.RosaliesRibbonPrologueTrigger": {
+          "Id": "{{ModId}}_Jas.RosaliesRibbonCutSceneTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current Jas 3, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",
+          "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbonPrologueFlag received"
+        },
+
 
 //Rosalies Ribbon Quest Dialogue Trigger
 		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
@@ -167,36 +198,40 @@
     		"{{ModId}}_ShanexRosalieSecondFirstKissEventTrigger": {
 			"Id": "Shane x Rosalie Second First Kiss Event Trigger",
 			"Trigger": "DayStarted",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneKitchenLoveEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieKitchenLoveCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, WEATHER Here Rain GreenRain Storm2",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneKitchenLoveEvent, PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieKitchenLoveCT_memory_oneweek, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, WEATHER Here Rain GreenRain Storm2",
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieSecondFirstKissEventFlag received"
 		},
-
-// Shane Bouquet (HAVENT MADE YET)
 
     		"{{ModId}}_ShanexRosalieBouquetEventTrigger": {
 			"Id": "Shane x Rosalie Bouquet Event Trigger",
 			"Trigger": "DayStarted",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneSecondFirstKissEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieSecondFirstKissCT, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieShaneSecondFirstKissEvent, PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_RosalieShaneSecondFirstKissCT_memory_oneday, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married",
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBouquetEventFlag received"
+		
 		},
 
-    		"{{ModId}}_ShanexRosalieTheMermaidEventTrigger": {
-			"Id": "Shane x Rosalie The Mermaid Event Trigger",
-			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieCandleEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_NPC.RosaliexShane, !PLAYER_NPC_RELATIONSHIP Any Shane Dating Engaged Married, !SEASON Winter",
-			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTheMermaidEventTrigger received"
-			}
 
+//Rosalie The Winter NMMM
 
-  
+    		"{{ModId}}_ShanexRosalie.WinterMermaid": {
+			"Id": "Shane x Rosalie Winter Mermaid Schedule Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent, ANY \"DATE_RANGE Winter 1 1 Winter 14\" \"DATE_RANGE Winter 18 1 Winter 24\" \"DATE_RANGE Winter 26 1 Winter 28\"",
+			"Action": "SetNpcInvisible stardewaly.rosalie_Rosalie 1"
+		
+		},
 
-
-
-
-          
-
+		    "{{ModId}}_ShanexRosalie.WinterMermaid.PelicanTown": {
+			"Id": "Shane x Rosalie Winter Mermaid Schedule - Rosalie In Town Trigger",
+			"Trigger": "DayStarted",
+			"Condition": "DATE_RANGE Winter 15 1 Winter 17",
+			"Action": "SetNpcVisible stardewaly.rosalie_Rosalie 1"
+		
       }
-    } 	
+	
+	}
+    
+} 	
     
 ]
 }

@@ -262,7 +262,7 @@
     "FromFile": "assets/data/Events/Shane x Rosalie Sneeze Event.json"
 },
 
-
+{
     "LogName": "Shane x Rosalie Candle Event",
     "Action": "Include",
     "FromFile": "assets/data/Events/Shane x Rosalie Candle Event.json"

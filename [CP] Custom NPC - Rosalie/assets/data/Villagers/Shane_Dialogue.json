@@ -15,6 +15,7 @@
 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ShaneRosalieArrivalCT{{Random: 1, 2, 3}} }}",
 
 "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Shane.RosalieGeorgeWCCT}}",
+"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:Shane.RosalieVOTVJobEventCT}}",
 
  "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Shane.RosaliesFlareUpEventCT}}",
 
@@ -34,6 +35,23 @@
 "{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Shane.RosalieKitchenLoveCT{{Random: 1, 2 }} }}",
 "{{ModId}}_RosalieShaneSecondFirstKissCT":"{{i18n:Shane.RosalieShaneSecondFirstKissCT}}",
 
+"{{ModId}}_NPC.RosaliexShane": "{{i18n:Shane.RosaliexShane{{Random: 1, 2, 3, 4, 5, 6, 7, 8 }} }}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneday": "{{i18n:Shane.RosaliexShane_oneday}}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneweek": "{{i18n:Shane.RosaliexShane_oneweek{{Random: 1, 2, 3 }} }}",
+"{{ModId}}_NPC.RosaliexShane_memory_twoweeks": "{{i18n:Shane.RosaliexShane_twoweeks{{Random: 1, 2 }} }}",
+"{{ModId}}_NPC.RosaliexShane_memory_fourweeks": "{{i18n:Shane.RosaliexShane_fourweeks{{Random: 1, 2 }} }}",
+"{{ModId}}_NPC.RosaliexShane_memory_eightweeks": "{{i18n:Shane.RosaliexShane_eightweeks{{Random: 1, 2, 3, 4}} }}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Shane.RosaliexShane_oneyear{{Random: 1, 2, 3 }} }}",
+
+"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Jas.RosalieTheWinterMermaidCT}}",
+
+
+"winter_15.000": "$query PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_NPC.RosaliexShaneOneSeasonTwentyYearsEvent#{{i18n:Shane_RosalieTheMermaid.NightMarketDay1}}|I'm taking a night off from the saloon for Jas' sake...",
+
+
+
+"NightMarket_2":  "{{i18n:Shane_RosalieTheMermaid.NightMarketDay2.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+"NightMarket_3": "{{i18n:Shane_RosalieTheMermaid.NightMarketDay3.{{Random: 1, 2, 3, 4 }} }}",
 //Location based (this is a vanilla token do not change the name unless you're changing locations)
 "Saloon_7_18": "{{i18n:ShanexRosalieBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
 

@@ -180,19 +180,7 @@
 
 
 
-  },
-  
-
-      {
-    "LogName": "Rosalie x Shane Bouquet Event",
-  "Action": "EditData",
-  "Target": "Data/Events/Town",
-  "Entries": {
-
-    //Works perfectly! Just transitions between maps needs work but not a deal breaker :) 
-
-    //debug ebi stardewaly.rosalie_ShaneRosalieCandle
-
+  }
 
 
 

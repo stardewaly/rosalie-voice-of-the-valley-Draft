@@ -9,29 +9,32 @@
   ROSALIE EVENT CTS
 ********************************
 
-{{ModId}}_RosalieRamp
-{{ModId}}_NPCRosalieArrivalCT
-{{ModId}}_RosalieHarveyAptCT
-{{ModId}}_RosalieEmilyWalkCT
-{{ModId}}_RosalieGeorgeWCCT
-{{ModId}}_RosalieVOTVJobEventCT
-{{ModId}}_RosaliesStoryCT 
-{{ModId}}_RosaliesFlareUpEventCT
-{{ModId}}_NPC.RosalieRadioEventCT
+"{{ModId}}_RosalieRamp": "{{i18n:NPCRosalieRamp}}",
+"{{ModId}}_NPCRosalieArrivalCT": "{{i18n:NPCRosalieArrivalCT}}",
+"{{ModId}}_RosalieHarveyAptCT:: "{{i18n:NPC.RosalieHarveyAptCT}}",
+"{{ModId}}_RosalieEmilyWalkCT": "{{i18n:NPC.RosalieEmilyWalkCT}}",
+"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:NPC.RosalieGeorgeWCCT}}",
+"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:NPC.RosalieVOTVJobEventCT}}",
+"{{ModId}}_RosaliesStoryCT": "{{i18n:NPC.RosaliesStoryCT}}",
+"{{ModId}}_RosaliesFlareUpEventCT":"{{i18n:NPC.RosaliesFlareUpEventCT}}",
+"{{ModId}}_NPC.RosalieRadioEventCT":"{{i18n:NPC.RosalieRadioEventCT}}",
 
 ********************************
 ROSALIE x SHANE CTS
 ********************************
 
-{{ModId}}_ShaneRosalieTherapyCT
-{{ModId}}_RosaliesRibbonCT
-{{ModId}}_RosalieSneezeEventCT
-{{ModId}}_ShaneRosalieChildhoodTalkJasCT
-{{ModId}}_ShaneRosalieLowDayCT
-{{ModId}}_RosalieShaneDreamsAndDisastersCT
- {{ModId}}_RosalieShaneSleepOverCT
-{{ModId}}_ShaneRosalieKitchenLoveCT
-{{ModId}}_RosalieShaneSecondFirstKissCT
+"{{ModId}}_ShaneRosalieTherapyCT": "{{i18n:NPC.ShaneRosalieTherapyCT}}",
+"{{ModId}}_RosaliesRibbonCT": "{{i18n:NPC.RosaliesRibbonC}}",
+"{{ModId}}_RosalieSneezeEventCT": "{{i18n:NPC.RosalieSneezeEventCT}",
+"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:NPC.ShaneRosalieChildhoodTalkJasCT}}",
+"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:NPC.ShaneRosalieLowDayCT}}",
+"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:NPC.RosalieShaneDreamsAndDisastersCT}}",
+"{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:NPC.RosalieShaneSleepOverCT}}",
+"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:NPC.ShaneRosalieKitchenLoveCT}}",
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:NPC.RosalieShaneSecondFirstKissCT}}",
+"{{ModId}}_NPC.RosaliexShane": "{{i18n:NPC.RosaliexShane}}",
+"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:NPC.RosalieTheWinterMermaidCT}}",
+
 
 {{ModId}}_NPC.RosaliexShane 14 **DOUBLE CHECK THIS!!!!!***
 
@@ -43,15 +46,21 @@ ROSALIE x SHANE CTS
 
       		  "{{ModId}}_RosalieRamp":"{{i18n:AbigailRosalieRamp}}",
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:AbigailRosalieArrivalCT}}",
-      			"{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Abigial.RosalieGeorgeWCCT}}",
+      			"{{ModId}}_RosalieEmilyWalkCT": "{{i18n:Abigail.RosalieEmilyWalkCT}}",
+				"{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Abigial.RosalieGeorgeWCCT}}",
 				"{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Abigail.RosalieVOTVJobEventCT}}",
-				        "{{ModId}}_RosaliesStoryCT": "{{i18n:Abigail.RosaliesStoryCT}}",
+				"{{ModId}}_RosaliesStoryCT": "{{i18n:Abigail.RosaliesStoryCT}}",
 				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Abigail.RosaliesFlareUpEventCT}}",
-
        			 "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Abigail.RosalieRadioEventCT}}",
+				 
+				"{{ModId}}_RosaliesRibbonCT": "{{i18n:Abigail.RosaliesRibbonC}}",
+				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Abigail.RosalieShaneDreamsAndDisastersCT}}",				
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Abigail.RosaliexShane}}",
 				
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Abigail.RosalieTheWinterMermaidCT}}",
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT_memory_oneday": "{{i18n:Abigail.RosalieTheWinterMermaidCT_OneDay}}",
                 
-			},
+			}
 		},
 		
 		{ 
@@ -59,8 +68,18 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:AlexRosalieArrivalCT}}",
-				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Alex.RosaliesFlareUpEventCT}}"
-                
+				"{{ModId}}_RosalieEmilyWalkCT": "{{i18n:Alex.RosalieEmilyWalkCT}}",
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Alex.RosalieGeorgeWCCT}}",
+				"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:Alex.RosalieVOTVJobEventCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Alex.RosaliesFlareUpEventCT}}",
+                "{{ModId}}_NPC.RosalieRadioEventCT":"{{i18n:Alex.RosalieRadioEventCT}}",
+				
+				"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:NPC.ShaneRosalieLowDayCT}}",
+				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Alex.RosalieShaneSecondFirstKissCT}}",
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:NPC.RosaliexShane}}",
+
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Alex.RosalieTheWinterMermaidCT}}",
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT_memory_oneday": "{{i18n:Alex.RosalieTheWinterMermaidCT_OneDay}}",
             
 			}
 		},
@@ -72,8 +91,11 @@ ROSALIE x SHANE CTS
             "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:CarolineRosalieArrivalCT}}",
 			"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Caroline.RosaliesFlareUpEventCT}}",
 			
-			"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Caroline.RosaliexShaneSecondFirstKissCT}}"
-			}
+			"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Caroline.RosaliexShaneSecondFirstKissCT}}",
+			
+			"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Caroline.RosalieTheWinterMermaidCT}}"
+	
+		}
 		},
 		
 		{ 
@@ -82,10 +104,13 @@ ROSALIE x SHANE CTS
 			"Entries": {
 				"stardewaly.rosalie_RosalieRamp": "{{i18n:ClintOnRosalieRamp}}",
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ClintRosalieArrivalCT}}",
+              	"stardewaly.rosalie_NPC.RosalieEmilyWalkCT": "{{i18n:Clint.RosalieEmilyWalkCT}}",
+				"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:Clint.RosalieVOTVJobEventCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Clint.RosaliesFlareUpEventCT}}",
 
-                //haven't added CTs yet, but in i18n for later//
-                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:ClintOnRosalie}}",
-              "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Clint.RosaliesFlareUpEventCT}}"
+				"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Clint.ShaneRosalieChildhoodTalkJasCT}}",
+				"{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Clint.RosalieShaneSleepOverCT}}",
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Clint.RosaliexShane}}",
 
 			},
 		},
@@ -97,7 +122,9 @@ ROSALIE x SHANE CTS
 	
 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:DemetriusRosalieArrivalCT}}",
 
-				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Demetrius.RosalieGeorgeWCCT}}"
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Demetrius.RosalieGeorgeWCCT}}",
+"{{ModId}}_RosaliesFlareUpEventCT":"{{i18n:Demetrius.RosaliesFlareUpEventCT}}",
+"{{ModId}}_NPC.RosaliexShane": "{{i18n:Demetrius.RosaliexShane}}",
 
 
 			}
@@ -117,18 +144,20 @@ ROSALIE x SHANE CTS
 			"Entries": {
 		
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ElliottRosalieArrivalCT}}",
-				"{{ModId}}_RosalieGeorgeWCCT":"{{i18n:Elliott.RosalieGeorgeWCCT}}",
-           		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Elliott.RosaliesFlareUpEventCT}}",
-				
-                //haven't added CTs yet, but in i18n for later//
+                "stardewaly.rosalie_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:ElliottRosalieArrivalCT_OneWeek}}",
 
-                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:ElliottOnRosalie}}",
+				"{{ModId}}_RosalieGeorgeWCCT":"{{i18n:Elliott.RosalieGeorgeWCCT}}",
+           		"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:Elliott.RosalieVOTVJobEventCT}}",
+				"{{ModId}}_RosaliesStoryCT": "{{i18n:Elliott.RosaliesStoryCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Elliott.RosaliesFlareUpEventCT}}",
                 "stardewaly.rosalie_NPC.RosalieRadioEventCT": "{{i18n:Elliott.RosalieRadioEventCT}}",
-                "stardewaly.rosalie_NPCOnMermaidEventCT": "{{i18n:ElliottOnMermaidEventCT}}",
+
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Elliott.RosalieDreamsAndDisastersCT}}",
-                
 				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Elliott.RosaliexShaneSecondFirstKissCT{{Random: 1, 2}} }}",
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Elliott.RosalieTheWinterMermaidCT}}",
+
 			}
+
 		},
 		
 		{ 
@@ -148,11 +177,14 @@ ROSALIE x SHANE CTS
 
 				"{{ModId}}_RosaliesRibbonCT": "{{i18n:Emily.RosaliesRibbonCT}}",
 				"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Emily.RosalieSneezeEventCT}}",
+				"{{ModId}}_RosalieSneezeEventCT_memory_twoweeks": "{{i18n:Emily.RosalieSneezeEventCT_TwoWeeks}}",
 				"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Emily.ShaneRosalieLowDayCT}}",
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Emily.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
-				
-				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Emily.RosaliexShaneSecondFirstKissCT}}"
-            
+				"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Emily.ShaneRosalieKitchenLoveCT}}",
+				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Emily.RosaliexShaneSecondFirstKissCT}}",
+            	"{{ModId}}_NPC.RosaliexShane": "{{i18n:Emily.RosaliexShane}}",
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Emily.RosalieTheWinterMermaidCT}}",
+
 			}
 		},
 		
@@ -163,7 +195,12 @@ ROSALIE x SHANE CTS
 				"stardewaly.rosalie_RosalieRamp": "{{i18n:EvelynRampEventCT}}",
 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EvelynRosalieArrivalCT}}",
            		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Evelyn.RosaliesFlareUpEventCT}}",
-			}
+				
+				 "{{ModId}}_NPC.RosaliexShane": "{{i18n:Evelyn.RosaliexShane}}",
+				 "{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Evelyn.RosaliexShane_oneyear}}",
+
+			
+				}
 		},
 		
 		{ 
@@ -174,6 +211,8 @@ ROSALIE x SHANE CTS
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:GeorgeRosalieArrivalCT}}",
 				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:George.RosalieGeorgeWCCT}}",
 				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:George.RosaliesFlareUpEventCT}}",
+				
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:George.RosaliexShane}}",
 
 			}
 		},
@@ -195,12 +234,17 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:HaleyRosalieArrivalCT{{Random: 1, 2, 3, 4}} }}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:HaleyRosalieArrivalCT_oneweek}}",
 
 				 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Haley.RosaliesFlareUpEventCT}}",
 
 				 "{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Haley.RosalieDreamsAndDisastersCT}}",
 
-				 "{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Haley.RosalieShaneSleepOverCT}}"
+				 "{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Haley.RosalieShaneSleepOverCT}}",
+				 "{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Haley.RosalieShaneSecondFirstKissCT}}",
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Haley.RosaliexShane}}",
+
+				 "{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Haley.RosalieTheWinterMermaidCT}}",
 
 			}
 		},
@@ -224,12 +268,19 @@ ROSALIE x SHANE CTS
 "{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Jas.ShaneRosalieLowDayCT}}",
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Jas.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Jas.RosalieDreamsAndDisastersCT}}",
+"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Jas.ShaneRosalieKitchenLoveCT}}",
+"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Jas.SecondFirstKissCT{{Random: 1, 2}} }}",
+"{{ModId}}_NPC.RosaliexShane": "{{i18n:Jas.RosaliexShane}}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneday": "{{i18n:Jas.RosaliexShane_oneday}}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneweek": "{{i18n:Jas.RosaliexShane_oneweek}}",
+"{{ModId}}_NPC.RosaliexShane_memory_twoweeks": "{{i18n:Jas.RosaliexShane_oneweek}}",
+"{{ModId}}_NPC.RosaliexShane_memory_fourweeks": "{{i18n:Jas.RosaliexShane_oneweek}}",
+"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Jas.RosaliexShane_oneweek}}",
+
+"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Jas.RosalieTheWinterMermaidCT}}",
+
+			//not triggered
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Jas.SandCastlesWithJasCT}}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Jas.SecondFirstKissCT{{Random: 1, 2}} }}"
-
-
-			
-
 
 
 
@@ -242,7 +293,13 @@ ROSALIE x SHANE CTS
 			"Entries": {
 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:JodiRosalieArrivalCT}}",
            		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Jodi.RosaliesFlareUpEventCT}}",
-			}
+			
+			"{{ModId}}_RosalieVOTVJobEventCT":"{{i18n:Jodi.RosalieVOTVJobEventCT}}",
+
+			"{{ModId}}_NPC.RosaliexShane": "{{i18n:Jodi.RosaliexShane}}",
+
+				}
+
 		},	
 		
 		{ 
@@ -252,7 +309,11 @@ ROSALIE x SHANE CTS
 			
 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:KentRosalieArrivalCT}}",
            		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Kent.RosaliesFlareUpEventCT}}",
-			}
+			
+			"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Kent.ShaneRosalieChildhoodTalkJasCT}}",
+			"{{ModId}}_NPC.RosaliexShane": "{{i18n:.RosaliexShane}}",
+
+				}
 		},	
 		
 		{ 
@@ -275,7 +336,7 @@ ROSALIE x SHANE CTS
 
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Leah.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
 
-				"{{ModId}}_RosaliexShaneSecondFirstKissCT": "{{i18n:Leah.RosaliexShaneSecondFirstKissCT}}"
+				"{{ModId}}_NPC.RosaliexShaneSecondFirstKissCT": "{{i18n:Leah.RosaliexShaneSecondFirstKissCT}}"
 
 			}
 		},	
@@ -321,7 +382,16 @@ ROSALIE x SHANE CTS
 				"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Marnie.ShaneRosalieLowDayCT}}",
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Marnie.RosalieDreamsAndDisastersCT}}",
 				"{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Marnie.RosalieShaneSleepOverCT}}", 
-				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Marnie.SecondFirstKissCT{{Random: 1, 2}} }}"
+				"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Marnie.SecondFirstKissCT{{Random: 1, 2}} }}",
+				
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Marnie.RosaliexShane}}",
+				"{{ModId}}_NPC.RosaliexShane_memory_oneday": "{{i18n:Marnie.RosaliexShane_oneday}}",
+				"{{ModId}}_NPC.RosaliexShane_memory_oneweek": "{{i18n:Marnie.RosaliexShane_oneweek}}",
+				"{{ModId}}_NPC.RosaliexShane_memory_twoweeks": "{{i18n:Marnie.RosaliexShane_twoweeks}}",
+				"{{ModId}}_NPC.RosaliexShane_memory_fourweeks": "{{i18n:Marnie.RosaliexShane_fourweeks}}",
+				"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Marnie.RosaliexShane_oneyear}}",
+
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Marnie.RosalieTheWinterMermaidCT}}",
 
 
 			}
@@ -413,7 +483,10 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
 				"stardewaly.rosalie_RosalieRamp": "{{i18n:SamRosalieRamp}}",
-"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SamRosalieArrivalCT}}"
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SamRosalieArrivalCT}}",
+"{{ModId}}_NPC.RosalieRadioEventCT":"{{i18n:Sam.RosalieRadioEventCT}}",
+
+"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Sam.RosalieTheWinterMermaidCT}}",
 
 			}
 		},	
@@ -423,8 +496,13 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
                 
-    "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SandyRosalieArrivalCT}}"
-			}
+    "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SandyRosalieArrivalCT}}",
+	"{{ModId}}_NPC.RosalieRadioEventCT":"{{i18n:Sandy.RosalieRadioEventCT}}",
+
+			"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Sandy.RosalieTheWinterMermaidCT}}",
+
+
+}
 		},	
 		
 		{ 
@@ -452,7 +530,12 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
 
-                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:VincentRosalieArrivalCT}}"
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:VincentRosalieArrivalCT}}",
+				"{{ModId}}_RosaliesRibbonCT": "{{i18n:Vincent.RosaliesRibbonCT}}",
+				"{{ModId}}_NPC.ShaneRosalieChildhoodFriendsCT": "{{i18n:Vincent.ShaneRosalieChildhoodFriendsCT}}",
+			
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Vincent.RosaliexShane}}",
+
 			}
 		},
 		
@@ -461,8 +544,8 @@ ROSALIE x SHANE CTS
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
             
-                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:WillyRosalieArrivalCT}}"
-			
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:WillyRosalieArrivalCT}}",
+				"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Willy.RosalieTheWinterMermaidCT}}",
             }
 		},
 		
@@ -472,15 +555,25 @@ ROSALIE x SHANE CTS
 			"Entries": {
 
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:WizardRosalieArrivalCT}}",
+				"{{ModId}}_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:WizardRosalieArrivalCT_OneWeek}}",
+				"{{ModId}}_NPCRosalieArrivalCT_memory_twoweeks": "{{i18n:WizardRosalieArrivalCT_TwoWeeks}}",
+				"{{ModId}}_NPCRosalieArrivalCT_memory_fourweeks": "{{i18n:WizardRosalieArrivalCT_FourWeeks}}",
+				"{{ModId}}_NPCRosalieArrivalCT_memory_eightweeks": "{{i18n:WizardRosalieArrivalCT_EightWeeks}}",
 
-                //Not added yet into Conversation Topic, but in i18n for later and for fun//
-                "stardewaly.rosalie_NPCOnWC": "{{i18n:WizardOnWC}}",
-                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:WizardOnRosalie{{Random: 1, 2, 3, 4, 5}} }}",
-
-				//these are added
+				"{{ModId}}_RosaliesStoryCT": "{{i18n:Wizard.RosaliesStoryCT}}",
             	"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Wizard.RosaliesFlareUpEventCT}}",
-                "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Wizard.RosalieRadioEventCT{{Random: 1, 2}} }}",
-                "stardewaly.rosalie_NPCOnMermaidEventCT": "{{i18n:WizardOnMermaidEventCT}}"
+                "{{ModId}}_RosaliesFlareUpEventCT_memory_oneweek": "{{i18n:Wizard.RosaliesFlareUpEventCT_OneWeek}}",
+
+				"{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Wizard.RosalieRadioEventCT{{Random: 1, 2}} }}",
+				"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Wizard.ShaneRosalieLowDayCT}}",
+
+
+				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Wizard.RosaliexShane}}",
+                "{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Wizard.RosalieTheWinterMermaidCT}}",
+				
+                //Not triggered yet//
+                "stardewaly.rosalie_NPCOnWC": "{{i18n:WizardOnWC}}",
+
 			}
 		}
 		

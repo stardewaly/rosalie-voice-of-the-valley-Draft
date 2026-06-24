@@ -243,8 +243,8 @@
 
 //George WC Event//
 "Rosalie.RosalieGeorgeWCCT1": "I won't lie, @...$2 #$b#Some... dark thoughts have been swirling in my head lately...$2 #$b#This will be quite the story for group therapy...$1 #$b#...$11 #$e#%Rosalie is worried about trauma dumping you.",
-"Rosalie.RosalieGeorgeWCCT2": "I'm a little mad at Uncle Gus for telling you and anyone in earshot my diagnosis, but I understand why he did it.$2 #$e# I know privacy is a luxury in Pelican Town.$2",
-"Rosalie.RosalieGeorgeWCCT3": "Harvey checked in on me after everything that happened. #$b# He's really a sweet guy. #$b# Thanks for checking on me, too, @. It means more than you know...$1",
+"Rosalie.RosalieGeorgeWCCT2": "I'm a little mad at Uncle Gus for telling you and anyone in earshot my diagnosis, but I understand why he did it.$3 #$e# I know privacy is a luxury in Pelican Town.$3",
+"Rosalie.RosalieGeorgeWCCT3": "Harvey checked in on me after everything that happened. #$b# He's really a sweet guy. #$b# Thanks for checking on me, too, @. It means more than you know...$2",
 
 
 //Rosalies Flare Up Event // (NOT SCEDULED ONE)
@@ -295,9 +295,6 @@
 
 //ROSALIE X SHANE//
 
-//Polite Greeting// *NOT SURE GOING TO USE IN EARLY*
-"RosalieInPassingShane": "Hi.",
-"ShaneInPassingRosalie": "Hey.",
 
        //****ROSALIE ON SHANE*****//
 
@@ -379,10 +376,13 @@
       //Rosalie DATING Shane//
       "RosalieOnDating_Shane1": "When I moved and I found out Shane lives here, I thought I'd be lucky if we got along as friends. #$b# And now, we're dating!$1",
       "RosalieOnDating_Shane2": "Shane makes me feel... safe. #$b#Like I can be myself around him.$4",
-      "RosalieOnDating_Shane3": "You know, I never wanted kids, but Jas is making me reconsider.$1#$e# Nah!$1 #$b# But I reserve the right to change my mind!$0",
+      "RosalieOnDating_Shane3": "You know, I never wanted kids, but Jas is making me reconsider.$1#$e# Nah!$1 #$b# But I reserve the right to change my mind!$9",
       "RosalieOnDating_Shane4": "I seriously cannot believe Shane actually likes me.$4",
       "RosalieOnDating_Shane5": "I know I look and act young, but believe it or not, I'm older than Shane... by one whole day.$1 #$b#And I never let him forget it.$9",
 
+      "RosalieOnDating_Shane_oneweek": "Well... it's been one whole week since I confessed my feelings to Shane... #$b# I guess he isn't sick of me yet!$1",
+      "RosalieOnDating_Shane_onemonth": "I seriously still can't wrap my head around the fact that the same guy who, as kids, ate a worm on a dare, is my boyfriend!$1 #$e# Who dared him? We told Marnie it was my brother, but it was me.$9",
+      "RosalieOnDating_Shane_summer": "The Moonlight Jellies used to make me sad... though I guess it's symbolic how Shane and I always used to view it.",
 
 //Rosalie X Harvey//
 

@@ -38,7 +38,7 @@
            "ItemId": "(O)341" //Temporary, copied from SDV Wiki Example
            }
           ],
-        /*  "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RampEvent", */ // ON HOLD UNTIL RELEASE!
+        "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RampEvent", // ON HOLD UNTIL RELEASE!
           "SpawnIfMissing": true,
           "Home": [
             {

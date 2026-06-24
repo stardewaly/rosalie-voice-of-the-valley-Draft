@@ -31,10 +31,10 @@ Rosalie Arrived In Town
 
 "Shane.RosalieGeorgeWCCT": "$query PLAYER_HAS_SEEN_EVENT Current 3910975#George is lucky I wasn't out there. I hope he apologizes properly to Rosa.$5|I didn't know what was going on until I saw Rosa come in...$3 #$b#Not that me being there would have made a difference...$2",
 
-"Shane.RosalieRadioEventCT": "$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#Yeah, Rosa told me about her new gig. I'm happy for her.$6|It's nice to know I'm the only one in town who still has a radio, I guess. #$e# I use it as an alarm clock.",
+"Shane.RosalieVOTVJobEventCT":"$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#Yeah, Rosa told me about her new gig. I'm happy for her.$6|It's nice to know I'm the only one in town who still has a radio, I guess. #$e# I use it as an alarm clock. It's better than some annoying tone.$11",
 
 "Shane.RosaliesFlareUpEventCT": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}_RosaliexShaneDreamsAndDisasters#Rosa put up with her lazy ex's excuses and broken logic for thirteen years.$5 #$b# I'm amazed she has that much patience with the luck she's been given.$11 #$b# Then again, she has me as an excuse for a best friend...$3 #$b# The difference is, if I had a wife like her, and she was suffering as much as Rosa is,$3 #$b# I swear to Yoba, I wouldn't drag her down to my level like her leech of an ex husband. No matter how bad things got.$5 #$b# I know I wouldn't want Jas to be with someone like that. No one deserves to be that unhappy.$11 #$e# 'A wife like her'?! I said 'If I had a wife!' Like, in general!!$10 #$b# Don't twist my words, @!$11|I'll be honest... I figured that's what happened...$2 #$b# Last I heard about Rosa seven years ago, she got married. So, her coming here alone... it wasn't rocket science.$3 #$e# I think it would be pretty messed up to be happy someone's marriage is ending.$3 #$b# But if the guy was burdening her more than he was helping her, I'm glad. He doesn't deserve her.$5",
-
+"Shane.RosalieRadioEventCT": "$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#I'm glad she pulled you in for an interview instead of me. I probably would have cursed or said something inapproprite on the air, then what?$1|So, @, are you enjoying your seven seconds of fame? #$b# I'm not jealous, I'm honestly glad it wasn't me.$1",
 
 //Shane x Rosalie Route CTs//
 
@@ -92,7 +92,7 @@ Rosalie Arrived In Town
 //KITCHEN LOVE//
 
 "Shane.RosalieKitchenLoveCT": "Urg... I don't know if I almost did something really stupid,#$b# Or almost did something really smart.$6 #$e# Um... I'd rather not talk about it...$3 #$e#",
-"Shane.RosalieKitchenLoveCT2": "I don't know if you know what it's like feeling happy, then anxious thinking it's going to leave you...$2 #$b# I sometimes wonder if I rely on Rosa too much... #$b# Not that she's in charge of my emotions, I'd never do that. #$b# But I don't know... if everything is just temporary... Why stick around?$11 #$b# I guess it would be selfish to want to keep that kind of light to yourself, huh?$2",
+"Shane.RosalieKitchenLoveCT2": "I don't know if you know what it's like feeling happy, then anxious thinking it's going to leave you...$2 #$b# I sometimes wonder if I rely on Rosa too much... #$b# Not that she's in charge of my emotions, I'd never do that.$2 #$b# But I don't know... if everything is just temporary... Why stick around?$11 #$b# I guess it would be selfish to want to keep that kind of light to yourself, huh?$2",
 
 //TEASING CTs// (when they get closer)
 "Shane.JasTeasing": "Jas has been obsessed with Rosa since you gave her the ribbon!$1 #$b# Here I thought I was her favourite person!$1 #$e$",
@@ -101,7 +101,35 @@ Rosalie Arrived In Town
 "Shane.RosalieShaneSecondFirstKissCT": "Sorry, @. I just need to be alone.$2 #$b# I'll be fine... eventually.$2 #$e# No, I don't want to talk about it... And Rosa is... fine... I think...$2 #$b# Just, go away, please...$11",
 
 
+//CANDLE EVENT CT//
 
+"Shane.RosaliexShane": "I thought I had to be perfect and healed to be worthy of someone like Rosa.$2 #$b# But by some miracle, she likes me flaws and all. I'm gonna keep trying to earn that.$6",
+"Shane.RosaliexShane_oneday": "You don't think Rosa's gonna change her mind about me, do you?$2 #$e# I mean, it's not too late for her to take it back...$2",
+"Shane.RosaliexShane_oneweek1": "Rosa and I try to keep our relationship outside of group therapy. If we have problems, we work on them together. #$b# Or she calls her sister to complain about me.$1 #$e# Apparently her sister is... more level headed than I remember her being.$11",
+"Shane.RosaliexShane_oneweek2": "Rosa and Charlie still aren't getting along, but it's hilarious to see Rosa try.$6",
+"Shane.RosaliexShane_oneweek3": "Rosa and I had a bit of an argument last night. #$e# Doesn't matter what it was about. But, it turns out we were just hungry.$1 #$e# I swear the world's problems would probably be solved over a pizza and beer.$1",
+"Shane.RosaliexShane_twoweeks1": "$query !IS_COMMUNITY_CENTER_COMPLETE#Sam started calling me 'Farm Boy' at work all day.$11 #$b# I thought I was pissed, but when Rosa heard him call me that...$6 #$b# Sam looked like he saw the face of Yoba. She's great.$1|Don't get any ideas about calling me 'Farm Boy' now that Rosa and I are dating.$11 #$b# I may be pissed, but Rosa will likely bite your head off. She's great.$1",
+"Shane.RosaliexShane_twoweeks2": "I took Rosa to a Tunnelers game the other day. Maybe not the most ideal date with the noise, but we both had fun!$1",
+"Shane.RosaliexShane_fourweeks1": "Rosa's disability has really given me some perspective on things. Before going anywhere new, I have to check if the place is accessible cause I don't want her struggling.$3 #$b# The world really isn't made with people like her in mind.$11",
+"Shane.RosaliexShane_fourweeks2": "I know Rosa loves her parents, but I can also see why she always felt she had to put up with more than she had to. #$e# I hope she doesn't feel like she doing the same with me now that we're dating...",
+"Shane.RosaliexShane_eightweeks1": "$query !IS_COMMUNITY_CENTER_COMPLETE#I think I've gotten stronger from pushing Rosa around in her wheelchair. #$b# Today at work, I was able to lift a couple crates of oranges without any issues.|I think I've gotten stronger from pushing Rosa around in her wheelchair. #$b# The other day, I was able to lift a couple crates of milk without any issues.$1",
+"Shane.RosaliexShane_eightweeks2": "I used to think my feelings for Rosa were just about nostalgia. #$b# But I didn't think I'd ever feel this strongly about anyone...$l",
+"Shane.RosaliexShane_eightweeks3": "You know, I never thanked you properly for saving me that day on the cliffs...$3 #$b# If it weren't for you, I wouldn't have reconnected with Rosa, she and Jas wouldn't have met, and I wouldn't feel this... hopeful...$6 #$b# So, thank you, @.$6",
+"Shane.RosaliexShane_eightweeks4": "I've been noticing lately Jas sometimes calls her “Auntie” Rosa. I'm still trying to figure out how I feel about that.$3 #$e# I haven't corrected her yet. But I probably should. I don't want to get her hopes up or make Rosa think I'm pressuring her to stick around...$2",
+
+"Shane.RosaliexShane_oneyear1": "I love Rosa... and I know she's the one...$4$ #$b# But honestly, I think we're both happy with how things are now.$6 #$b# I don't want her sticking around and making her feel trapped just because a shell or piece of paper said so.$11 #$b# But if she said she wanted that again, I'd ask her faster than I could chug a pint of beer.$1 #$e# Plus the government gives you less money when you're married and disabled. Messed up, huh?$11 #$e# At least this way, Rosa and I have a clean break if she ever comes to her senses about me.$1",
+"Shane.RosaliexShane_oneyear2": "You know, Marnie's told me for years that Jas would benefit from a 'mother figure'...$6 #$b# I'll admit, seeing Jas and Rosa together makes me think maybe she was right...$l",
+"Shane.RosaliexShane_oneyear3": "I met Rosa's goddaughter last week after group therapy. She's younger than Jas but Rosa's good with her. #$e# She keeps saying she doesn't like or want kids but how she acts with them, it makes me wonder...$2 #$b# Nah! Can you imagine me and Rosa having kids?$1 #$e# Rosa would be a great mom, but I'd be a terrible dad!$1 #$e# I... didn't exactly have the best role model. So I'd only screw it up...$2",
+
+//Dating Rosalie//
+    "Shane.RosaliexShane1": "I never thought I'd find someone who could put up with me for longer than five minutes. I guess technically, I already did.$1",
+    "Shane.RosaliexShane2": "It feels so surreal knowing that Rosa and I are dating.$6 #$b# I didn't think I'd ever feel this light again...$4",
+    "Shane.RosaliexShane3": "I think Rosa and I have something really special... I just hope she feels the same way.$4",
+    "Shane.RosaliexShane4": "Rosa said the other day that I'm more poetic than I give myself credit for. I thought that was a weird thing to say. But then the person running group therapy mentioned it too. #$b# 'I'm just a piece of soiled garbage flittering in the wind...'?#$b# 'Flittering'? Buh... I'm such an idiot.$11",
+    "Shane.RosaliexShane5": "Rosa gets that it's exhausting to just exist sometimes. #$b# Yeah I have dark thoughts and so does Rosa, but on top of that, her pain takes away her energy. #$e# It can be hard to watch.$2",
+    "Shane.RosaliexShane6": "Rosa is probably my first best friend since Jas' parents died... #$b# I... hope she sticks around...$4",
+    "Shane.RosaliexShane7": "I know that Rosa looks younger than me, make no mistake, we're the same age!$h #$b# Well, she's technically older than me, but we were born in the same year.$1",
+    "Shane.RosaliexShane8": "It feels so surreal knowing that Rosa and I are dating.$6 #$b# I didn't think I'd ever feel this light again...$4",
 
 
 
@@ -126,14 +154,28 @@ Rosalie Arrived In Town
 "Shane.WinterMM.1Year": "*sigh* Like seasonal depression wasn't enough...$2 #$b# I hope Rosa can get a job close by next time...$2",
 
 
-"Shane.MermaidEventUpcoming": "I know Rosa never got to see me play any games, but I plan on being there every night to see her perform. #$e# I know she worries about me when she's away...$2",
+"Shane.MermaidEventUpcoming": "I know Rosa never got to see me play any games, but I plan on being there every night to see her perform.$6 #$e# I know she worries about me when she's away...$2",
 
 
 "Shane.MermaidEvent1": "Maybe I'm biased, but I think the mermaid show is better now that Rosa's in it.$6",
-"Shane.MermaidEvent2": "I'm freezing out here, but I can't imagine how Rosa and the other mermaids are doing.",
+
+"Shane_RosalieTheMermaid.NightMarket1": "Jas really wanted to watch the Mermaid show, but she's still too young.",
+"Shane_RosalieTheMermaid.NightMarket2.1": "Yup. I'm here again. Doing my due diligence as a supportive partner.$1 #$e# Besides, someone's gotta keep the creeps away.$11",
+"Shane_RosalieTheMermaid.NightMarket2.2": "You'd think I'd be sick of listening to Rosa sing and her perform. But honestly, I haven't.$1 #$b# She's just... amazing... I can't believe she's my girlfriend...$4",
+"Shane_RosalieTheMermaid.NightMarket2.3": "I never understood what Rosa meant when she said she liked 'seeing people be passionate, but watching her on stage, I get it now.$1 #$b# She's... mesmerizing...$4",
+"Shane_RosalieTheMermaid.NightMarket2.4": "I'm surprised Harvey isn't here every night for the free coffee. #$e# Oh, I only know that 'cause Rosa told me she used to bring him coffee all the time.$1",
+"Shane_RosalieTheMermaid.NightMarket2.5": "Maybe I'm biased, but I think the mermaid show is better now that Rosa's in it.$6",
+"Shane_RosalieTheMermaid.NightMarket2.6": "I'm freezing out here, but I can't imagine how Rosa and the other mermaids are doing.$2 #$e# I'd bring her coffee but I read somewhere that it dries your voice.$2",
+
+
+"Shane_RosalieTheMermaid.NightMarketDay3.1": "*sigh* Last night, then Rosa's gonna go back out on tour...$2 #$b# But I'm not trying to dwell on it, Rosa wouldn't want me to.$6",
+"Shane_RosalieTheMermaid.NightMarketDay3.2": "Have you watched the Mermaid show yet? Rosa's killing it as always!$1 #$e# I still have no idea how someone like Rosa fell for someone like me.$4",
+"Shane_RosalieTheMermaid.NightMarketDay3.3": "Rosa was having a bit of a flare up earlier, though she didn't say anything...$2 #$b# She's still okay to perform, but I hope I didn't push her too hard trying to catch up...$2 #$e# She'll be gone tomorrow anyway, so hopefully she'll be okay by the Feast of the Winter Star.$2 #$e# May have her in her wheelchair this year if she's stubbourn.$3",
+"Shane_RosalieTheMermaid.NightMarketDay3.4": "Yeah, I've been here every night. So what? A guy can't just support the arts?$3 #$e# And yeah, I'm dating the mermaid. Don't make a big deal about it.$11",
+
 
 "Shane.SpiritsEveMM": "Don't tell Rosa, but I only dressed up because it's her last day here. #$e# It'll be nice to have some space and quiet, but I'm gonna miss her a lot...$2",
-"Shane.WinterStarMM": "It sucks that Rosa's only here for a day. But we get the other three seasons.",
+"Shane.WinterStarMM": "It sucks that Rosa's only here for a day. But we get the other three seasons.$6",
 
 
 
@@ -158,20 +200,6 @@ Rosalie Arrived In Town
 "ShaneOnRosalie_10Hearts1": "$query PLAYER_NPC_RELATIONSHIP Current Shane married PLAYER_HEARTS Current stardewaly.rosalie_Rosalie 4#Rosa was thinking we could have a game night sometime. What do you think?$h",
 
 
-//Dating Rosalie//
-    "Shane_RosalieDating1": "You know, Marnie's told me for years that Jas would benefit from a 'mother figure'...$6 #$b# But seeing Jas and Rosa together makes me think maybe she was right...$l",
-    "Shane_RosalieDating2": "Rosa makes me... want to be a better person. #$b# I never thought I'd say that about anyone.$l",
-    "Shane_RosalieDating3": "I think Rosa and I have something really special... I just hope she feels the same way.$l",
-    "Shane_RosalieDating4": "Rosa and I have been spending a lot of time together lately. #$b# I didn't think I'd ever feel this strongly about anyone...$l",
-    "Shane_RosalieDating5": "You know, I never thanked you for saving me that day on the cliffs... #$b# If it weren't for you, I wouldn't have reconnected with Rosa, Jas and her wouldn't have met, and I wouldn't feel this... hopeful...$h #$b# So, thank you, @.$l",
-    "Shane_RosalieDating6": "Rosa is probably my first best friend since Jas' parents died... #$b# I... hope she sticks around...$4",
-    "Shane_RosalieDating7": "I know that Rosa looks younger than me, make no mistake, we're the same age!$h #$b# Well, she's technically older than me, but we're basically the same age.$h",
-
-
-
-
-
-
 
 
 
@@ -190,9 +218,6 @@ Rosalie Arrived In Town
 
 //*******MARNIE*******//
 
-    "Marnie.Flareup_1": "I don't know how Shane always seems to know when Rosa is hurting,$2#$b#Even when they were kids, they both would just... know.",
-
-
 
     "MarnieRosalieRamp": "A new ramp at the saloon? #$b# I wonder what happened to make them finally put one in!$h #$e# ...$3 #$e#%Marnie looks troubled by something.",
 "MarnieRosalieArrivalCT1": "It's so nice that Rosa is back home. #$e# Huh? I said 'Rosalie', didnt I?",
@@ -205,41 +230,38 @@ Rosalie Arrived In Town
 "Marnie.RosaliesFlareUpEventCT": "*sigh* The poor, poor dear...$s #$b# Just when you think that she's been dealt an awful hand, it gets worse for her...$3 #$e# I hope people don't judge her too harshly. She's very brave to do that and keep a smile on her face.$s",
 
 
-
-//SNEEZE EVENT//
-
+//ROSALIE X SHANE CTS//
+"Marnie.RosaliesRibbonCT": "Thank you so much for talking to Rosalie about the ribbon. #$b# I'm sure she'll be wearing it for a long time and be thinking of you!$1",
     "Marnie.RosalieSneezeEventCT1": "It's hard seeing the little girl you watched grow up in so much pain...$s #$b# I was worried about her with Shane walking her home to the saloon,$s #$b# But last night was the first time in years Shane came home from the saloon without any alcohol in his system.$1 #$b# I haven't seen Shane smile so much in years.$1 #$e# I know Rosa has her struggles as well, but I think the two of them are really good for each other.$1 #$b# I hope they continue to be friends. #$e# Sometimes an old friend is exactly what you need to get through the tough times...$2",
     "Marnie.RosalieSneezeEventCT2": "I hope Rosa will come by again sometime. It was so nice having her back at the ranch despite the circumstances… #$b# Maybe I'll ask if she's allergic to something so we can prevent further sneezes.",
-
-
-//CHILDHOOD WITH JAS//
-"Marnie.ShaneRosalieChildhoodTalkJasCT1": "I know it seems like Rosa and Shane are very different people, #$b# But they're actually more similar than you think. #$b# They were both shy children who had a talent they were known for by their parents, #$b# And were left alone a lot as kids.",
+"Marnie.ShaneRosalieChildhoodTalkJasCT1": "I know it seems like Rosa and Shane are very different people, #$b# But they're actually more similar than you think. #$b# They were both shy children who had a talent they were known for by their parents, #$e# They were left alone a lot as kids.$2",
 "Marnie.ShaneRosalieChildhoodTalkJasCT2": "I sometimes wonder if my sister had allowed Shane's half siblings into his life growing up if things would have turned out differently... #$b# Rosa loves her family, but it was clear she kept a lot of her troubles to herself growing up...$3 #$b# I'm glad that she and Shane are seeking therapy though. It seems to be working well for them.$1",
 "Marnie.ShaneRosalieChildhoodTalkJasCT3": "You know, over the last twenty years, I always wondered what it would have been like if Rosa's family hadn't moved... #$b# Even though he got the scholarship the summer she left, Shane and Rosa still would have gone to the same high school, you know? #$b# I would have bet a year's worth of milk and eggs on him asking her to prom.$1 #$b# *sigh* It's unfortunate they had to grow up without each other... I'm sure it would have saved them a lot of heartbreak and trouble...$3",
-
-//SHANE'S LOW DAY CT//
 "Marnie.ShaneRosalieLowDayCT": "Shane really had me worried there...$2 #$b# But I'm glad that he has friends like you and Rosa to depend on.",
+"Marnie.RosalieShaneDreamsAndDisastersCT": "Shane used to love playing with Rosa as kids, I'm glad they found each other again as adults.",
+"Marnie.RosalieShaneSleepoverCT": "I thought I heard Shane came home really early this morning...$2 #$b# He didn't say much other than to not say anything, and went right back to sleep...$2 #$e# I hope he didn't do anything he'll regret...$3",
+"Marnie.SecondFirstKissCT1": "Shane's been quiet again lately... I'm really worried about him...$2 #$e# Rosa isn't answering my calls either... I wonder if something happened...$s",
+"Marnie.SecondFirstKissCT2": "I haven't seen Shane this quiet since that last day Rosa was here...$2#$b# It's a strange sense of deja vu, but I called Gus and I asked if Rosa was moving...$2 #$b# He said that she hadn't talked about it recently, but I hope if she does leave, she says goodbye. #$e# Jas would be so heartbroken if Rosa left...$2",
+  
+"Marnie.RosaliexShane": "Shane and Rosa told me the good news last night! I'm so happy for them!$1 #$e# I've never seen Shane so happy.$1",
+"Marnie.RosaliexShane_oneday": "I wonder how long it'll take for Shane and Rosa to tell Charlie about their relationship.$2",
+"Marnie.RosaliexShane_oneweek": "I can tell that Shane feels a bit insecure about himself now that he and Rosalie are together. Like he's not doing enough for her.$3 #$b# I hope he doesn't let it interfere with their relationship.$2",
+"Marnie.RosaliexShane_twoweeks": "I used to wonder what would have happened if Rosa hadn't moved.$2 #$b# But I suppose it doesn't matter now. They've found each other again at the right time.$1",
+"Marnie.RosaliexShane_fourweeks": "Shane's been taking his role as Jas' godfather a bit more seriously lately. #$e# I wonder if Rosa has something to do with that.$1",
+"Marnie.RosaliexShane_eightweeks": "Shane won't admit it but he is crazy about Rosa. #$b# It's amazing how much care he puts into making sure she's comfortable in ways she doesn't notice.$1",
+"Marnie.RosaliexShane_oneyear": "I always hoped to see Shane married someday, but I understand why Rosa would be hesitant to be married again with all she's been through.$2 #$e# As long as Shane and Rosa are happy, I guess it doesn't matter if you don't have the fancy wedding.$1",
+
+"Marnie.RosalieTheWinterMermaid": "We're all so proud and happy for Rosa on her getting the part.$1 #$b# We're all going to miss her, especially Shane, but they have the other three seasons to be together.$1 #$e# I'm so proud of Shane for being supportive of Rosa. Even if they're apart, he seems secure enough to trust her.$1",
 
 
+    //Not triggered (yet?)
 
-//SLEEP OVER CT//
-    "Marnie.RosalieShaneSleepoverCT": "I thought I heard Shane came home really early this morning...$2 #$b# He didn't say much other than to not say anything, and went right back to sleep...$2 #$e# I hope he didn't do anything he'll regret...$3",
-
-//SANDCASTLES WITH JAS CT//
     "Marnie.SandCastlesWithJasCT1": "Jas refused to eat her broccoli the other night, but when Rosa came over for dinner, Jas made a big show of eating it all!$1 #$e# If Jas continues to behave when Rosa's around, I may need to consider asking her to move in!",
     "Marnie.SandCastlesWithJasCT2": "I hope Jas doesn't get her hopes up too high about Shane and Rosa becoming a couple...$2 #$e# It's not that I don't see it too, Shane and Rosalie have always been close, closer than most friends, #$b# But if it's really nothing more, I don't want to see Jas hurt.$2 #$e# Rumour has it that she had eyes for someone else before she and Shane began talking again.$2 #$b# It's entirely possible that hasn't changed.$3",
     "Marnie.SandCastlesWithJasCT3": "Shane and Rosa are both adults. I'm sure if they wanted to be more than friends, they would have said something. #$b# I know Rosa has been hurt by her ex, but she knows Shane would never hurt her like he did. #$e# I like to think that Rosa would feel comfortable coming to me too, I always loved her like a niece.$h #$e#",
 
-
-//SECOND FIRST KISS//
-    "Marnie.SecondFirstKissCT1": "Shane's been quiet again lately... I'm really worried about him...$2 #$e# Rosa isn't answering my calls either... I wonder if something happened...$s",
-    "Marnie.SecondFirstKissCT2": "I haven't seen Shane this quiet since that last day Rosa was here...$2#$b# It's a strange sense of deja vu, but I called Gus and I asked if Rosa was moving...$2 #$b# He said that she hadn't talked about it recently, but I hope if she does leave, she says goodbye. #$e# Jas would be so heartbroken if Rosa left...$2",
-  
-
-    "MarnieOnSDR": "Shane used to love playing with Rosa as kids, I'm glad they found each other again as adults.",
-    "MarnieOnSDR1": "Shane always worries about Rosa on days like this...$s #$e# I'm sure she's alright, but Shane left to check her.",
-
-
+    "Marnie.Flareup_1": "I don't know how Shane always seems to know when Rosa is hurting,$2#$b#Even when they were kids, they both would just... know.",
+    "Marnie.Flareup_2": "Shane always worries about Rosa on days like this...$s #$e# I'm sure she's alright, but Shane left to check her.",
 
 
 
@@ -259,30 +281,31 @@ Rosalie Arrived In Town
 //Childhood Talk With Jas//
 "Jas.ShaneRosalieChildhoodTalkJasCT1": "I think it's funny that Uncle Shane and Miss Rosa have known each other since they were kids. #$e# Uncle Shane can try to deny it, but he was definitely in love with Miss Rosa!$1 #$e# I know Miss Rosa is an actress, but I bet that I can get her to admit if she loved Uncle Shane, too!$4",
 "Jas.ShaneRosalieChildhoodTalkJasCT2": "I hope I'm as pretty as Miss Rosa when I grow up!$2",
-"Jas.ShaneRosalieChildhoodTalkJasCT3": "I wonder if Uncle Shane was as much of a grump as he is now when he was a kid$1 #$e# I wonder if Uncle Shane and Miss Rosa would still be friends now if they hadn't met when they were kids...$3",
+"Jas.ShaneRosalieChildhoodTalkJasCT3": "I wonder if Uncle Shane was as much of a grump as he is now when he was a kid.$1 #$e# Do you think Uncle Shane and Miss Rosa would still be friends now if they hadn't met when they were kids...$3",
 
 //SHANES LOW DAY//
-        "Jas.ShaneRosalieLowDayCT": "Shane seemed a little low energy today...$3 #$b# But I saw him later with Miss Rosa and he was smiling that goofy grin again! #$e# If there's anything that can brighten Uncle Shane's day, it's chickens and Miss Rosa.$1 #$e# Charlie would probably say otherwise though...$3",
-
-//SANDCASTLES CT//
-
-"Jas.SandCastlesWithJasCT": "I knew Miss Rosa was a mermaid! I knew it!$h #$e# I'm glad Uncle Shane likes mermaids, too...$3 #$e# He says they're just friends, but he has a funny smile when she's around.$h #$e# If TV has taught me anything, it's true love!$4",
+"Jas.ShaneRosalieLowDayCT": "Shane seemed a little low energy today...$3 #$b# But I saw him later with Miss Rosa and he was smiling that goofy grin again! #$e# If there's anything that can brighten Uncle Shane's day, it's chickens and Miss Rosa.$1 #$e# Charlie would probably say otherwise though...$3",
 
 
-//SECOND FIRST KISS CT//
+"Jas.ShaneRosalieKitchenLoveCT": "Uncle Shane turned off Rosa's show really fast this morning...$3",
 
 "Jas.SecondFirstKissCT1": "Uncle Shane's being sad again... But it's a different kind of sad...$2 #$e# I tried to ask Rosa to come over and cheer him up like she always does, but she told me she couldn't because of 'grown up stuff'.$2 #$e# I hope it's not my fault...$2",
 "Jas.SecondFirstKissCT2": "I hope Miss Rosa isn't moving away again...$2",
 
 
+    "Jas.RosaliexShane": "I take full credit for Uncle Shane and Rosa falling in love!$4",
+    "Jas.RosaliexShane_oneday": "I hope Uncle Shane doesn't mind that I told Charlie already about him and Rosa.$1",
+    "Jas.RosaliexShane_oneweek": "Rosa is so nice and so pretty and makes Uncle Shane so happy!#$e# I hope they stay together forever.$h",
+    "Jas.RosaliexShane_twoweeks": "I asked Uncle Shane last week if we could dress up for next Spirit's Eve, and he said no.$3 #$b# But then Rosa said she wanted to do a couples costume and he said 'okay'! #$b# I wonder what else I could tell Rosa to ask Shane for!$1",
+    "Jas.RosaliexShane_fourweeks": "I hope one day someone will look at me the way Shane looks at Rosa...$3",
+    "Jas.RosaliexShane_eightweeks": "Auntie Rosa and Uncle Shane snore loud. It's like two bears hibernating in a cave!$1",
+    "Jas.RosaliexShane_oneyear": "I asked Uncle Shane hasn't given Auntie Rosa a mermaid pendent so she could *really* be my Aunt, but he said that she'd probably say no.$3 #$b# Why doesn't Rosa want to be my Auntie?$2",
 
-    "JasOnSDR": "It happened right here!$h #$b# Uncle Shane told me that Auntie Rosa gave him his first kiss here when they were twelve!",
-    "JasOnSDR1": "Rosa is so nice and so pretty and makes Uncle Shane so happy!#$e# I hope they stay together forever...$h",
-    "JasOnSDR2": "I take full credit for Uncle Shane and Auntie Rosa falling in love!$4",
-    "JasOnSDR3": "I hope one day someone will look at me the way Shane looks at Rosa...$3",
+"Jas.RosalieTheWinterMermaidCT": "One day, Rosa's gonna show me her *real* mermaid tail!$1 #$b# It's not a coincidence she's playing a mermaid!$4",
 
+//Not triggered CT//
 
-    
+"Jas.SandCastlesWithJasCT": "I knew Miss Rosa was a mermaid! I knew it!$h #$e# I'm glad Uncle Shane likes mermaids, too...$3 #$e# He says they're just friends, but he has a funny smile when she's around.$h #$e# If TV has taught me anything, it's true love!$4",
 
 
 }
