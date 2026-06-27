@@ -1,9 +1,10 @@
-# PLAY TESTER BUILD (v 0.0.5)
+# PLAY TESTER BUILD (v 0.0.6)
 
 
 Start with a NEW save so that way as we update it you don't get attached as things will be changing 🙂
 
-## NOTES: (June 19/26)
+## NOTES: (June 27/26)
+- This is the stuff from the last update! I have to get back to coding now :) 
 - Fixed error with Rosalie's "Summer" schedule
 - Fixed Abigal's dialogue that had "no translation" when meeting Rosalie for the town Conversation Topic
 - Shane x Rosalie's love story is complete.
