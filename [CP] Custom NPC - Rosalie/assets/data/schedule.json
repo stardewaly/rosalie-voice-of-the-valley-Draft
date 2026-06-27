@@ -7,26 +7,26 @@
       "Entries": {
 
 
-      "spring": "1100 Saloon 18 11 2/1200 Town 18 59 1/1600 Town 50 69 2/1800 Saloon 10 18 2/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+      "spring": "1100 Saloon 18 11 2/1200 Town 17 63 2 stardewaly.rosalie_Rosalie_sitting/1600 Town 50 69 1/1800 Saloon 18 17 2 square_3_2_0/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
 
       "spring_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          
-         "spring_Tue": "800 Hospital 4 6 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
+         "spring_Tue": "800 Hospital 4 6 1/1000 Town 9 60 2 square_3_3_2/1200 Saloon 35 7 3 square_2_2_0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
         "spring_Thu": "GOTO spring_Tue",
 
          
-         "summer": "spring",
+         "summer": "GOTO spring",
          "summer_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "summer_Tue": "GOTO spring_Tue",				
         
         
         
-        "fall": "spring",
+        "fall": "GOTO spring",
          "fall_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "fall_Tue": "GOTO spring_Tue",				
 
 
-        "winter": "spring",
+        "winter": "GOTO spring",
          "winter_Mon": "800 BusStop 22 10 0/1200 Saloon 7 4 0/1600 Saloon 9 17 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
          "winter_Tue": "GOTO spring_Tue",				
         "winter_Thu": "GOTO spring_Tue",
@@ -57,7 +57,7 @@
                "Id": "Rosalie x Shane BFF Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.RosalieBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieSneezeEvent"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieSneezeEvent, DAY_OF_WEEK Sat Sun, !WEATHER Here Rain Storm GreenRain, !IS_JOJA_MART_COMPLETE, !IS_COMMUNITY_CENTER_COMPLETE, !PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieSecondFirstKissEvent"
             },
 
             "Rosalie Mermaid Schedule Key": {
@@ -76,10 +76,10 @@
          "Target": "Characters/schedules/stardewaly.rosalie_Rosalie",
          "Entries": {
             "stardewaly.rosalie_flareup": "1200 Saloon 5 4 2/1300 Saloon 7 4 0/1800 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
-            "{{ModId}}_RosaliexShane.RosalieBFF": "615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1450 Forest 93 23 1/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
-         "{{ModId}}_RosaliexShane.RosalieJas": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 16 91 0/1750 AnimalShop 3 6 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
-         "{{ModId}}_RosalieWinterMermaid": "615 AnimalShop 23 15 0/1100 AnimalShop 24 5 0/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3\"Strings\\schedules\\Shane:winter_15.000\"/2300 AnimalShop 27 4 1 stardewaly.rosalie_Rosalie_sleeping
-         615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+            "{{ModId}}_RosaliexShane.RosalieBFF": "610 AnimalShop 25 15 3/1100 AnimalShop 25 5 3/1450 Forest 93 23 1/1800 Saloon 18 17 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "{{ModId}}_RosaliexShane.RosalieJas": "1200 Town 18 59 1/1600 Town 16 91 0/1750 AnimalShop 3 6 3/1800 Saloon 18 17 1/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "{{ModId}}_RosalieWinterMermaid": "610 AnimalShop 23 15 0/1100 AnimalShop 24 5 0/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3\"Strings\\schedules\\Shane:winter_15.000\"/2300 AnimalShop 27 4 1 stardewaly.rosalie_Rosalie_sleeping
+         610 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1500 MermaidHouse 4 4 0/1700 MermaidHouse 8 4 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
 
          }
       }

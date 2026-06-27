@@ -34,10 +34,6 @@ ROSALIE x SHANE CTS
 "{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:NPC.RosalieShaneSecondFirstKissCT}}",
 "{{ModId}}_NPC.RosaliexShane": "{{i18n:NPC.RosaliexShane}}",
 "{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:NPC.RosalieTheWinterMermaidCT}}",
-
-
-{{ModId}}_NPC.RosaliexShane 14 **DOUBLE CHECK THIS!!!!!***
-
  */
 		{ 
 			"Action": "EditData",
@@ -53,7 +49,7 @@ ROSALIE x SHANE CTS
 				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Abigail.RosaliesFlareUpEventCT}}",
        			 "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Abigail.RosalieRadioEventCT}}",
 				 
-				"{{ModId}}_RosaliesRibbonCT": "{{i18n:Abigail.RosaliesRibbonC}}",
+				"{{ModId}}_RosaliesRibbonCT": "{{i18n:Abigail.RosaliesRibbonCT}}",
 				"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Abigail.RosalieShaneDreamsAndDisastersCT}}",				
 				"{{ModId}}_NPC.RosaliexShane": "{{i18n:Abigail.RosaliexShane}}",
 				

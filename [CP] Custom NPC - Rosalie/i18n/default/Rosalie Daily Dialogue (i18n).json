@@ -7,7 +7,7 @@
     "Introduction": "Hey, have we met? #$b# Sorry, I don't really know everyone...$1 #$b# I'm Rosalie, Gus' niece! I used to live here as a kid and...$1 #$b# ...$2 #$b# Well, enough about me! I'll let you go back to your work!",
            
       "Rosalie.Daily_1": "Can't wait to watch another rerun of the Mortimer Rat Show!$1",
-      "Rosalie.Daily_2": "$query !DAY_OF_WEEK Monday#I feel like a cat poster saying they hate Mondays...$3|I feel like a cat poster saying they hate Mondays...$3 #$b# Wait, what do you mean it's not Monday?!$6",
+      "Rosalie.Daily_2": "$query DAY_OF_WEEK Monday#I feel like a cat poster saying they hate Mondays...$3|I feel like a cat poster saying they hate Mondays...$3 #$b# Wait, what do you mean it's not Monday?!$8",
       "Rosalie.Daily_3": "I feel like I was supposed to do something important today...$2 #$b# I feel so dumb...$1",
       "Rosalie.Daily_4": "I feel like I should be in bed by now... #$b# Then I'll be up all night again!$1",
       "Rosalie.Daily_5": "Don't tell Uncle Gus, but my siblings always said I made the best pancakes...$1 #$e# The secret is to cook it in lots of butter... #$e# and chocolate chips, of course!$1 #$e# How much chocolate chips? You measure with your heart, duh!$1",
@@ -25,7 +25,7 @@
       "Rosalie.Daily_17": "%Rosalie nods to let you know she hears you, but cannot speak back.",
 
         "Rosalie.Heart2.1": "Is it sad that the person I'm closest to in town is Dr Harvey because I see him the most when I leave the house?$2 #$e# I mean, I don't know if I consider him a friend but he's... my doctor.",
-        "Rosalie.Heart2.2": "Uncle Gus has always made the best food! I feel so lucky that he's as good an Uncle as his cooking!$1",
+        "Rosalie.Heart2.2": "Uncle Gus has always make the best food! I feel so lucky that he's as good an Uncle as his cooking!$1",
         "Rosalie.Heart2.3": "Hope things are going well for you, @! #$e# Me? Well, it is what it is, you know?$1",
         "Rosalie.Heart2.4": "Sorry if I may seem a bit distant... I'm... not doing well...$2",
     
@@ -76,11 +76,11 @@
       
                   //Day of Shane's Birthday//
                   //*NOTE: THIS DIALOGUE IS SUBJECT TO CHANGE ON RELATIONSHIP
-                  "spring_20": "You know, my ex's birthday is close to mine, too. #$b# He didn't want to share a party, which is fine!$1#$b#But then he wouldn't plan anything for himself, then complain that no one was celebrating him...$3 #$e# Sorry, @! I didn't mean to rant!$2",
+                  "spring_20": "$query PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieCandleEvent#I wonder how Shane feels now that he's dating an older woman now.$9 #$e# Oh, we were born in the same year. But I'm older.$1|You know, my ex's birthday is close to mine, too. #$b# He didn't want to share a party, which is fine!$1#$b#But then he wouldn't plan anything for himself, then complain that no one was celebrating him...$3 #$e# Welp! Sorry, @! I didn't mean to rant!$2",
 
       
         //Day Before Egg Festival//
-        "spring_12": "I don't really care for eggs, but I can't say no to chocolate!$1",
+        "spring_12": "$query PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent#I'm probably gonna be up all night painting eggs with Emily and Shane for the Egg Festival.#$e# Oh no, I leave the egg snatching to Shane.$1 #$b# If Charlie sees me taking her eggs, I may have to spend the Egg Festival at the hospital, and I'm not gonna make Shane miss his favourite holiday!|I don't really care for eggs, but I can't say no to chocolate!$1",
        //Day Before Flower Dance//
         "spring_23": "I wonder if someone will ask me to dance tomorrow!$7 #$b# Sorry, I'm such a romantic, and this basically feels like prom haha...$1",
        //Day Before Luau//
@@ -91,10 +91,10 @@
         "fall_15": "%Rosalie is humming a sad 10 minute song to herself.",
 
       //Day of Fall 13//
-      "fall_13": "Sorry, @... Today's gonna be hard for me...$11 #$e#%Maybe Rosalie should be left alone...",
+      "fall_13": "$query PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_ShaneRosalieCandleEvent#I'm glad I have Shane to distract me from my woes today.$1|Sorry, @... Today's gonna be hard for me...$11 #$e#%Maybe Rosalie should be left alone...",
 
       //Day Before Halloween I mean Spirits Eve//
-        "fall_26": "I don't know why no one here dresses up except Sam. #$b# Do people think that it's still just for kids?$7",
+        "fall_26": "$query !PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent#I don't know why no one here dresses up except Sam. #$b# Do people think that it's still just for kids?$7|Shane and I debated just staying home and skipping Spirit's Eve this year since it's my last day in town before I leave.$2 #$b# But Jas likes the holiday so much, we're gonna go. #$e# Sprit's Eve used to be my favourite holiday... Now it just makes me sadder...$2 #$e# Oh, it's not totally to do with Shane, my ex and I had a Spirit's Eve themed wedding. #$b# I know I shouldn't let him ruin my favourite holiday for me, and I have a new family now, but healing takes time.",
        //Day Before Ice Fishing Festival//
         "winter_7": "I had a nightmare once that I fell through the ice... You're braver than me, @.$2",
        //Day Before Feast of the Winter Star//
@@ -130,7 +130,7 @@
      "stardrop_tea": "*sigh* Reminds me of my carefree childhood...$1",
 
      "RosalieLoves": "You know, I worked at a chocolate and ice cream shop for eight years,#$b#But I still love it!$1",
-     "RosalieLikes": " *Sigh* Reminds me of home...$1",
+     "RosalieLikes": "Reminds me of home...$1",
      "RosalieDislike": "Just so you know for next time...$2 #$b#I'm... allergic to this...$3",
      "RosalieNeutral": "Cool, thanks!",
      "RosalieHate": "Wow... #$b# Um...$2 #$b# I know they say it's the thought that counts...$2 #$b# Don't think of me next time you gift this to someone...$3",
@@ -143,25 +143,25 @@
 "Rosalie_BirthdayDislikes": "Oh...$2 #$b# Um... Thank you for this... gift! You clearly put thought into it$1",
 "Rosalie_BirthdayNeutral": "You remembered my birthday! Thank you so much!$1",
 "Rosalie_BirthdayHates": "Wow... I never recieved *cheese* for my birthday before...$3 #$b# I thought you knew me better than that, @...$3",
-
+"Rosalie_BirthdayLoved": "Oh my yoba! You remembered my birthday! I could cry!$1",
 
 "Rosalie_AcceptGiftFlowers": "Aww how sweet! Thank you so much!$1",
 "Rosalie_AcceptGiftFairyRose": "$query PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_Rosalie6HeartEvent#You'd think I'd be over getting roses for someone named 'Rosalie', but I still love them!$1|You'd think I'd be over getting roses for someone named 'Rosalie', but I still love them!$1 #$e# It's partly why I love when Harvey calls me 'Rose'...$4 #$e# That which we call a rose by any other name would smell as sweet...$4",
 
 "Rosalie_AcceptGiftHome1": "Wow! It's just like something I'd get from home! Thank you so much!$1",
-"Rosalie_AcceptGiftHome2": "@! How did you know I was homesick? Thank you!$1",
-"Rosalie_AcceptGiftHomeMM": "*sniff* It smells just like home... thank you...$7",
+"Rosalie_AcceptGiftHome2": "@! How did you know I was homesick? Thank you!",
+"Rosalie_AcceptGiftHomeMM": "Mmmm... It reminds me of home... thank you...",
 "Rosalie_AcceptGiftHomeCooking": "Have you been talking to my family lately? I can't wait to cook with this!$1 #$b# Though I doubt it'll be better than my mom's.$2",
-"Rosalie_AcceptGiftPie": "Call me basic if you want, I love the fall and pumpkin pie$9 #$b# Maybe it's a theatre kid thing...$7",
+"Rosalie_AcceptGiftPie": "Call me basic if you want, I love the fall and pumpkin pie.$9 #$b# Maybe it's a theatre kid thing...$7",
 "Rosalie_AcceptGiftCorn": "Hmm... I may have to get some butter from your farm! Or maybe, some coconut milk to make some ginataang mais!$1",
 "Rosalie_AcceptGiftCoffee": "I'm so sorry, I can only have decaf coffee...$2 #$b# But I can give it to Harvey, I'm sure he'd love it!",
 "Rosalie_AcceptGiftPepperPoppers": "$query PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent#I know these are Shane's favourite thing... I just can't stand the cheese...$3 #$b# I guess I'll let him know you were thinking of him.$3|Cheesey bar food... thanks...$2 #$e# I know I like pizza and it has cheese on it, I don't get it either...$2",
-"Rosalie_RejectGiftSoda": "No thank you. I know everyone loves this stuff, but I don't...$3",
+"Rosalie_RejectGiftSoda": "No... thank you. I know everyone loves this stuff, but I don't...$3",
 "Rosalie_RejectGiftRosaliesRibbon": "$query PLAYER_HAS_MAIL Current stardewaly.rosalie_Jas.RosaliesRibbon.Quest#It's really okay! Like I said, I have plenty at home! I don't mind if that little girl takes one!$1|I don't need your stolen goods.$3",
 
 
          //Relationship Responses//
-         "Rosalie_RejectBouquet": "$query !PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieKitchenLove#Sorry. I'm not emotionally available right now to date...$2 #$b# I hope you understand...$1|Sorry, I'm... not... ready to date yet anyone yet... I hope we can stay friends.$2",
+         "Rosalie_RejectBouquet": "$query !PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieKitchenLove#Sorry, @. I'm not emotionally available right now to date...$2 #$b# I hope you understand...|Sorry, I'm... not... ready to date yet anyone yet... I hope we can still stay friends.$2",
     "divorced": "Oh... Okay...$2",
         "secondchance_Girls": "I feel so stupid for believing you...$5 #$b# In second chances...$5",
         "dumped_Girls": "Oh... I see... Okay... *sniff*$2",
@@ -281,12 +281,19 @@
 //ROSALIE SINGING ANIMATION STRING
 "Rosalie_SingingDialogue": "%Whatever Rosalie is singing, it's a haunting melody...",
 
+
+//LOCATION DIALOGUE
+//Bubbles
 "RosalieSaloonEntry1": "Uncle Gus! I'm home!",
 "RosalieSaloonEntry2": "Hey, Uncle Gus!",
 "RosalieSaloonEntry3": "*sigh*",
 "RosalieSaloonEntry4": "Hello, Uncle Gus Gus!",
-
-
+"RosalieMarniesRanchEntry1": "Hey, Aunt Marnie!",
+"RosalieMarniesRanchEntry2": "Farm Boy, I'm here!",
+//Dialogue
+"RosalieAnimalShop": "$query PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieCandleEvent#It's nice that I have another place to call home now. #$e# One just happens to be wearing a blue Joja sweater all the time.$2 #$e# I'm gonna steal it one of these days. It's a right of passage.$9|It's nice to get out of the saloon once in a while. Even if it's just to the ranch. #$e# I think that's progress! Take that depression!$1",
+"Winter_RosalieAnimalShop": "$query PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_RosaliexShaneOneSeasonTwentyYearsEvent#I'm so happy to be home in Pelican Town right now. #$e# I love being the Night Market Mermaid, but I missed Farm Boy's company.$4|I missed this place so much growing up. #$e# It's weird being here in the winter with Shane here.$7",
+"Rosalie_Forest_93_23": "$query PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieCandleEvent#Rosalie is busy.|%Rosalie is animatedly telling Shane a story with her hands and funny voices as impressions.",
 
 
 
@@ -390,7 +397,8 @@
 "RosaliexHarveyApptExam": "Are you sure you don't offer a punch card for every diagnosis I get, Dr H?$9",
 
   //****After Rosalie's 6 Heart Event***//
-      "RosalieToHarvey_AppointmentGreeting": "$query PLAYER_HEARTS Current 6#Hey, Dr H!|Eeeyeh, what's up, doc?",
+      "RosalieToHarvey_AppointmentGreeting1": "Hey, Dr H!",
+      "RosalieToHarvey_AppointmentGreeting2": "Eeeyeh, what's up, doc?",
 
 
 //***AFTER HER 6 HEART EVENT****//

@@ -7,36 +7,38 @@
       "Entries": {
 
         //Rosalie Heart Event CTs//
-        "stardewaly.rosalie_RosalieRamp": "{{i18n:HarveyRosalieRamp}}",
-        "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:HarveyRosalieArrivalCT}}",
+        "{{ModId}}_RosalieRamp": "{{i18n:HarveyRosalieRamp}}",
+        "{{ModId}}_NPCRosalieArrivalCT": "{{i18n:HarveyRosalieArrivalCT}}",
+        "{{ModId}}_RosalieHarveyAptCT": "{{i18n:Harvey.RosalieHarveyAptCT}}", 
+        "{{ModId}}_RosalieHarveyAptCT_memory_oneweek": "{{i18n:Harvey.RosalieHarveyAptCT_oneweek}}",
+        "{{ModId}}_RosalieHarveyAptCT_memory_fourweeks": "{{i18n:Harvey.RosalieHarveyAptCT_fourweeks}}",
 
-
-   
+        "{{ModId}}_RosalieEmilyWalkCT": "{{i18n:Harvey.RosalieEmilyWalkCT}}",
         "{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Harvey.RosalieGeorgeWCCT}}",
-        "{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Harvey.RosalieVOTVJobEventCT}}",
+        "{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Harvey.RosalieVOTVJobEventCT{{Random: 1, 2 }} }}",
         "{{ModId}}_RosaliesStoryCT": "{{i18n:Harvey.RosaliesStoryCT{{Random: 1, 2}} }}",
-        "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Harvey.RosaliesFlareup{{Random: 1, 2 }} }}",
+        "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Harvey.RosaliesFlareUpEventCT{{Random: 1, 2 }} }}",
         "{{ModId}}_NPC.RosalieRadioEventCT": "{{i18n:Harvey.RosalieRadioEventCT}}",
+        "{{ModId}}_NPC.RosalieRadioEventCT_memory_oneweek": "{{i18n:Harvey.RosalieRadioEventCT_oneweek}}",
 
 
         //Rosalie x Shane CTS//
         "{{ModId}}_RosaliesRibbonCT":"{{i18n:Harvey.RosaliesRibbonCT{{Random: 1, 2 }} }}",
         "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Harvey.RosalieDreamsAndDisastersCT}}",
-"{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Harvey.SecondFirstKissCT{{Random: 1, 2}} }}",
+        "{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Harvey.SecondFirstKissCT{{Random: 1, 2}} }}",
+        "{{ModId}}_NPC.RosaliexShane": "{{i18n:Harvey.RosaliexShane}}",
+        "{{ModId}}_NPC.RosaliexShane_memory_oneweek": "{{i18n:Harvey.RosaliexShane_oneweek}}",
+        "{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Harvey.RosalieTheWinterMermaidCT}}",
 
 
-        
-        //There are Marriage versions of dialogue here as well, but not triggered yet and unsure how to add it
+        //OLD PLANNED CTS AND VANILLA
+/*
 
 "HarveyOnRosalie1": "{{i18n:HarveyOnRosalie1}}",
 "HarveyOnRosalie2": "{{i18n:HarveyOnRosalie2}}",
 "HarveyOnRosalie3": "{{i18n:HarveyOnRosalie3}}",
-"HarveyOnRosalie4": "{{i18n:HarveyOnRosalie4}}",
-"HarveyOnRosalie2Hearts1": "{{i18n:HarveyOnRosalie2Hearts1}}",
-"HarveyOnRosalie2Hearts2": "{{i18n:HarveyOnRosalie2Hearts2}}",
 "HarveyOnRosalie4Hearts1": "{{i18n:HarveyOnRosalie4Hearts1}}",
 "HarveyOnRosalie4Hearts2": "{{i18n:HarveyOnRosalie4Hearts2}}",
-"HarveyOnRosalie4Hearts3": "{{i18n:HarveyOnRosalie4Hearts3}}",
 "HarveyOnRosalie6Hearts1": "{{i18n:HarveyOnRosalie6Hearts1}}",
 "HarveyOnRosalie6Hearts2": "{{i18n:HarveyOnRosalie6Hearts2}}",
 "HarveyOnRosalie8Hearts1": "{{i18n:HarveyOnRosalie8Hearts1}}",
@@ -112,6 +114,8 @@
 "winter_Wed": "{{i18n:Harvey.winter_Wed}}",
 "winter_Sat": "{{i18n:Harvey.winter_Sat}}",//added this in (not vanilla)
 "winter_Sun": "{{i18n:Harvey.winter_Sun}}"
+
+*/
 
 
 

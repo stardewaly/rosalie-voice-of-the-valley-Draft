@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        
+		{
+			"Action": "EditData",
+            "Target": "Data/Characters",
+			"Fields": {
+				"{{ModId}}_Rosalie": {
+					//"FlowerDanceCanDance": true, //Must be “true” for the NPC to participate in the dance. 
+
+					"CustomFields": {
+                        "JP98.TFDM.Texture": "Mods/JP98/FlowerDance/{{ModId}}_Rosalie",
+						
+						"JP98.TFDM.DanceTextures": "One",
+						
+						"JP98.TFDM.DanceLine": "Top",
+						
+						//Your NPC will attempt to dance with the NPC defined here.
+						//It can be null, or you can delete this field if you are not going to use it.
+						"JP98.TFDM.Partner": "Shane",
+						
+						//Probability that your NPC will actually dance with the NPC defined above; a higher value gives more chances but does not guarantee it.
+						//The highest final value wins the dance, in case there are multiple NPCs that have the same NPC partner defined.
+						//The value ranges from 0.0 to 0.5, with a random factor defining the rest. 
+						"JP98.TFDM.PartnerChance": "0.5",
+						
+						//Probability that your NPC will join the dance, “fight” for a position in the ranks, useful if there are many NPC candidates.
+						//If you decide that your NPC1 will not enter the dance (value 0.0), it can still be forced by another NPC2 that is assigned as NPC1's partner.
+						//The value ranges from 0.0 to 0.5, with a random factor defining the rest.
+						"JP98.TFDM.DanceChance": "0.5",
+						
+				    }
+				}
+			}
+		}
+
+
+
+    ]
+}

@@ -265,11 +265,14 @@ positionOffset {{ModId}}_Rosalie -10 -20/
 faceDirection Shane 0/
 showFrame {{ModId}}_Rosalie 16/
 viewport 10 24/
+playSound thunder/
+playSound rain/
 shake {{ModId}}_Rosalie 10000/
 pause 1000/
 speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.74}}\"/
 pause 100/
-playSound doorCreakReverse/
+playSound woodyHit/
+playSound thunder/
 warp Shane 10 23/
 pause 300/
 emote Shane 60/
@@ -277,6 +280,7 @@ move Shane 0 -1 3 true/
 speak Shane \"{{i18n:RosalieShaneCandleBouquet.75}}\"/
 speak {{ModId}}_Rosalie \"{{i18n:RosalieShaneCandleBouquet.76}}\"/
 speak Shane \"{{i18n:RosalieShaneCandleBouquet.77}}\"/
+playSound rain/
 pause 200/
 addTemporaryActor Candle_RosalieShane_SmallActor 16 16 9 22 0 false Candle_RosalieShane_SmallActor/
 animate Candle_RosalieShane_SmallActor false true 100 4 1 2 3 4 2 1 4 3 2 1 4 2 4 1 3 1/

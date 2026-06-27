@@ -11,10 +11,10 @@
       "Target": "Data/mail",
       "Entries": {
         //Shane x Rosalie Actual Mail
-        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
-        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}}[#]Dinner At The Ranch",
-		"{{ModId}}_RosaliexShaneOneSeasonTwentyYearsLetter": "{{i18n:ShaneRosalie.OneSeasonTwentyYearsLetter}}[#]A Secret Meeting with Rosalie",
-		"{{ModID}}_RosaliexShane.BreakUpPlayer": "{{i18n:ShaneRosalieBreakUp}}%item 277 1 %%%Spiderbuttons.BETAS_ChangeRelationship Shane Friendly %% [#]It's Not You, It's Shane",
+        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}} %item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas",
+        "stardewaly.rosalie_MarnieLetterForDinner": "{{i18n:ShaneRosalieMarnieDinnerInvite}} [#]Dinner At The Ranch",
+		"{{ModId}}_RosaliexShaneOneSeasonTwentyYearsLetter": "{{i18n:ShaneRosalie.OneSeasonTwentyYearsLetter}} [#]A Secret Meeting with Rosalie",
+		"{{ModID}}_RosaliexShane.BreakUpPlayer": "{{i18n:ShaneRosalieBreakUp}} %item id (O)277 1 %% %action Spiderbuttons.BETAS_ChangeRelationship Shane Friendly %% [#]It's Not You, It's Shane",
 	}
     },
 
@@ -30,7 +30,6 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating, PLAYER_HAS_SEEN_EVENT Any stardewaly.rosalie_RampEvent",
           "Action": "AddMail Current {{ModID}}_RosaliexShane.BreakUpPlayer now" 
-		  //June 20 - Haven't tested. May need to add Change Relationship by BETAS into Action as well if doesn't happen until you open the letter
 
 
 		},
@@ -39,12 +38,12 @@
         "{{ModId}})_MarnieLetterForDinnerLetterTrigger": {
           "Id": "{{ModId}}_DinnerAtMarniesTrigger",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Marnie 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_RosaliesRibbonCT",
+          "Condition": "PLAYER_HEARTS Current Marnie 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosaliesRibbonEventPost",
           "Action": "AddMail Current stardewaly.rosalie_MarnieLetterForDinner now"
         },
 
 		//To notify the game that it's been at least 8 weeks since RxS got together
-		        "{{ModId}}_RosaliexShane.OneSeasonTwentyYearsLetterFlag": {
+		"{{ModId}}_RosaliexShane.OneSeasonTwentyYearsLetterFlag": {
           "Id": "{{ModId}}_RosaliexShane.OneSeasonTwentyYears.LetterTrigger",
           "Trigger": "DayEnding",
           "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_NPC.RosaliexShane_memory_eightweeks",
@@ -106,8 +105,8 @@
     //Triggers for Shane x Rosalie Bus Event 1 //
 		"{{ModId}}_ShanexRosalieTherapy1EventTrigger": {
 			"Id": "Shane x Rosalie Bus 1 Therapy Event Trigger",
-			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, DAY_OF_WEEK Monday",                
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current 3910975, DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy1Flag received"
     },
 
@@ -124,7 +123,7 @@
     //Triggers for Shane x Rosalie Bus Event 2 //
 		"{{ModId}}_ShanexRosalieTherapy2Trigger": {
 			"Id": "Shane x Rosalie BFF Flag Trigger",
-			"Trigger": "DayEnding",
+			"Trigger": "DayStarted",
 			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneTherapyChange, DAY_OF_WEEK Monday",                
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieTherapy2Flag received"
 		},
@@ -132,8 +131,8 @@
 		//Rosalie and Jas Rosalies Ribbon Prologue Trigger
         "{{ModId}}_Jas.RosaliesRibbonPrologueTrigger": {
           "Id": "{{ModId}}_Jas.RosaliesRibbonCutSceneTrigger",
-          "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Jas 3, PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosalieBus2",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HEARTS Current Jas 3, PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShanexRosalieBus2",
           "Action": "AddMail Current stardewaly.rosalie_Jas.RosaliesRibbonPrologueFlag received"
         },
 
@@ -162,7 +161,7 @@
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieJasChildhoodEventFlag received"
 		},
 
-        //Trigger for Shane x Rosalie Low Day Event, triggered if player has seen the Childhood Talk event but the CT is not active anymore, and it's a Monday (so it hopefully triggers)
+        //Trigger for Shane x Rosalie Low Day Event
     		"{{ModId}}_ShanexRosalieLowDayEventTrigger": {
 			"Id": "Shane x Rosalie Low Event Day Trigger",
 			"Trigger": "DayStarted",

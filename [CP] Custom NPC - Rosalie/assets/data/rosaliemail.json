@@ -11,12 +11,12 @@
       "Action": "EditData",
       "Target": "Data/mail",
       "Entries": {
-        "stardewaly.rosalie_SaloonRampMail": "{{i18n:SaloonRampMail}}-%item conversationTopic stardewaly.rosalie_RosalieRamp 1 %%[#]A Family Matter - Gus",
-        "stardewaly.rosalie_WelcomeRosalieMail": "{{i18n:WelcomeRosalieMail}}-%item conversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7 %%[#]A New Resident - Mayor Lewis",
-        "{{ModId}}_RosaliesRadioRobinLetter": "{{i18n:RobinsLetter-VOTVRadio}}-%item conversationTopic {{ModId}}_RosalieVOTVJobEventCT 7 %%[#]Supporting Local Radiowaves - Robin", //CT not implemented yet
+        "stardewaly.rosalie_SaloonRampMail": "{{i18n:SaloonRampMail}} %item conversationTopic stardewaly.rosalie_RosalieRamp 1 %%[#]A Family Matter - Gus",
+        "stardewaly.rosalie_WelcomeRosalieMail": "{{i18n:WelcomeRosalieMail}} %item conversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7 %%[#]A New Resident - Mayor Lewis",
+        "{{ModId}}_RosaliesRadioRobinLetter": "{{i18n:RobinsLetter-VOTVRadio}} %item conversationTopic {{ModId}}_RosalieVOTVJobEventCT 7 %%[#]Supporting Local Radiowaves - Robin", //CT not implemented yet
 
-        "{{ModId}}_RosaliesQuestLetter": "{{i18n:RosaliesMushroomQuest.Letter}}-%item quest RosaliesMushroomQuest true %%[#]A Quest from Rosalie",
-        "stardewaly.rosalie_VOTVInvite": "{{i18n:VoiceOfTheValleyLive.Invite}}-%%[#]Voice Of The Valley Invite"
+        "{{ModId}}_RosaliesQuestLetter": "{{i18n:RosaliesMushroomQuest.Letter}} %item quest RosaliesMushroomQuest true %%[#]A Quest from Rosalie",
+        "stardewaly.rosalie_VOTVInvite": "{{i18n:VoiceOfTheValleyLive.Invite}} %%[#]Voice Of The Valley Invite"
         
       }
     },
@@ -45,26 +45,25 @@
         "{{ModId}}_RosalieIsComing.SaloonDelayMail": {
           "Id": "{{ModId}}_RosalieIsComing.SaloonDelayMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Gus 1", //TEMPORARY
+          "Condition": "PLAYER_HEARTS Current Gus 1",
           "Actions": ["AddMail Current stardewaly.rosalie_SaloonRampMail tomorrow",
-          "AddMail Current {{ModId}}_RosalieOnHerWay received"] //Trigger for Map
+          "AddMail All {{ModId}}_RosalieOnHerWay received"] //Trigger for Map
         },
 
         "{{ModId}}_RosalieIsComing.RampEventCT": {
           "Id": "RosalieIsComingCT",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_SaloonRampMail",
+          "Condition": "PLAYER_HAS_MAIL Any stardewaly.rosalie_SaloonRampMail",
           "Action": "AddConversationTopic stardewaly.rosalie_RosalieRamp 4"
         },
 
         "{{ModId}}_RosalieWelcomeMailArrival": {
           "Id": "Welcome Rosalie Mail - She's Here!",
-          "Trigger": "DayEnding",
+          "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieRampEvent",
-          "Actions": [
-            "AddMail All stardewaly.rosalie_WelcomeRosalieMail tomorrow",
-            "RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
-          ]
+          "Action": 
+            "AddMail All stardewaly.rosalie_WelcomeRosalieMail now"
+          
         },
 
         "{{ModId}}_VoiceOfTheValleyInvite":
@@ -81,10 +80,9 @@
           "Id": "NPCs on Rosalie's Arrival Conversation Topic",
           "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_WelcomeRosalieMail",
-          "Actions": [
-            "AddConversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7",
-            "RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
-          ]
+          "Action": 
+            "AddConversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7"
+
          },
 
 
@@ -94,7 +92,7 @@
                 "{{ModID}}_RosalieTherapy_Go": {
                     "Id": "{{ModID}}_RosalieTherapy_Go",
                     "Trigger": "Spiderbuttons.BETAS_NpcArrived",
-                    "MarkActionApplied": false, // This part is just because I want it to happen yearly
+                    "MarkActionApplied": false,
                     "Condition": "LOCATION_Name Target BusStop, ITEM_ID Target {{ModID}}_Rosalie, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/NpcArrived/X 22, Spiderbuttons.BETAS_ITEM_MOD_DATA Target BETAS/NpcArrived/Y 10",
                     "Actions": [
                         "SetNpcInvisible {{ModID}}_Rosalie 1"
@@ -107,7 +105,7 @@
                     "Trigger": "Manual",
                     "MarkActionApplied": false,
                     "Actions": [
-                        "SetNpcVisible {{ModID}}_Rosalie"
+                        "SetNpcVisible {{ModID}}_Rosalie 2"
                     ]
                 }                
             }

@@ -56,14 +56,14 @@
 
     //NULL4NOW - ROSALIE IS DATING PLAYER// 
     // ************NOTE: ROSALIE CANNOT DATE THE PLAYER RIGHT NOW AS OF JAN 30***************//
-
+/*
         "Mon10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
         "Tue10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
         "Wed10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
         "Thu10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
         "Fri10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
         "Sat10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
-        "Sun10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Sun10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",*/
 
 
       //SPECIAL DATES//
@@ -113,41 +113,43 @@
 
   "stardrop_tea": "{{i18n:stardrop_tea}}",
 
-"AcceptBirthdayGift_233": "{{i18n:Rosalie_BirthdayIceCream}}",
-"AcceptBirthdayGift_220": "{{i18n:Rosalie_BirthdayChocolateCake}}",
-"AcceptBirthdayGift_595": "{{i18n:Rosalie_BirthdayRoses}}",
-"AcceptBirthdayGift_866": "{{i18n:Rosalie_BirthdayRoses}}",
+"AcceptBirthdayGift_(O)233": "{{i18n:Rosalie_BirthdayIceCream}}",
+"AcceptBirthdayGift_(O)220": "{{i18n:Rosalie_BirthdayChocolateCake}}",
+"AcceptBirthdayGift_(O)595": "{{i18n:Rosalie_BirthdayRoses}}",
+"AcceptBirthdayGift_(O)866": "{{i18n:Rosalie_BirthdayRoses}}",
 
+"AcceptBirthdayGift_Loved": "{{i18n:Rosalie_BirthdayLoved}}",
 "AcceptBirthdayGift_Liked": "{{i18n:Rosalie_BirthdayLikes}}",
 "AcceptBirthdayGift_Disliked": "{{i18n:Rosalie_BirthdayDislikes}}",
 "AcceptBirthdayGift_Neutral": "{{i18n:Rosalie_BirthdayNeutral}}",
 "AcceptBirthdayGift_Hated": "{{i18n:Rosalie_BirthdayHates}}",
 
-"AcceptGift_270": "{{i18n:Rosalie_AcceptGiftCorn}}", //corn
-"AcceptGift_205": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //fried mushroom
-"AcceptGift_635": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //orange
-"AcceptGift_724": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //maple syrup
-"AcceptGift_267": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Flounder
-"AcceptGift_701": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Tilapia
-"AcceptGift_717": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Crab
-"AcceptGift_797": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Pearl
-"AcceptGift_560": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Ocean Stone
-"AcceptGift_719": "{{i18n:Rosalie_AcceptGiftHomeCooking}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Muscle
-"AcceptGift_248": "{{i18n:Rosalie_AcceptGiftHomeCooking{{Random:1, 2}} }}", //Garlic
-"AcceptGift_829": "{{i18n:Rosalie_AcceptGiftHomeCooking}}", //Ginger
-"AcceptGift_834": "{{i18n:Rosalie_AcceptGiftHomeCooking}}||{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //mango
-"AcceptGift_608": "{{i18n:Rosalie_AcceptGiftPie}}", //pumpkin pie
+"AcceptGift_(O)595": "{{i18n:Rosalie_AcceptGiftFairyRose}}", //Fairy Rose
+"AcceptGift_(O)270": "{{i18n:Rosalie_AcceptGiftCorn}}", //corn
+"AcceptGift_(O)205": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //fried mushroom
+"AcceptGift_(O)635": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //orange
+"AcceptGift_(O)724": "{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //maple syrup
+"AcceptGift_(O)267": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Flounder
+"AcceptGift_(O)701": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Tilapia
+"AcceptGift_(O)717": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Crab
+"AcceptGift_(O)797": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Pearl
+"AcceptGift_(O)560": "$c 0.13#{{i18n:Rosalie_AcceptGiftMM}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Ocean Stone
+"AcceptGift_(O)719": "{{i18n:Rosalie_AcceptGiftHomeCooking}}|{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //Muscle
+"AcceptGift_(O)248": "{{i18n:Rosalie_AcceptGiftHomeCooking{{Random:1, 2}} }}", //Garlic
+"AcceptGift_(O)829": "{{i18n:Rosalie_AcceptGiftHomeCooking}}", //Ginger
+"AcceptGift_(O)834": "{{i18n:Rosalie_AcceptGiftHomeCooking}}||{{i18n:Rosalie_AcceptGiftHome{{Random:1, 2}} }}", //mango
+"AcceptGift_(O)608": "{{i18n:Rosalie_AcceptGiftPie}}", //pumpkin pie
 
-"AcceptGift_395": "{{i18n:Rosalie_AcceptGiftCoffee}}", //coffee
-"AcceptGift_215": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}",//pepper poppers
+"AcceptGift_(O)395": "{{i18n:Rosalie_AcceptGiftCoffee}}", //coffee
+"AcceptGift_(O)215": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}",//pepper poppers
 
 
-"RejecttGift_167": "{{i18n:Rosalie_RejectGiftSoda}}", //joja cola
-"RejectGift_197": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}", //cheesy cauliflower i know we reject it but its bar food
-"RejectGift_903": "{{i18n:Rosalie_RejectGiftSoda}}",//gingerale
-"RejecttGift_303": "{{i18n:Rosalie_RejectGiftSoda}}", //Pale Ale
-"RejecttGift_346": "{{i18n:Rosalie_RejectGiftSoda}}", //Beer
-"RejectGift_{{ModId}}_RosaliesRibbon": "{{i18n:Rosalie_RejectGiftRosaliesRibbon}}",
+"RejecttGift_(O)167": "{{i18n:Rosalie_RejectGiftSoda}}", //joja cola
+"RejectGift_(O)197": "{{i18n:Rosalie_AcceptGiftPepperPoppers}}", //cheesy cauliflower i know we reject it but its bar food
+"RejectGift_(O)903": "{{i18n:Rosalie_RejectGiftSoda}}",//gingerale
+"RejecttGift_(O)303": "{{i18n:Rosalie_RejectGiftSoda}}", //Pale Ale
+"RejecttGift_(O)346": "{{i18n:Rosalie_RejectGiftSoda}}", //Beer
+"RejectGift_(O)stardewaly.rosalie_RosaliesRibbon": "{{i18n:Rosalie_RejectGiftRosaliesRibbon}}",
 
 //Home: Corn (270), Fried Mushroom (205), Flounder 267, 701, Mango 834, orange 635
 //Cooking: Muscle 719, Garlic 248, Ginger 829, Mango (834)
@@ -210,8 +212,12 @@
 
 
 "Saloon_Entry": "{{i18n:RosalieSaloonEntry{{Random:1, 2, 3, 4 }} }}",
-"Saloon_9_17": "{{i18n:RosaliexShaneBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
+"Saloon_18_17": "{{i18n:RosaliexShaneBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
 "Hospital_4_6": "{{i18n:RosaliexHarveyApptExam}}",
+"AnimalShop_Entry": "{{i18n:RosalieMarniesRanchEntry{{Random: 1, 2 }} }}",
+"AnimalShop": "{{i18n:RosalieAnimalShop}}",
+"winterAnimalShop": "{{i18n:Winter_RosalieAnimalShop}}",
+"Forest_93_23": "{{i18n:Rosalie_Forest_93_23}}",
 
 
 
@@ -249,17 +255,8 @@
 //Rosalie X Harvey//
 
       //HARVEY APPT VISIT TEXT OVER HEAD//
-      "Hospital_Entry": "{{i18n:RosalieToHarvey_AppointmentGreeting}}",
+      "Hospital_Entry": "{{i18n:RosalieToHarvey_AppointmentGreeting{{Random: 1, 2 }} }}",
 
-  
-  //****Before Rosalie's 6 Heart Event***//
-
-  
-// WE'RE GONNA TEXT THE TEXT ABOVE HEAD FIRST FEB 3//
-      /*"RosalieToHarvey_EarlyAppointmentGreeting": "{{i18n:RosalieToHarvey_EarlyAppointmentGreeting}}",*/
-      
- //****After Rosalie's 6 Heart Event***//
-      "RosalieToHarvey_AppointmentGreeting": "{{i18n:RosalieToHarvey_AppointmentGreeting}}",
 
 
 

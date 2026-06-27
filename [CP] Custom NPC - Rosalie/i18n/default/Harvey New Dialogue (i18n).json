@@ -15,10 +15,18 @@ Rosalie Here, NOT married to Player*/
 "RosalieArrivalCTMarried2": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#Hi sweetheart, #$b# I'm sorry I've been spacing out a lot since the new patient came to town.$s #$b# I've just been bothered by something lately...$7 #$b# $y 'Is it about her case?_That's part of it, I won't lie! You know me so well!$h_What's wrong with her?_Your choice of phrasing leaves much to be desired,@.$5_Harvey, you can tell me anything!_I know, that's what I love about us.$4 #$b# But I can't tell you anything about her medical history._Anything I can help with?_No, but thank you my love.$1' #$b# I just feel like I've met Rosalie before, but I'm unsure where.$2",
 
 
-
 //CONVERSATION TOPICS//
 
 //ROSALIES EVENT CTS//
+"Harvey.RosalieHarveyAptCT": "It may be strange, or even unconventional, but I do worry for my patients. #$e# Someone Rosalie's age shouldn't be here as often as she is...$s",
+
+"Harvey.RosalieHarveyAptCT_oneweek": "Rosalie has been dropping off coffee for me for some mornings. #$b# It's a small gesture, but it means a lot. And it means she can leave the house.$h",
+"Harvey.RosalieHarveyAptCT_fourweeks": "I think Rosalie is starting to trust me more. #$b# Building that trust is crucial for her recovery.$h",
+
+
+"Harvey.RosalieEmilyWalkCT": "If you're having trouble getting work done, it helps having a friend do a task of their own at the same time. #$b# They don't even need to be in the same room as you, sometimes their presence is enough to feel they're holding you accountable.$1",
+
+
 "Harvey.RosalieGeorgeWCCT": "$p RosalieGeorgeWC3#I didn't tell Rosalie what you said. But I hope Gus changed your mind.$a|I tried to call to see how Rosalie was doing after last night...$s #$b#She says she's fine, but I'm not sure I believe her...$s",
 
 "Harvey.RosalieVOTVJobEventCT1": "It's nice that I have an excuse to listen to the radio now that Rosalie is the Voice of the Valley! #$e# I sometimes feel that technology is part of the reason we feel a lack of control of our lives. #$b# For example, people may resist listening to the radio because our music and news isn't 'on demand'. #$b# It's a bit sad we've lost the find joy in small things like hearing a song we love on the radio.$s #$b# It can feel like kismet.$1",
@@ -27,50 +35,42 @@ Rosalie Here, NOT married to Player*/
 "Harvey.RosaliesStoryCT1": "I feel lucky to consider some of my patients friends. #$b# I thought Rosalie would have some resistance to me with her history,$2 #$b# But now I consider her a close and dear friend.$1",
 "Harvey.RosaliesStoryCT2": "I usually take the mornings after opening the clinic to organize my paperwork, #$b# But Rosalie is my one exception. #$e# It's nice having a friendly face to see first thing in the morning.",
 
-"Harvey.RosaliesFlareUpCT1": "I think that the fact that Rosalie is going through a divorce isn't a bad thing at all. #$b# It was very brave of her to leave a relationship that wasn't serving her. Especilaly a toxic one at that.$s #$e# His behaviour speaks more for him than it does for her. I'm glad she sought help in her family, and myself.$s #$e# Sometimes two people aren't meant to be together.$s #$b# Now that Rose and I have gotten close enough for her to open up, #$b# I'm amazed at how much patience and resilience she had because she loved him so much, and still manage to stay kind. #$e# I hope... I hope she finds someone who wouldn't take that for granted...$2 #$e# I know I wouldn't...$4",
-"Harvey.RosaliesFlareUpCT2": "There's quite a bit of stigma around Rose's condition.#$b# Think of it like a fire alarm that's always going off, maybe there was smoke at some point, but now, there isn't. #$b# Batteries are fine. The wiring is okay. The smoke may not be real, but the alarm is.$2 #$e# You could ignore the fire alarm, and Rose does. But it's hard to know if there's really a fire. Sometimes it's louder, sometimes it's a soft hum. #$b# People around you tell you the alarm isn't real. There is no smoke or fire. But it is, and there's scientific evidence to back it.$1 #$e# Rose is valid in her thoughts of mortality, it's not an optimal way to live,$2 #$b# But with therapy and support from friends and family, she should still be able to live a full life.$1",
+"Harvey.RosaliesFlareUpEventCT1": "I think that the fact that Rosalie is going through a divorce isn't a bad thing at all. #$b# It was very brave of her to leave a relationship that wasn't serving her. Especilaly a toxic one at that.$s #$e# His behaviour speaks more for him than it does for her. I'm glad she sought help in her family, and myself.$s #$e# Sometimes two people aren't meant to be together.$s #$b# Now that Rose and I have gotten close enough for her to open up, #$b# I'm amazed at how much patience and resilience she had because she loved him so much, and still manage to stay kind. #$e# I hope... I hope she finds someone who wouldn't take that for granted...$2 #$e# I know I wouldn't...$4",
+"Harvey.RosaliesFlareUpEventCT2": "There's quite a bit of stigma around Rose's condition.#$b# Think of it like a fire alarm that's always going off, maybe there was smoke at some point, but now, there isn't. #$b# Batteries are fine. The wiring is okay. The smoke may not be real, but the alarm is.$2 #$e# You could ignore the fire alarm, and Rose does. But it's hard to know if there's really a fire. Sometimes it's louder, sometimes it's a soft hum. #$b# People around you tell you the alarm isn't real. There is no smoke or fire. But it is, and there's scientific evidence to back it.$1 #$e# Rose is valid in her thoughts of mortality, it's not an optimal way to live,$2 #$b# But with therapy and support from friends and family, she should still be able to live a full life.$1",
 
 "Harvey.RosalieRadioEventCT": "%Harvey doesn't notice you as he hums a 1940s ballad to himself.",
+"Harvey.RosalieRadioEventCT_oneweek": "Rosalie always mentions she's glad to have a friend like you. #$b# She often isolates herself, but social connections are vital for mental health.$2",
 
 
 
 //ROSALIE x SHANE//
 
 //Rosalies Ribbon Event CT//
-          "Harvey.RosaliesRibbonCT1": "I never would have suspected Rose and Shane would become friends, #$b# But the two make an interesting pair!",
-          "Harvey.RosaliesRibbonCT2": "Rose and Shane seem to be really close. It's wonderful that they are able to find comfort in each other.",
-
-
-
-
-
-//DREAMS AND DISASTERS CT//
+"Harvey.RosaliesRibbonCT1": "I never would have suspected Rose and Shane would become friends, #$b# But the two make an interesting pair!",
+"Harvey.RosaliesRibbonCT2": "Rose and Shane seem to be really close. It's wonderful that they are able to find comfort in each other.",
 "Harvey.DreamsAndDisastersCT": "Rosalie hasn't been visiting me as often for my morning coffee...$2 #$b# I'll admit, I'm a little jealous of Shane's friendship with her.$2",
 "Harvey.RosaliexShaneSecondFirstKissCT1": "Hi, @...$2 #$b# Would you mind... not giving Rosalie a hard time?$2 #$b# She's um... going through something...$2",
 "Harvey.RosalieShaneSecondFirstKissCT2": "%Harvey looks troubled by something.",
 
+"Harvey.RosaliexShane": "Rosalie and Shane are definitely a strange couple. #$b# But strange can be good! I'm happy for both of them.$1 #$e# They both had it rough. But, in some way, it's thanks to you they are now together.$1 #$e# I'm sure Shane and Rosalie are going to have long and happy relationship.",
+"Harvey.RosaliexShane_oneweek": "$query !PLAYER_NPC_RELATIONSHIP Any Harvey Dating Married#Rose never mentioned wanting to be anything more than friends with Shane.$2 #$b# After what he'd done, I was a bit of a surprise that she was in love with him after all this time...$2 #$b# But I suppose there had been some time that's passed since we met outside of appointments.$1 #$e#%Harvey is looking away from you. #$e#%Are those tears in Harvey's eyes?|Rose never mentioned wanting to be anything more than friends with Shane.$2 #$b# After what he'd done, I was a bit of a surprise that she was in love with him after all this time...$2 #$b#Don't think anything of it, dear. I guess I'm a little hurt my friend didn't tell me. #$e# Rose is a guarded person. I'm sure she has other secrets that are not medical related that I don't know about, and it's really not my business to know them.",
+"Harvey.RosalieTheWinterMermaidCT": "You know... I don't often listen to rumours, especially if they are... well, pure fiction.$2 #$b# But...$2 #$b# Well...$2 #$b# Rosalie is going to be perfect as the Night Market Mermaid. #$e# I hope she'll still have time to do The Voice of The Valley while she's away. #$e# Hearing Rosalie's voice has become a part of my daily ritual.",
 
 
 
-
-//Random ROsalie Dialogue
+//Random Rosalie Dialogue
    "HarveyOnRosalie1": "Rosalie has been making great progress lately. #$b# She's starting to open up more, which is wonderful to see.$h",
           "HarveyOnRosalie2": "You know, sometimes all it takes is a friendly face to help someone feel comfortable. #$b# Thank you for being there for Rosalie.$2",
           "HarveyOnRosalie3": "Have you met Gus' niece, Rosalie? #$b# Her aesthetic is... quite unique, huh?$h #$e#%Harvey adjusts his tie, his cheeks slightly flushed.",
-          "HarveyOnRosalie4": "It's important for Rosalie to have friends like you. #$b# Social connections are vital for mental health.$2",
 
 
-//2 Hearts//
 
-"HarveyOnRosalie2Hearts1": "It may be strange, or even unconventional, but I do worry for my patients. #$b# Someone Rosalie's age shouldn't be here as often as she is...$s",
-          "HarveyOnRosalie2Hearts2": "Rosalie has been dropping off coffee for me for some mornings. #$b# It's a small gesture, but it means a lot. And it means she can leave the house.$h",
          
 
 //4 Hearts//
 
           "HarveyOnRosalie4Hearts1": "You know, Rose was a bit shy to me at first, but I like to consider her to be a friend now.$h #$e#%Harvey smiles warmly.",
-             "HarveyOnRosalie4Hearts2": "I think Rosalie is starting to trust me more. #$b# Building that trust is crucial for her recovery.$h",
-          "HarveyOnRosalie4Hearts3": "Have you seen Rosalie around lately? #$b# She's been looking a bit brighter these days.$h",
+          "HarveyOnRosalie4Hearts2": "Have you seen Rosalie around lately? #$b# She's been looking a bit brighter these days.$h",
 
 
     //6 Hearts//

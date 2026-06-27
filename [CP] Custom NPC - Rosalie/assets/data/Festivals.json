@@ -29,7 +29,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "MainEvent_additionalCharacters"],
-   				    "Value": "stardewaly.rosalie_Rosalie 39 70 down",
+   				    "Value": "stardewaly.rosalie_Rosalie 39 70 left",
    				    "Delimiter": "/"
 				},
 			],

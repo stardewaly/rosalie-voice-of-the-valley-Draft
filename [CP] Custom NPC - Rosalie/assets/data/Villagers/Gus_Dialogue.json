@@ -6,22 +6,19 @@
       "Target": "Characters/Dialogue/Gus",
       "Entries": {
       
-
       
-        //Conversation Topics
-
 
         "{{ModId}}_RosalieRamp":"{{i18n:GusRosalieRamp}}",
         "{{ModId}}_NPCRosalieArrivalCT": "{{i18n:GusRosalieArrivalCT{{Random: 1, 2, 3}} }}",
 
-        "{{ModId}}_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:GusOnRosalie1}}",
+        "{{ModId}}_NPCRosalieArrivalCT_memory_oneweek": "{{i18n:GusRosalieArrivalCT_oneweek}}",
 
         "611944_memory_oneday": "{{i18n:GusOnRosalie2}}", //mentions Rosalie and Shane's relationship before or after her arrival a day after his 2 heart event
 
         "{{ModId}}_RosalieHarveyAptCT": "{{i18n:Gus.RosalieHarveyAptCT}}",
 
         "{{ModId}}_RosalieEmilyWalkCT": "{{i18n:Gus.RosalieEmilyWalkCT}}",    
-        "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
+        "{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
         "{{ModId}}_RosalieVOTVJobEventCT": "{{i18n:Gus.RosalieVOTVJobEventCT}}",
         "{{ModId}}_RosaliesStoryCT": "{{i18n:Gus.RosaliesStoryCT}}",
         "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Gus.RosaliesFlareUpEventCT{{Random: 1, 2, 3}} }}",
@@ -44,15 +41,20 @@
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Gus.RosalieSneezeEventCT}}", 
 "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Gus.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3, 4}} }}",
 "{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Gus.ShaneRosalieLowDayCT}}",
-"{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
+"{{ModId}}_RosalieShaneDreamsAndDisastersCT": "{{i18n:Gus.RosalieShaneDreamsAndDisastersCT}}",
 "{{ModId}}_RosalieShaneSleepOverCT": "{{i18n:Gus.RosalieShaneSleepOverCT{{Random: 1, 2 }} }}", 
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Gus.SandCastlesWithJasCT}}",
+"{{ModId}}_ShaneRosalieKitchenLoveCT": "{{i18n:Gus.ShaneRosalieKitchenLoveCT}}",
 "{{ModId}}_RosalieShaneSecondFirstKissCT": "{{i18n:Gus.RosalieShaneSecondFirstKissCT{{Random: 1, 2}} }}",
 "{{ModId}}_NPC.RosaliexShane": "{{i18n:Gus.RosaliexShane}}",
-"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Gus.RosaliexShane_oneyear}}"
+"{{ModId}}_NPC.RosaliexShane_memory_oneyear": "{{i18n:Gus.RosaliexShane_oneyear}}",
 
+"{{ModId}}_NPC.RosalieTheWinterMermaidCT": "{{i18n:Gus.RosalieTheWinterMermaidCT}}",
 
+//Vanilla token
+"winter_1": "{{i18n:Gus.winter_1}}",
 
+"eventseen_2118991": "{{i18n:Gus.Shane6HEventRosalie}}"
 
 
 

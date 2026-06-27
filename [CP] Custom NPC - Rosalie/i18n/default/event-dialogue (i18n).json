@@ -62,6 +62,7 @@
 "RosalieHarveyApt21": "Sorry, doc...$2",
 "RosalieHarveyApt22": "It's alright, Rosalie. I understand. #$b# I know this has been a very difficult time for you...$2 #$b# But I am impressed with how diligent you are with your health. #$b# The perks of having your mom as a nurse, huh?$1",
 "RosalieHarveyApt23": "What gave it away?$1",
+//Romanmtic text
 "RosalieHarveyApt24": "Thank you for not making a big deal about it. #$b# Most people would consider finishing each other's sentences to be-",
 "RosalieHarveyApt25": "Romantic?$l",
 "RosalieHarveyApt26": "I was gonna say 'annoying', but sure!$1", 
@@ -72,6 +73,7 @@
 "RosalieHarveyApt29": "Copy that. Anything to get me back to normal.$1",
 "RosalieHarveyApt30": "Yes, well... #$b# Flare ups are bound to happen with stress and your condition.$2 #$b# Your version of 'normal' is...$2 #$b# ...$s #$b# Well, you should know.$2",
 "RosalieHarveyApt31": "*sigh* Yeah...$2",
+//End of Romantic Text
 "RosalieHarveyApt32": "Are you in pain right now, Rosalie?",
 "RosalieHarveyApt33": "On a scale from 1-20, I'm an 8. Pretty normal for me. #$b# Though I wish I was a ten!$9",
 "RosalieHarveyApt34": "A ten?#$b# Why would you-?$2",
@@ -281,7 +283,7 @@
 
 //Invite is in "letters" i18n
 
-"RosaliesVoiceOfTheValley.0": "Hey! @! I'm so happy you made it!$1 #$b# I'm really nervous, a lot can happen when recording life. And everyone's... watching...$2",
+"RosaliesVoiceOfTheValley.0": "Hey! @! I'm so happy you made it!$1 #$b# I'm really nervous, a lot can happen when recording live. And everyone's... watching...$2",
 "RosaliesVoiceOfTheValley.Q": "*Rosalie looks a bit anxious*",
 "RosaliesVoiceOfTheValley.A1": "Aren't you an actor? You can't get stage fright!",
 "RosaliesVoiceOfTheValley.A2": "Don't worry, I'm sure you're gonna be great!",
@@ -296,7 +298,7 @@
 "RosaliesVoiceOfTheValley.5": "Seriously? I'm that obvious?!$8#$b# Urg...and here I was thinking I was thinking I'm a good actor.$3",
 "RosaliesVoiceOfTheValley.6": "Rosalie, we have two minutes!",
 "RosaliesVoiceOfTheValley.7": "@! Would you mind sitting with me while I'm on the air?$2#$b# I'll feel a bit better knowing you're there with me.",
-"RosaliesVoiceOfTheValley.8": "Just put on these headphones and you'll be able to hear what I do.",
+
 "RosaliesVoiceOfTheValley.9": "Okay everyone, quiet down! #$b# We're on air in 3... #$b# 2...",
 "RosaliesVoiceOfTheValley.10": "Hello Stardew Valley! This is *The Voice of the Valley*",
 "RosaliesVoiceOfTheValley.Q2": "You notice that Rosalie is shaking a bit after seeing everyone's reaction.",
@@ -326,8 +328,11 @@
 "RosaliesVoiceOfTheValley.InterviewR5.2": "No comment!",
 "RosaliesVoiceOfTheValley.InterviewR5.3": "We need people like @ to speak their mind about people like me.#$b#I am so lucky to be surrounded by friends and family here in Pelican Town who care enough about me to make sure I'm accommodated. #$b# And believe me...$2",
 "RosaliesVoiceOfTheValley.InterviewR6": "$d PLAYER_NPC_RELATIONSHIP Current Haley Married#So, *that's* the secret to making a marriage work?$8 #$b#No wonder I'm getting divorced!$1|Oh... Um...$8 #$b# Haley, um haha... I...think you need to invest in a lock for your bedroom!$1",
-"RosaliesVoiceOfTheValley13": "Now, folks, I'm gonna get real for a second... #$b#I used to live here in Stardew Valley as a kid. Right here in Pelican Town. #$b#I moved at 12 years old and left everyone and everything I knew behind... #$b#I was really sad to go... but my parents said I'd meet new people. Make new friends...$2 #$b#And they were right, but nothing ever felt quite like home until I moved back to this small provincial town.#$b# I was afraid that moving back would make me feel like I failed at everything I set out to do.$2 #$b# But it's thanks to people like @ that I don't feel like a stranger anymore.#$b# I feel like I'm finally... home. Where I belong. And I plan to stay as long as I can.",
-"RosaliesVoiceOfTheValley14": "Thanks to you, Rosalie finally feels at home."
+"RosaliesVoiceOfTheValley13": "Now, folks, I'm gonna get real for a second... #$b#I used to live here in Stardew Valley as a kid. Right here in Pelican Town. #$b#I moved at 12 years old and left everyone and everything I knew behind... #$b#I was really sad to go... but my parents said I'd meet new people. Make new friends...$2 #$b#And they were right, but nothing ever felt quite like home until I moved back to this small provincial town.#$b# I was afraid that moving back would make me feel like I failed at everything I set out to do.$2 #$b# Or that others would judge me for getting a divorce and staying with the wrong person.$2 #$b# But it's thanks to people like @ that I don't feel like a stranger anymore.#$b# I feel like I'm finally... home. Where I belong. And I plan to stay as long as I can.",
+"RosaliesVoiceOfTheValley14": "Anyway, that's enough from me! It's time for some local talent to blow us away! Here's %band with their latest hit!$1",
+"RosaliesVoiceOfTheValley15": "Aaaaand we're clear!$1",
+"RosaliesVoiceOfTheValley16": "Woo! That was awesome!$1#$b# And you did great! Thanks for being my special guest... #$b# and thanks again, @. For... everything...",
+"RosaliesVoiceOfTheValley17": "Thanks to you, Rosalie finally feels at home."
 
 
 

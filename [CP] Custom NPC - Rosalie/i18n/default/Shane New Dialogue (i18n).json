@@ -33,17 +33,20 @@ Rosalie Arrived In Town
 
 "Shane.RosalieVOTVJobEventCT":"$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#Yeah, Rosa told me about her new gig. I'm happy for her.$6|It's nice to know I'm the only one in town who still has a radio, I guess. #$e# I use it as an alarm clock. It's better than some annoying tone.$11",
 
-"Shane.RosaliesFlareUpEventCT": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}_RosaliexShaneDreamsAndDisasters#Rosa put up with her lazy ex's excuses and broken logic for thirteen years.$5 #$b# I'm amazed she has that much patience with the luck she's been given.$11 #$b# Then again, she has me as an excuse for a best friend...$3 #$b# The difference is, if I had a wife like her, and she was suffering as much as Rosa is,$3 #$b# I swear to Yoba, I wouldn't drag her down to my level like her leech of an ex husband. No matter how bad things got.$5 #$b# I know I wouldn't want Jas to be with someone like that. No one deserves to be that unhappy.$11 #$e# 'A wife like her'?! I said 'If I had a wife!' Like, in general!!$10 #$b# Don't twist my words, @!$11|I'll be honest... I figured that's what happened...$2 #$b# Last I heard about Rosa seven years ago, she got married. So, her coming here alone... it wasn't rocket science.$3 #$e# I think it would be pretty messed up to be happy someone's marriage is ending.$3 #$b# But if the guy was burdening her more than he was helping her, I'm glad. He doesn't deserve her.$5",
+"Shane.RosaliesFlareUpEventCT": "$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieDreamsAndDisastersEvent#Rosa put up with her lazy ex's excuses and broken logic for thirteen years.$5 #$b# I'm amazed she has that much patience with the luck she's been given.$11 #$b# Then again, she has me as an excuse for a best friend...$3 #$b# The difference is, if I had a wife like her, and she was suffering as much as Rosa is,$3 #$b# I swear to Yoba, I wouldn't drag her down to my level like her leech of an ex husband. No matter how bad things got.$5 #$b# I know I wouldn't want Jas to be with someone like that. No one deserves to be that unhappy.$11 #$e# 'A wife like her'?! I said 'If I had a wife!' Like, in general!!$10 #$b# Don't twist my words, @!$11|I'll be honest... I figured that's what happened...$2 #$b# Last I heard about Rosa, seven years ago, she got married. So, her coming here alone... it wasn't rocket science.$3 #$e# I think it would be pretty messed up to be happy someone's marriage is ending.$3 #$b# But if the guy was burdening her more than he was helping her, then yeah, I'm glad. He doesn't deserve her.$5",
 "Shane.RosalieRadioEventCT": "$query PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEventPost#I'm glad she pulled you in for an interview instead of me. I probably would have cursed or said something inapproprite on the air, then what?$1|So, @, are you enjoying your seven seconds of fame? #$b# I'm not jealous, I'm honestly glad it wasn't me.$1",
 
 //Shane x Rosalie Route CTs//
 
-//Saloon Talk//
+//Location Talk//
 
 "ShanexRosalieBFF.Saloon1": "Hey, @! Can you tell Rosa that the whole 'older than you' thing only works when you're kids?$1",
 "ShanexRosalieBFF.Saloon2": "Rosa honestly makes me forget why I used to come here in the first place.$6 #$b# At least... for a while...$2",
 "ShanexRosalieBFF.Saloon3": "How's your arm doing, Rosa?$6 #$e# You better not be pushing yourself too hard.",
 "ShanexRosalieBFF.Saloon4": "%Shane is busy focusing on a story Rosalie's telling.",
+ 
+"Shane_Forest_93_24": "$query PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieCandleEvent#Shane is busy.|%Shane is paying attention to Rosalie's story.",
+
 
 
 //BUS EVENT CT//
@@ -130,7 +133,7 @@ Rosalie Arrived In Town
     "Shane.RosaliexShane6": "Rosa is probably my first best friend since Jas' parents died... #$b# I... hope she sticks around...$4",
     "Shane.RosaliexShane7": "I know that Rosa looks younger than me, make no mistake, we're the same age!$h #$b# Well, she's technically older than me, but we were born in the same year.$1",
     "Shane.RosaliexShane8": "It feels so surreal knowing that Rosa and I are dating.$6 #$b# I didn't think I'd ever feel this light again...$4",
-
+    "Shane.RosaliexShane9": "I understand what Rosa sees in me that makes her want to keep me around. #$e# But if someone like her can fall in love with me, I guess I'm not so bad.$1",
 
 
 
@@ -151,7 +154,7 @@ Rosalie Arrived In Town
 
 
 
-"Shane.WinterMM.1Year": "*sigh* Like seasonal depression wasn't enough...$2 #$b# I hope Rosa can get a job close by next time...$2",
+"Shane.WinterMM.1Year": "*sigh* Like seasonal depression wasn't enough...$2 #$e# I hope Rosa can get a job close by next time...$2",
 
 
 "Shane.MermaidEventUpcoming": "I know Rosa never got to see me play any games, but I plan on being there every night to see her perform.$6 #$e# I know she worries about me when she's away...$2",

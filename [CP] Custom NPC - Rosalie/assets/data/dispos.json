@@ -30,7 +30,7 @@
             "Harvey": "{{i18n:FriendshipRelationship}}",
             "Shane": "{{i18n:FriendshipRelationship}}"
            },
-           "FlowerDanceCanDance": null, //Temporary until romancable
+           "FlowerDanceCanDance": true, //lets see if this works
           "WinterStarParticipant": true,
          "WinterStarGifts": [
            {

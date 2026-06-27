@@ -9,7 +9,7 @@
 
 "NPCRosalieRamp": "",
 "NPCRosalieArrivalCT": "",
-"NPC.RosalieHarveyAptCT:: "",
+"NPC.RosalieHarveyAptCT": "",
 "NPC.RosalieEmilyWalkCT": "",
 "NPC.RosalieGeorgeWCCT": "",
 "NPC.RosalieVOTVJobEventCT": "",
@@ -202,7 +202,7 @@ Jodi
 */
 "JodiRosalieArrivalCT": "I wonder if Gus' niece is the same 'Rosalie' that's carved into Vincent's wall from when we moved. #$b# That would be a fun coincidence!$h",
 "Jodi.RosalieVOTVJobEventCT": "It's so nice that I can just listen to 'The Voice of the Valley' and I don't need to worry about forgetting anyone's birthday!",
-"Jodi.RosaliesFlareUpEventCT": "I can't imagine what Rosalie's is going through with the divorce.$s #$e# When Kent and I got married, we didn't know each other for very long. #$b# It's a shame that it didn't work out after thirteen years...$s",
+"Jodi.RosaliesFlareUpEventCT": "I can't imagine what Rosalie is going through with the divorce.$s #$e# When Kent and I got married, we didn't know each other for very long. #$b# It's a shame that things didn't work out for her after thirteen years...$s",
 
 "Jodi.RosaliexShane": "I always wondered why Shane never seemed interested in dating anyone. I thought maybe Jas was keeping him from considering it. #$b# But I guess he was just waiting for Rosalie to come home.$1",
 
@@ -224,6 +224,8 @@ Krobus
 Leah
 */
 "LeahRosalieArrivalCT": "I heard Gus' niece dabbles in art. #$b# Looks like I may have some competition!$h",
+
+"Leah.RosaliesFlareUpEventCT": "I've been terrified of getting carpel tunnel since I started sculping more seriously.$2 #$b# I can't imagine not being able to do what brings you joy because your body denies you.$2",
 
 "Leah.RosalieDreamsAndDisastersCT1":"I honestly don't think I've ever heard Shane laugh before, and now it's all I've been hearing when Rosalie's around. #$b# It's nice, but a bit distracting when I'm working on my sculptures...$s",
 "Leah.RosalieDreamsAndDisastersCT2": "If Rosalie and Shane are just friends, I say we believe them. #$b# Men and women can absolitely be friends and have it stay platonic!$h #$b# And if it's not, it's none of our business, right?",
