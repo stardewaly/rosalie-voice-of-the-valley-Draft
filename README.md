@@ -3,27 +3,14 @@
 
 Start with a NEW save so that way as we update it you don't get attached as things will be changing 🙂
 
-## NOTES: (June 27/26)
-- This is the stuff from the last update! I have to get back to coding now :) 
-- Fixed error with Rosalie's "Summer" schedule
-- Fixed Abigal's dialogue that had "no translation" when meeting Rosalie for the town Conversation Topic
-- Shane x Rosalie's love story is complete.
-- Rosalie's storyline is complete.
-- Seperated some events for Shane x Rosalie to make it easier to view and fix
-- Made the Translation File for the Candle event (92 LINES OF DIALOGUE?! omg...)
-- Fixed a map issue with loading in
-- Made the Ramp compatible with other towns as now the only part I edited was the stairs :) 
-- Rosalie's 8 Heart Event still needs to load in the map (the assets I'm not happy with so I will have to make them myself or have a sub for now)
-- I managed to get Temp Maps to work! Please let me know if there are issues still!!
-- There will also be some issues that may come up in events, especially the Sneeze Event that I need to fix
-- YOU WILL NEED TO UNLOCK ROSALIE NOW! You can do this by getting 1 Heart with Gus.
+## NOTES: (June 30/26)
+- Some errors I already know about and will be fixing for the next patch:
+  - Rosalie's Flare Up portraits are off by 1 pixel down
+  - Farmer and Sam's movements are off in her 8 Heart Event :( 
 
 
-### I PLAN TO RELEASE ROSALIE THIS MONTH! PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
+### PLEASE LET ME KNOW OF ANY ISSUES OR FEEDBACK YOU MAY HAVE! <3 
 
-
-
-Please take down anything at all! I have a format you can use on the Pinned comment! 
 
 ### I truly appreciate you all and I'm excited (and nervous) to see what you think of this mod!
 
@@ -52,7 +39,7 @@ If you see a 👀  from me, that means I'm looking into it. You may post your ch
 
 If you see 👍 that means it's been resolved in the next patch I send! YOU DO NOT HAVE TO SEND 🐓 AT THAT POINT!
 
-If you have any other comments, questions, or concerns (including storyline and pacing), you can put them into the ⁠playtesting-rosalie-general-chat and tag me @Stardew Aly or DM me directly! ❤️ :015xft7imlm81:
+If you have any other comments, questions, or concerns (including storyline and pacing), you can put them into the voices-of-the-valley-general-chat and tag me @Stardew Aly or DM me on Nexus! ❤️
 
 # FORMAT TO USE WHEN REPORTING A GLITCH/TYPO: 
 
@@ -67,6 +54,6 @@ If you have any other comments, questions, or concerns (including storyline and 
 
 # SPOILERS
 
-### TO START SHANE X ROSALIE STORYLINE (INCOMPLETE)
+### TO START SHANE X ROSALIE STORYLINE
   1. Go through Shane's 6 Heart Event (including where he shows up to your house to say he's going to therapy)
   2. While you are at it, befriend Jas and Marnie. (This can wait until later if you'd like but or you can cheat).
